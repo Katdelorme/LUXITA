@@ -1,0 +1,115 @@
+@import 'reset';
+@import 'base';
+
+
+/* ///////////// header  ////////////// */
+.head{
+	clear: both;
+	display: block;
+  /*padding: 2% 1% 0 1%;*/
+	position: absolute;
+  /*left: 0px;
+  top: 0px;*/
+  z-index: 1;
+  width: 100%;
+}
+
+header ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+  width: 100%;
+}
+
+header ul li{
+	float: left;
+	font-family: $font-style-primary;
+	position: relative;
+  margin: 0 2%;
+}
+
+header ul li a{
+  &:link{
+  	color: $tertiary;
+  	display: inline-block;
+  	line-height: 54px;
+  	text-decoration: none;
+  }
+  &:visited {
+  	color: $tertiary;
+  }
+  &:hover    {
+  	color: $primary;
+  }
+  &:active   {
+  	color: $primary;
+  }
+  &:focus {
+  	color: $primary;
+  }
+}
+
+.logo{
+	width: 10%;
+  img{
+    width: 100%;
+  }
+}
+.nav{
+	float: right;
+}
+/* ///////////// header end ////////////// */
+
+.hometop{
+  background-attachment: fixed;
+  background-image: url("../assets/diamond-homeCover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.hometopContent{
+  padding-top: 15%;
+}
+
+.threeFourth{
+  height: 75vh;
+  @extend .basepadding;
+  display: flex;
+  align-items: center;
+}
+.oneFourth{
+  background: $secondary;
+  height: 25vh;
+  @extend .basepadding;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a.btn{
+    background: $quaternary;
+    font-family: $font-style-secondary;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 10% 5%;
+    text-transform: uppercase;
+    text-align: center;
+    &:link{
+      color: $tertiary;
+      text-decoration: none;
+    }
+  }
+}
+
+.forty{
+  float: left;
+  width: 35%;
+  margin-right: 5%;
+  img{
+    width: 100%;
+  }
+}
+.sixty{
+  float: left;
+  min-height: 50px;
+  width: 60%;
+  background: blue;
+}

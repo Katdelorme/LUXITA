@@ -1,0 +1,40 @@
+// base.scss
+$primary: #bda355; //Gold
+$secondary: #edece8; //grey
+$tertiary: #ffffff; //white
+$quaternary: #000000; //black
+//$quinary: ;
+$font-style-primary: 'Playfair Display SC', serif;
+$font-style-secondary: 'Lato', Helvetica, Arial, sans-serif;
+
+section{
+  display: block;
+  height: 100vh;
+}
+
+h1 {
+  color: $primary;
+  font-size: 4.5em;
+  text-transform: capitalize;
+}
+h2 {
+  color: $primary;
+  font-size: 3em;
+  text-transform: capitalize;
+}
+h3 {
+
+}
+h4 {
+
+}
+h5 {
+
+}
+h6 {
+
+}
+
+.basepadding{
+  padding: 0 7%;
+}
