@@ -4,7 +4,7 @@ $secondary: #edece8; //grey
 $tertiary: #ffffff; //white
 $quaternary: #000000; //black
 //$quinary: ;
-$font-style-primary: 'Playfair Display SC', serif;
+$font-style-primary: 'Playfair Display', serif;
 $font-style-secondary: 'Lato', Helvetica, Arial, sans-serif;
 
 section{
@@ -14,19 +14,26 @@ section{
 
 h1 {
   color: $primary;
-  font-size: 4.5em;
+  font-family: $font-style-primary;
+  font-size: 4.3em;
   text-transform: capitalize;
 }
 h2 {
   color: $primary;
-  font-size: 3em;
+  font-family: $font-style-primary;
+  font-size: 2.8em;
   text-transform: capitalize;
 }
 h3 {
-
+  color: $primary;
+  font-family: $font-style-primary;
+  font-size: 2.25em;
+  text-transform: capitalize;
 }
 h4 {
-
+  color: $primary;
+  font-family: $font-style-primary;
+  font-size: 1.875em;
 }
 h5 {
 
@@ -34,7 +41,30 @@ h5 {
 h6 {
 
 }
-
+p{
+  font-family: $font-style-secondary;
+  font-size: 1.125em;
+  line-height: 125%;
+  margin-top: 15px;
+}
+hr{
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%;
+}
 .basepadding{
   padding: 0 7%;
+}
+.btn{
+  background: $quaternary;
+  display: inline-block;
+  font-family: $font-style-secondary;
+  font-size: 1.125em;
+  font-weight: 300;
+  padding: 4% 5%;
+  text-transform: uppercase;
+  text-align: center;
+  &:link{
+    color: $tertiary;
+    text-decoration: none;
+  }
 }

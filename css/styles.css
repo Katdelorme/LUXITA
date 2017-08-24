@@ -51,11 +51,52 @@ section {
 
 h1 {
   color: #bda355;
-  font-size: 4.5em;
+  font-family: "Playfair Display", serif;
+  font-size: 4.3em;
   text-transform: capitalize; }
 
-.basepadding, .threeFourth, .oneFourth {
+h2 {
+  color: #bda355;
+  font-family: "Playfair Display", serif;
+  font-size: 2.8em;
+  text-transform: capitalize; }
+
+h3 {
+  color: #bda355;
+  font-family: "Playfair Display", serif;
+  font-size: 2.25em;
+  text-transform: capitalize; }
+
+h4 {
+  color: #bda355;
+  font-family: "Playfair Display", serif;
+  font-size: 1.875em; }
+
+p {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  line-height: 125%;
+  margin-top: 15px; }
+
+hr {
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%; }
+
+.basepadding, .hometopContent, .threeFourth, .oneFourth, .columnThree {
   padding: 0 7%; }
+
+.btn {
+  background: #000000;
+  display: inline-block;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  font-weight: 300;
+  padding: 4% 5%;
+  text-transform: uppercase;
+  text-align: center; }
+  .btn:link {
+    color: #ffffff;
+    text-decoration: none; }
 
 /* ///////////// header  ////////////// */
 .head {
@@ -76,7 +117,7 @@ header ul {
 
 header ul li {
   float: left;
-  font-family: "Playfair Display SC", serif;
+  font-family: "Playfair Display", serif;
   position: relative;
   margin: 0 2%; }
 
@@ -146,7 +187,106 @@ header ul li a:focus {
 .sixty {
   float: left;
   min-height: 50px;
-  width: 60%;
-  background: blue; }
+  width: 60%; }
+  .sixty p {
+    /*font-size: 1.5em;*/
+    margin-top: 4%; }
+  .sixty .logosTwo {
+    justify-content: space-between;
+    align-self: flex-end; }
+    .sixty .logosTwo img {
+      width: 40%;
+      align-self: flex-end; }
+
+.thirty {
+  background-image: url("../assets/nailsDiscover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  float: left;
+  height: 100vh;
+  width: 30%; }
+
+.seventy {
+  float: left;
+  margin-top: 5%;
+  min-height: 100px;
+  padding-left: 5%;
+  padding-right: 7%;
+  width: 58%; }
+  .seventy h3 {
+    margin-top: 2%; }
+
+.textColumn {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  margin-top: 5%; }
+  .textColumn p:first-of-type {
+    margin-top: 0; }
+  .textColumn p:first-child:first-letter {
+    color: #bda355;
+    		/*font-family: $font-style-secondary;
+    		-webkit-initial-letter: 3;
+              initial-letter: 3;*/
+    float: left;
+    font-size: 400%;
+    line-height: 0.5em;
+    padding-top: 0;
+    padding-bottom: 0.1em;
+    padding-right: 0.1em;
+    text-align: justify; }
+
+.columnThree {
+  display: flex;
+  flex: 1;
+  justify-content: space-between; }
+  .columnThree div {
+    width: 30%; }
+
+.featuredStyle {
+  display: flex; }
+
+.featuredStyleL {
+  float: left;
+  padding-left: 7%;
+  width: 43%; }
+  .featuredStyleL p {
+    margin-bottom: 5%; }
+
+.featuredStyleR {
+  float: left;
+  width: 50%;
+  background-image: url("../assets/venuesGemsBrownLarge.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+  .featuredStyleR img {
+    width: 100%; }
+
+.verticalSpace {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  /*flex-direction: column;*/ }
+
+.newsletter {
+  	/*background-attachment: fixed;
+    background-image: url("../assets/nailsSushi.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+  	background-size: 100% auto;*/
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../assets/nailsSushi.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/* ///////////// header ////////////// */
+footer {
+  height: 10vh; }
+
+/* ///////////// header end ////////////// */
 
 /*# sourceMappingURL=styles.css.map */

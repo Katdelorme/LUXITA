@@ -68,6 +68,7 @@ header ul li a{
 	background-size: 100% auto;
 }
 .hometopContent{
+	@extend .basepadding;
   padding-top: 15%;
 }
 
@@ -98,7 +99,6 @@ header ul li a{
     }
   }
 }
-
 .forty{
   float: left;
   width: 35%;
@@ -111,5 +111,117 @@ header ul li a{
   float: left;
   min-height: 50px;
   width: 60%;
-  background: blue;
+	p{
+		/*font-size: 1.5em;*/
+		margin-top: 4%;
+	}
+	.logosTwo{
+		justify-content: space-between;
+		align-self: flex-end;
+		img{
+			width: 40%;
+			align-self: flex-end;
+		}
+	}
 }
+
+.thirty{
+	background-image: url("../assets/nailsDiscover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+	float: left;
+	height: 100vh;
+	width: 30%;
+}
+.seventy{
+	float: left;
+	margin-top: 5%;
+	min-height: 100px;
+	padding-left: 5%;
+	padding-right: 7%;
+	width: 58%;
+	h3{
+		margin-top: 2%;
+	}
+}
+.textColumn{
+	-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+	-webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+	margin-top: 5%;
+	p:first-of-type{
+		margin-top: 0;
+	}
+	p:first-child:first-letter {
+  	color: $primary;
+		/*font-family: $font-style-secondary;
+		-webkit-initial-letter: 3;
+          initial-letter: 3;*/
+		float: left;
+		font-size: 400%;
+		line-height: 0.5em;
+		padding-top: 0;
+		padding-bottom: 0.1em;
+		padding-right: 0.1em;
+		text-align: justify;
+	}
+}
+.columnThree{
+	display: flex;
+	flex: 1;
+	justify-content: space-between;
+	@extend .basepadding;
+	div{
+		width: 30%;
+	}
+}
+.featuredStyle{
+	display: flex;
+}
+.featuredStyleL{
+  float: left;
+	padding-left: 7%;
+  width: 43%;
+	p{
+		margin-bottom: 5%;
+	}
+}
+.featuredStyleR{
+  float: left;
+  width: 50%;
+	background-image: url("../assets/venuesGemsBrownLarge.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+	img{
+		width: 100%;
+	}
+}
+
+.verticalSpace{
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-around;
+	/*flex-direction: column;*/
+}
+.newsletter{
+	/*background-attachment: fixed;
+  background-image: url("../assets/nailsSushi.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;*/
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../assets/nailsSushi.jpg") no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+
+}
+
+/* ///////////// header ////////////// */
+footer{
+	height: 10vh;
+}
+/* ///////////// header end ////////////// */
