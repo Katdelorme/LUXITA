@@ -72,6 +72,12 @@ h4 {
   font-family: "Playfair Display", serif;
   font-size: 1.875em; }
 
+h5 {
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  margin-top: 2%; }
+
 p {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
@@ -89,9 +95,9 @@ hr {
   background: #000000;
   display: inline-block;
   font-family: "Lato", Helvetica, Arial, sans-serif;
-  font-size: 1.125em;
+  font-size: 1em;
   font-weight: 300;
-  padding: 4% 5%;
+  padding: 3% 5%;
   text-transform: uppercase;
   text-align: center; }
   .btn:link {
@@ -245,7 +251,8 @@ header ul li a:focus {
     width: 30%; }
 
 .featuredStyle {
-  display: flex; }
+  display: flex;
+  margin-top: 5%; }
 
 .featuredStyleL {
   float: left;
@@ -271,19 +278,83 @@ header ul li a:focus {
   /*flex-direction: column;*/ }
 
 .newsletter {
-  	/*background-attachment: fixed;
+  	/*
     background-image: url("../assets/nailsSushi.jpg");
     background-position: center center;
     background-repeat: no-repeat;
   	background-size: 100% auto;*/
+  /*align-items: center;*/
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../assets/nailsSushi.jpg") no-repeat;
   background-attachment: fixed;
-  background-size: cover; }
+  background-size: cover;
+  	/*display: flex;
+    justify-content: center;*/
+  text-align: center; }
+  .newsletter h1 {
+    color: #ffffff; }
 
-/* ///////////// header ////////////// */
+/* ///////////// form end ////////////// */
+form {
+  margin-top: 2%; }
+  form div:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+
+input[type="text"], input[type="email"] {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  height: 30px;
+  line-height: normal;
+  margin: 20px 0 0 0;
+  outline: 0;
+  width: 35%; }
+
+input:focus, textarea:focus {
+  background: none repeat scroll 0 0;
+  border-bottom: 1px solid #000000;
+  color: #000000; }
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+  /*padding: 2% 5%;
+  margin: 0 0 1% 0;*/
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 300;
+  height: 40px;
+  margin-top: 55%;
+  text-transform: uppercase; }
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
+  cursor: pointer;
+  background-color: #bda355; }
+
+input[type="submit"]:visited {
+  cursor: pointer;
+  background-color: #bda355; }
+
+input[type="submit"]:active {
+  cursor: pointer;
+  background-color: #bda355; }
+
+input[type="submit"]:focus {
+  cursor: pointer;
+  background-color: #bda355; }
+
+/* ///////////// form end ////////////// */
+/* ///////////// footer ////////////// */
 footer {
   height: 10vh; }
 
-/* ///////////// header end ////////////// */
+/* ///////////// footer end ////////////// */
 
 /*# sourceMappingURL=styles.css.map */

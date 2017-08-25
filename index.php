@@ -77,7 +77,27 @@ loose or are lost.</p>
 		</div>
 	</section>
 
-	<section class="section newsletter">
+	<section class="section newsletter" data-centered="true">
+		<h1>Subscribe</h1>
+		<h5>Be the first to know about our launch</h5>
+		<!-- Begin MailChimp Signup Form -->
+		<div id="mc_embed_signup">
+		<form action="#" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+			<div id="mc_embed_signup_scroll">
+					<input type="text" value="" name="FNAME" class="" id="mce-FNAME" placeholder="First Name">
+					<input type="email" value="" name="EMAIL" class="required email" id="mce-EMAIL" placeholder="Email Address">
+				<div id="mce-responses" class="clear">
+					<div class="response" id="mce-error-response" style="display:none"></div>
+					<div class="response" id="mce-success-response" style="display:none"></div>
+				</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+				<div style="position: absolute; left: -5000px;"><input type="text" name="b_7aca85dad056373aad529face_d3753f5f82" tabindex="-1" value=""></div>
+				<div class="clear">
+					<input type="submit" value="Stay in the Know" name="subscribe">
+				</div>
+			</div>
+		</form>
+		</div>
+		<!--End mc_embed_signup-->
 	</section>
 
 <?php
