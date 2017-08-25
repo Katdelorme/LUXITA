@@ -6,10 +6,7 @@
 .head{
 	clear: both;
 	display: block;
-  /*padding: 2% 1% 0 1%;*/
 	position: absolute;
-  /*left: 0px;
-  top: 0px;*/
   z-index: 1;
   width: 100%;
 }
@@ -30,7 +27,7 @@ header ul li{
 
 header ul li a{
   &:link{
-  	color: $tertiary;
+  	color: $quaternary;
   	display: inline-block;
   	line-height: 54px;
   	text-decoration: none;

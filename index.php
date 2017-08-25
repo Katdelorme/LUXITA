@@ -3,7 +3,7 @@ include ('./includes/header.html');
 /* PAGE CONTENT STARTS HERE! */
 ?>
 
-	<section class="hometop">
+	<section class="section hometop">
 		<div class="hometopContent">
 			<h2>Concept Name Here</h2>
 			<h4>Subtitle Here</h4>
@@ -12,7 +12,7 @@ include ('./includes/header.html');
 		</div>
 	</section>
 
-	<section>
+	<section class="section">
 		<div class="threeFourth">
 			<div class="contentTip">
 			<div class="forty">
@@ -34,7 +34,7 @@ include ('./includes/header.html');
 		</div>
 	</section>
 
-	<section>
+	<section  class="section">
 		<div class="thirty">
 		</div>
 		<div class="seventy">
@@ -50,7 +50,7 @@ loose or are lost.</p>
 		</div>
 	</section>
 
-	<section class="verticalSpace">
+	<section class="section verticalSpace">
 		<div class="columnThree">
 			<div>
 				<h4>Fashion Nail</h4>
@@ -77,7 +77,7 @@ loose or are lost.</p>
 		</div>
 	</section>
 
-	<section class="newsletter">
+	<section class="section newsletter">
 	</section>
 
 <?php
