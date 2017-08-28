@@ -27,7 +27,7 @@ include ('./includes/header.html');
 								<input type="submit" value="Stay in the Know" name="subscribe">
 					</form>
 				</div>
-				<div class="col-lg-4 col-md-8 col-xs-12" style="background-color:#edece8;">
+				<div class="col-lg-4 col-md-4 col-xs-12" style="background-color:#edece8;">
 					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae.</p>
 					<p>Marunouchi Trust Tower
 					<br>Main, 1-8-3 Marunouchi Chiyoda-ku,
