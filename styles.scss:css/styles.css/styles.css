@@ -1,0 +1,364 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+section {
+  display: block;
+  height: 100vh; }
+
+h1 {
+  color: #bda355;
+  font-family: "Playfair Display", serif;
+  font-size: 4.3em;
+  text-transform: capitalize; }
+
+h2 {
+  color: #bda355;
+  font-family: "Playfair Display", serif;
+  font-size: 2.8em;
+  text-transform: capitalize; }
+
+h3 {
+  color: #bda355;
+  font-family: "Playfair Display", serif;
+  font-size: 2.25em;
+  text-transform: capitalize; }
+
+h4 {
+  color: #bda355;
+  font-family: "Playfair Display", serif;
+  font-size: 1.875em; }
+
+h5 {
+  color: #ffffff;
+  font-family: "Playfair Display", serif;
+  font-size: 1.5em;
+  margin-top: 2%; }
+
+p {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  line-height: 125%;
+  margin-top: 15px; }
+
+hr {
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%; }
+
+.basepadding, .hometopContent, .threeFourth, .oneFourth, .columnThree {
+  padding: 0 7%; }
+
+.btn {
+  background: #000000;
+  border: 0;
+  border-radius: 0;
+  display: inline-block;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  font-weight: 300;
+  padding: 3% 5%;
+  text-transform: uppercase;
+  text-align: center; }
+  .btn:link {
+    color: #ffffff;
+    text-decoration: none; }
+
+/* ///////////// header  ////////////// */
+.head {
+  clear: both;
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 100%; }
+
+header ul {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+header ul li {
+  float: left;
+  font-family: "Playfair Display", serif;
+  position: relative;
+  margin: 0 2%; }
+
+header ul li a:link {
+  color: #000000;
+  display: inline-block;
+  line-height: 54px;
+  text-decoration: none; }
+header ul li a:visited {
+  color: #ffffff; }
+header ul li a:hover {
+  color: #bda355; }
+header ul li a:active {
+  color: #bda355; }
+header ul li a:focus {
+  color: #bda355; }
+
+.logo {
+  width: 10%; }
+  .logo img {
+    width: 100%; }
+
+.nav {
+  float: right; }
+
+/* ///////////// header end ////////////// */
+.hometop {
+  background-attachment: fixed;
+  background-image: url("../assets/diamond-homeCover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+
+.hometopContent {
+  padding-top: 15%; }
+
+.threeFourth {
+  height: 75vh;
+  display: flex;
+  align-items: center; }
+
+.oneFourth {
+  background: #edece8;
+  height: 25vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  .oneFourth a.btn {
+    background: #000000;
+    border: 0;
+    border-radius: 0;
+    font-family: "Lato", Helvetica, Arial, sans-serif;
+    font-size: 1.5em;
+    font-weight: 300;
+    padding: 10% 5%;
+    text-transform: uppercase;
+    text-align: center; }
+    .oneFourth a.btn:link {
+      color: #ffffff;
+      text-decoration: none; }
+
+.forty {
+  float: left;
+  width: 35%;
+  margin-right: 5%; }
+  .forty img {
+    width: 100%; }
+
+.sixty {
+  float: left;
+  min-height: 50px;
+  width: 60%; }
+  .sixty p {
+    /*font-size: 1.5em;*/
+    margin-top: 4%; }
+  .sixty .logosTwo {
+    justify-content: space-between;
+    align-self: flex-end; }
+    .sixty .logosTwo img {
+      width: 40%;
+      align-self: flex-end; }
+
+.thirty {
+  background-image: url("../assets/nailsDiscover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  float: left;
+  height: 100vh;
+  width: 30%; }
+
+.seventy {
+  float: left;
+  margin-top: 5%;
+  min-height: 100px;
+  padding-left: 5%;
+  padding-right: 7%;
+  width: 58%; }
+  .seventy h3 {
+    margin-top: 2%; }
+
+.textColumn {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+  -webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;
+  margin-top: 5%; }
+  .textColumn p:first-of-type {
+    margin-top: 0; }
+  .textColumn p:first-child:first-letter {
+    color: #bda355;
+    		/*font-family: $font-style-secondary;
+    		-webkit-initial-letter: 3;
+              initial-letter: 3;*/
+    float: left;
+    font-size: 400%;
+    line-height: 0.5em;
+    padding-top: 0;
+    padding-bottom: 0.1em;
+    padding-right: 0.1em;
+    text-align: justify; }
+
+.columnThree {
+  display: flex;
+  flex: 1;
+  justify-content: space-between; }
+  .columnThree div {
+    width: 30%; }
+
+.featuredStyle {
+  display: flex;
+  margin-top: 5%; }
+
+.featuredStyleL {
+  float: left;
+  padding-left: 7%;
+  width: 43%; }
+  .featuredStyleL p {
+    margin-bottom: 5%; }
+
+.featuredStyleR {
+  float: left;
+  width: 50%;
+  background-image: url("../assets/venuesGemsBrownLarge.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+  .featuredStyleR img {
+    width: 100%; }
+
+.verticalSpace {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-around;
+  /*flex-direction: column;*/ }
+
+.newsletter {
+  	/*
+    background-image: url("../assets/nailsSushi.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+  	background-size: 100% auto;*/
+  /*align-items: center;*/
+  background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../assets/nailsSushi.jpg") no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  	/*display: flex;
+    justify-content: center;*/
+  text-align: center; }
+  .newsletter h1 {
+    color: #ffffff; }
+
+/* ///////////// form end ////////////// */
+form {
+  margin-top: 2%; }
+  form div:first-of-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column; }
+
+input[type="text"], input[type="email"] {
+  background: transparent;
+  border: 0;
+  border-bottom: 1px solid #ffffff;
+  box-sizing: border-box;
+  color: #ffffff;
+  display: block;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  height: 30px;
+  line-height: normal;
+  margin: 20px 0 0 0;
+  outline: 0;
+  width: 35%; }
+
+input:focus, textarea:focus {
+  background: none repeat scroll 0 0;
+  border-bottom: 1px solid #000000;
+  color: #000000; }
+
+input[type="submit"], input[type="button"], input[type="reset"] {
+  /*padding: 2% 5%;
+  margin: 0 0 1% 0;*/
+  border: none;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 1em;
+  font-weight: 300;
+  height: 40px;
+  margin-top: 55%;
+  text-transform: uppercase; }
+
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
+  cursor: pointer;
+  background-color: #bda355; }
+
+input[type="submit"]:visited {
+  cursor: pointer;
+  background-color: #bda355; }
+
+input[type="submit"]:active {
+  cursor: pointer;
+  background-color: #bda355; }
+
+input[type="submit"]:focus {
+  cursor: pointer;
+  background-color: #bda355; }
+
+/* ///////////// form end ////////////// */
+/* ///////////// footer ////////////// */
+footer {
+  height: 10vh; }
+
+/* ///////////// footer end ////////////// */
+
+/*# sourceMappingURL=styles.css.map */

@@ -59,6 +59,8 @@ hr{
 }
 .btn{
   background: $quaternary;
+  border: 0;
+  border-radius: 0;
   display: inline-block;
   font-family: $font-style-secondary;
   font-size: 1em;
