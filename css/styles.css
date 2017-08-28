@@ -93,6 +93,8 @@ hr {
 
 .btn {
   background: #000000;
+  border: 0;
+  border-radius: 0;
   display: inline-block;
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 1em;
@@ -103,6 +105,10 @@ hr {
   .btn:link {
     color: #ffffff;
     text-decoration: none; }
+
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
 
 /* ///////////// header  ////////////// */
 .head {
@@ -170,6 +176,8 @@ header ul li a:focus {
   justify-content: space-between; }
   .oneFourth a.btn {
     background: #000000;
+    border: 0;
+    border-radius: 0;
     font-family: "Lato", Helvetica, Arial, sans-serif;
     font-size: 1.5em;
     font-weight: 300;

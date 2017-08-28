@@ -106,6 +106,10 @@ hr {
     color: #ffffff;
     text-decoration: none; }
 
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0; }
+
 /* ///////////// header  ////////////// */
 .head {
   clear: both;
