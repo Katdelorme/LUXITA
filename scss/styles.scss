@@ -263,6 +263,7 @@ input[type="submit"], input[type="button"], input[type="reset"] {
 	border: none;
 	background-color: $quaternary;
 	color: $tertiary;
+	font-family: $font-style-secondary;
 	font-size: 1em;
 	font-weight: 300;
 	height: 40px;
@@ -275,9 +276,9 @@ textarea {
 	font-family: $font-style-secondary;
 	font-size: 1em;
 	line-height: normal;
-	margin: 25px 0 0 0;
+	margin: 40px 0 0 0;
 	padding: 1%;
-	text-indent: 2%;
+	text-indent: 1%;
 	width:100%;
 }
 input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover{cursor: pointer;background-color: $primary;}
@@ -286,9 +287,11 @@ input[type="submit"]:active{cursor: pointer;background-color: $primary;}
 input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 
 .secondaryForm{
+	width: 80%;
 	input[type="text"], input[type="email"] {
 		border-bottom: 1px solid $quaternary;
 		color: $quaternary;
+		width: 100%;
 	}
 	input:focus, textarea:focus {
 		border-bottom: 1px solid $primary;
@@ -299,6 +302,7 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 	}
 	input[type="submit"], input[type="button"], input[type="reset"] {
 		margin-top: 5%;
+		padding: 2% 9%;
 	}
 }
 /* ///////////// form end ////////////// */

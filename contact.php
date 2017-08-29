@@ -10,9 +10,13 @@ include ('./includes/header.html');
 
 	<div class="container-fluid">
 		<section class="section">
-			<h1>Get In Contact</h1>
-			<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
-			<a href="#" class="btn">Book Now</a>
+			<div class="row">
+				<div class="col-xs-12 basepadding text-center">
+					<h1>Get In Contact</h1>
+					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
+					<a href="#" class="btn">Book Now</a>
+				</div>
+			</div>
 		</section>
 
 		<section class="section">
