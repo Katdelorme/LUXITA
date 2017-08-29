@@ -140,9 +140,6 @@ header ul li a{
 	padding-left: 5%;
 	padding-right: 7%;
 	width: 58%;
-	h3{
-		margin-top: 2%;
-	}
 }
 .textColumn{
 	-webkit-column-count: 2;
@@ -225,7 +222,11 @@ header ul li a{
 		color: $tertiary;
 	}
 }
-
+.middle{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
 /* ///////////// form end ////////////// */
 form{
 		margin-top: 2%;
@@ -247,7 +248,7 @@ input[type="text"], input[type="email"] {
 	font-size: 1em;
 	height: 30px;
 	line-height: normal;
-	margin: 20px 0 0 0;
+	margin: 25px 0 0 0;
 	outline: 0;
 	width: 35%;
 }
@@ -268,10 +269,38 @@ input[type="submit"], input[type="button"], input[type="reset"] {
 	margin-top: 55%;
 	text-transform: uppercase;
 }
+textarea {
+	border: 1px solid $tertiary;
+	box-sizing: border-box;
+	font-family: $font-style-secondary;
+	font-size: 1em;
+	line-height: normal;
+	margin: 25px 0 0 0;
+	padding: 1%;
+	text-indent: 2%;
+	width:100%;
+}
 input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover{cursor: pointer;background-color: $primary;}
 input[type="submit"]:visited{cursor: pointer;background-color: $primary;}
 input[type="submit"]:active{cursor: pointer;background-color: $primary;}
 input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
+
+.secondaryForm{
+	input[type="text"], input[type="email"] {
+		border-bottom: 1px solid $quaternary;
+		color: $quaternary;
+	}
+	input:focus, textarea:focus {
+		border-bottom: 1px solid $primary;
+		color: $primary;
+	}
+	textarea {
+		border: 1px solid $quaternary;
+	}
+	input[type="submit"], input[type="button"], input[type="reset"] {
+		margin-top: 5%;
+	}
+}
 /* ///////////// form end ////////////// */
 
 /* ///////////// footer ////////////// */

@@ -17,17 +17,18 @@ include ('./includes/header.html');
 
 		<section class="section">
 			<div class="row">
-				<div class="col-lg-8 col-md-8 col-xs-12">
+				<div class="col-md-8 col-xs-12 basepadding">
 					<h1>Send Us A Message</h1>
 					<h3>Have any questions? Fill the form below.</h3>
 					<hr>
-					<form action="#">
+					<form action="#" class="secondaryForm">
 								<input type="text" value="" name="FNAME" placeholder="First Name">
 								<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address">
-								<input type="submit" value="Stay in the Know" name="subscribe">
+								<textarea rows="5" cols="50" name="message" id="yourmessage" placeholder="Message"></textarea>
+								<input type="submit" value="Send" name="">
 					</form>
 				</div>
-				<div class="col-lg-4 col-md-4 col-xs-12" style="background-color:#edece8;">
+				<div class="col-md-4 col-xs-12 middle basepadding" style="background-color:#edece8;">
 					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae.</p>
 					<p>Marunouchi Trust Tower
 					<br>Main, 1-8-3 Marunouchi Chiyoda-ku,

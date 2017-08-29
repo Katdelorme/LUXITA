@@ -65,6 +65,7 @@ h3 {
   color: #bda355;
   font-family: "Playfair Display", serif;
   font-size: 2.25em;
+  margin-top: 2%;
   text-transform: capitalize; }
 
 h4 {
@@ -225,8 +226,6 @@ header ul li a:focus {
   padding-left: 5%;
   padding-right: 7%;
   width: 58%; }
-  .seventy h3 {
-    margin-top: 2%; }
 
 .textColumn {
   -webkit-column-count: 2;
@@ -301,6 +300,11 @@ header ul li a:focus {
   .newsletter h1 {
     color: #ffffff; }
 
+.middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
 /* ///////////// form end ////////////// */
 form {
   margin-top: 2%; }
@@ -321,7 +325,7 @@ input[type="text"], input[type="email"] {
   font-size: 1em;
   height: 30px;
   line-height: normal;
-  margin: 20px 0 0 0;
+  margin: 25px 0 0 0;
   outline: 0;
   width: 35%; }
 
@@ -342,6 +346,17 @@ input[type="submit"], input[type="button"], input[type="reset"] {
   margin-top: 55%;
   text-transform: uppercase; }
 
+textarea {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: normal;
+  margin: 25px 0 0 0;
+  padding: 1%;
+  text-indent: 2%;
+  width: 100%; }
+
 input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
   cursor: pointer;
   background-color: #bda355; }
@@ -357,6 +372,17 @@ input[type="submit"]:active {
 input[type="submit"]:focus {
   cursor: pointer;
   background-color: #bda355; }
+
+.secondaryForm input[type="text"], .secondaryForm input[type="email"] {
+  border-bottom: 1px solid #000000;
+  color: #000000; }
+.secondaryForm input:focus, .secondaryForm textarea:focus {
+  border-bottom: 1px solid #bda355;
+  color: #bda355; }
+.secondaryForm textarea {
+  border: 1px solid #000000; }
+.secondaryForm input[type="submit"], .secondaryForm input[type="button"], .secondaryForm input[type="reset"] {
+  margin-top: 5%; }
 
 /* ///////////// form end ////////////// */
 /* ///////////// footer ////////////// */
