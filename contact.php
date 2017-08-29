@@ -9,6 +9,18 @@ include ('./includes/header.html');
 ?>
 
 	<div class="container-fluid">
+
+		<section class="section">
+			<div class="row">
+				<div class="col-sm-8 blog-main">
+					one
+				</div>
+				<div class="col-sm-3 offset-sm-1 blog-sidebar">
+					two
+				</div>
+			</div>
+		</section>
+
 		<section class="section">
 			<div class="row">
 				<div class="col-xs-12 basepadding text-center">

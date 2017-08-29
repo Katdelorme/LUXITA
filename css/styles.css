@@ -45,6 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/**:hover{
+  transition: all 280ms ease-in-out;
+}*/
 section {
   display: block;
   height: 100vh; }
