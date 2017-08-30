@@ -82,6 +82,10 @@ h5 {
   font-size: 1.5em;
   margin-top: 2%; }
 
+h6 {
+  font-family: "Playfair Display", serif;
+  font-size: 1.3em; }
+
 p {
   font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 1.125em;
@@ -110,9 +114,22 @@ hr {
     color: #ffffff;
     text-decoration: none; }
 
+.middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
 .container-fluid {
   padding-right: 0;
   padding-left: 0; }
+
+#navbarNav {
+  justify-content: flex-end;
+  align-self: flex-start; }
+
+.row {
+  margin-right: 0;
+  margin-left: 0; }
 
 /* ///////////// header  ////////////// */
 .head {
@@ -122,39 +139,47 @@ hr {
   z-index: 1;
   width: 100%; }
 
-header ul {
-  display: block;
-  margin: 0;
-  padding: 0;
-  width: 100%; }
+/*header ul{
+	display: block;
+	margin: 0;
+	padding: 0;
+  width: 100%;
+}
 
-header ul li {
-  float: left;
-  font-family: "Playfair Display", serif;
-  position: relative;
-  margin: 0 2%; }
+header ul li{
+	float: left;
+	font-family: $font-style-primary;
+	position: relative;
+  margin: 0 2%;
+}
 
-header ul li a:link {
-  color: #000000;
-  display: inline-block;
-  line-height: 54px;
-  text-decoration: none; }
-header ul li a:visited {
-  color: #ffffff; }
-header ul li a:hover {
-  color: #bda355; }
-header ul li a:active {
-  color: #bda355; }
-header ul li a:focus {
-  color: #bda355; }
-
+header ul li a{
+  &:link{
+  	color: $quaternary;
+  	display: inline-block;
+  	line-height: 54px;
+  	text-decoration: none;
+  }
+  &:visited {
+  	color: $tertiary;
+  }
+  &:hover    {
+  	color: $primary;
+  }
+  &:active   {
+  	color: $primary;
+  }
+  &:focus {
+  	color: $primary;
+  }
+	.nav{
+		float: right;
+	}
+}*/
 .logo {
   width: 10%; }
   .logo img {
     width: 100%; }
-
-.nav {
-  float: right; }
 
 /* ///////////// header end ////////////// */
 .hometop {
@@ -303,10 +328,8 @@ header ul li a:focus {
   .newsletter h1 {
     color: #ffffff; }
 
-.middle {
-  display: flex;
-  justify-content: center;
-  flex-direction: column; }
+.contact {
+  margin: 0 25%; }
 
 /* ///////////// form end ////////////// */
 form {
@@ -393,9 +416,33 @@ input[type="submit"]:focus {
     padding: 2% 9%; }
 
 /* ///////////// form end ////////////// */
+.policy h6 {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1.3em;
+  font-weight: 700; }
+.policy p {
+  margin-top: 0;
+  margin-bottom: 15px; }
+  .policy p:first-of-type {
+    margin-top: 35px; }
+.policy ul {
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1.125em;
+  margin-left: 30px; }
+  .policy ul li {
+    list-style-type: disc;
+    margin-top: 10px; }
+
 /* ///////////// footer ////////////// */
 footer {
-  height: 10vh; }
+  background: #edece8;
+  clear: both;
+  height: 20vh; }
+  footer .footerSplit {
+    display: flex;
+    justify-content: space-between; }
+    footer .footerSplit div:last-of-type {
+      text-align: right; }
 
 /* ///////////// footer end ////////////// */
 @media (min-width: 576px) and (max-width: 767px) {

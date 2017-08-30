@@ -3,6 +3,7 @@ include ('./includes/header.html');
 /* PAGE CONTENT STARTS HERE! */
 ?>
 
+  <div id="fullpage">
 	<section class="section hometop">
 		<div class="hometopContent">
 			<h2>Concept Name Here</h2>
@@ -99,6 +100,9 @@ loose or are lost.</p>
 		</div>
 		<!--End mc_embed_signup-->
 	</section>
+</div><!--fullpage close-->
+
+
 
 <?php
 /* PAGE CONTENT ENDS HERE! */

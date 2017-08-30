@@ -47,7 +47,8 @@ h5 {
   margin-top: 2%;
 }
 h6 {
-
+  font-family: $font-style-primary;
+  font-size: 1.3em;
 }
 p{
   font-family: $font-style-secondary;
@@ -78,8 +79,22 @@ hr{
     text-decoration: none;
   }
 }
+.middle{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
 //** Bootstrap override **//
 .container-fluid {
   padding-right: 0;
   padding-left: 0;
+}
+#navbarNav{
+  justify-content: flex-end;
+  align-self: flex-start;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
 }

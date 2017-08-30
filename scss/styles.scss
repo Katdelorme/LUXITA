@@ -11,7 +11,7 @@
   width: 100%;
 }
 
-header ul{
+/*header ul{
 	display: block;
 	margin: 0;
 	padding: 0;
@@ -44,7 +44,10 @@ header ul li a{
   &:focus {
   	color: $primary;
   }
-}
+	.nav{
+		float: right;
+	}
+}*/
 
 .logo{
 	width: 10%;
@@ -52,9 +55,7 @@ header ul li a{
     width: 100%;
   }
 }
-.nav{
-	float: right;
-}
+
 /* ///////////// header end ////////////// */
 
 .hometop{
@@ -222,10 +223,9 @@ header ul li a{
 		color: $tertiary;
 	}
 }
-.middle{
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
+
+.contact{
+	margin: 0 25%;
 }
 /* ///////////// form end ////////////// */
 form{
@@ -306,10 +306,46 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 	}
 }
 /* ///////////// form end ////////////// */
-
+.policy{
+	h6 {
+	  font-family: $font-style-secondary;
+	  font-size: 1.3em;
+		font-weight: 700;
+	}
+	p{
+	  margin-top: 0;
+		margin-bottom: 15px;
+		&:first-of-type{
+			 margin-top: 35px;
+		 }
+	}
+	ul{
+		font-family: $font-style-secondary;
+	  font-size: 1.125em;
+		margin-left: 30px;
+		li{
+			list-style-type:disc;
+			margin-top: 10px;
+		}
+	}
+}
 /* ///////////// footer ////////////// */
 footer{
-	height: 10vh;
+	background: $secondary;
+	clear: both;
+	height: 20vh;
+	.footerSplit{
+		display: flex;
+		justify-content: space-between;
+		div{
+			&:first-of-type{
+
+			}
+			&:last-of-type{
+				text-align: right;
+			}
+		}
+	}
 }
 /* ///////////// footer end ////////////// */
 

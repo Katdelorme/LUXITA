@@ -45,6 +45,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+/**:hover{
+  transition: all 280ms ease-in-out;
+}*/
 section {
   display: block;
   height: 100vh; }
@@ -65,6 +68,7 @@ h3 {
   color: #bda355;
   font-family: "Playfair Display", serif;
   font-size: 2.25em;
+  margin-top: 2%;
   text-transform: capitalize; }
 
 h4 {
@@ -77,6 +81,11 @@ h5 {
   font-family: "Playfair Display", serif;
   font-size: 1.5em;
   margin-top: 2%; }
+
+h6 {
+  color: red;
+  font-family: "Playfair Display", serif;
+  font-size: 1.3em; }
 
 p {
   font-family: "Lato", Helvetica, Arial, sans-serif;
@@ -225,8 +234,6 @@ header ul li a:focus {
   padding-left: 5%;
   padding-right: 7%;
   width: 58%; }
-  .seventy h3 {
-    margin-top: 2%; }
 
 .textColumn {
   -webkit-column-count: 2;
@@ -301,6 +308,11 @@ header ul li a:focus {
   .newsletter h1 {
     color: #ffffff; }
 
+.middle {
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+
 /* ///////////// form end ////////////// */
 form {
   margin-top: 2%; }
@@ -321,7 +333,7 @@ input[type="text"], input[type="email"] {
   font-size: 1em;
   height: 30px;
   line-height: normal;
-  margin: 20px 0 0 0;
+  margin: 25px 0 0 0;
   outline: 0;
   width: 35%; }
 
@@ -336,11 +348,23 @@ input[type="submit"], input[type="button"], input[type="reset"] {
   border: none;
   background-color: #000000;
   color: #ffffff;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
   font-size: 1em;
   font-weight: 300;
   height: 40px;
   margin-top: 55%;
   text-transform: uppercase; }
+
+textarea {
+  border: 1px solid #ffffff;
+  box-sizing: border-box;
+  font-family: "Lato", Helvetica, Arial, sans-serif;
+  font-size: 1em;
+  line-height: normal;
+  margin: 40px 0 0 0;
+  padding: 1%;
+  text-indent: 1%;
+  width: 100%; }
 
 input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover {
   cursor: pointer;
@@ -358,11 +382,32 @@ input[type="submit"]:focus {
   cursor: pointer;
   background-color: #bda355; }
 
+.secondaryForm {
+  width: 80%; }
+  .secondaryForm input[type="text"], .secondaryForm input[type="email"] {
+    border-bottom: 1px solid #000000;
+    color: #000000;
+    width: 100%; }
+  .secondaryForm input:focus, .secondaryForm textarea:focus {
+    border-bottom: 1px solid #bda355;
+    color: #bda355; }
+  .secondaryForm textarea {
+    border: 1px solid #000000; }
+  .secondaryForm input[type="submit"], .secondaryForm input[type="button"], .secondaryForm input[type="reset"] {
+    margin-top: 5%;
+    padding: 2% 9%; }
+
 /* ///////////// form end ////////////// */
+.policy p {
+  margin-top: 0; }
+
 /* ///////////// footer ////////////// */
 footer {
   height: 10vh; }
 
 /* ///////////// footer end ////////////// */
+@media (min-width: 576px) and (max-width: 767px) {
+  .secondaryForm {
+    width: 100%; } }
 
 /*# sourceMappingURL=styles.css.map */

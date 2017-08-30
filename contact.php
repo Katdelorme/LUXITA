@@ -8,22 +8,12 @@ include ('./includes/header.html');
 /* PAGE CONTENT STARTS HERE! */
 ?>
 
+  <div id="fullpage">
 	<div class="container-fluid">
 
 		<section class="section">
 			<div class="row">
-				<div class="col-sm-8 blog-main">
-					one
-				</div>
-				<div class="col-sm-3 offset-sm-1 blog-sidebar">
-					two
-				</div>
-			</div>
-		</section>
-
-		<section class="section">
-			<div class="row">
-				<div class="col-xs-12 basepadding text-center">
+				<div class="col-xs-12 text-center contact">
 					<h1>Get In Contact</h1>
 					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
 					<a href="#" class="btn">Book Now</a>
@@ -53,7 +43,8 @@ include ('./includes/header.html');
 				</div>
 			</div>
 		</section>
-	</div>
+	</div><!--container close-->
+	</div><!--fullpage close-->
 
 <?php
 /* PAGE CONTENT ENDS HERE! */
