@@ -60,7 +60,6 @@ include ('./includes/header.html');
 
 	</div><!--container close-->
 
-
 <?php
 /* PAGE CONTENT ENDS HERE! */
 require ('./includes/footer.html');
