@@ -56,6 +56,25 @@ header ul li a{
   }
 }
 
+header a{
+	font-family: $font-style-primary;
+  &:link{
+  	color: $quaternary;
+  }
+  &:visited {
+  	color: $tertiary;
+  }
+  &:hover    {
+  	color: $primary;
+  }
+  &:active   {
+  	color: $primary;
+  }
+  &:focus {
+  	color: $primary;
+  }
+}
+
 /* ///////////// header end ////////////// */
 
 .hometop{
@@ -330,7 +349,7 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 	}
 }
 /* ///////////// footer ////////////// */
-footer{
+.fullpagefooter, footer{
 	background: $secondary;
 	clear: both;
 	height: 20vh;

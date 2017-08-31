@@ -181,6 +181,19 @@ header ul li a{
   .logo img {
     width: 100%; }
 
+header a {
+  font-family: "Playfair Display", serif; }
+  header a:link {
+    color: #000000; }
+  header a:visited {
+    color: #ffffff; }
+  header a:hover {
+    color: #bda355; }
+  header a:active {
+    color: #bda355; }
+  header a:focus {
+    color: #bda355; }
+
 /* ///////////// header end ////////////// */
 .hometop {
   background-attachment: fixed;
@@ -434,14 +447,14 @@ input[type="submit"]:focus {
     margin-top: 10px; }
 
 /* ///////////// footer ////////////// */
-footer {
+.fullpagefooter, footer {
   background: #edece8;
   clear: both;
   height: 20vh; }
-  footer .footerSplit {
+  .fullpagefooter .footerSplit, footer .footerSplit {
     display: flex;
     justify-content: space-between; }
-    footer .footerSplit div:last-of-type {
+    .fullpagefooter .footerSplit div:last-of-type, footer .footerSplit div:last-of-type {
       text-align: right; }
 
 /* ///////////// footer end ////////////// */
