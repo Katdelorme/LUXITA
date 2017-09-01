@@ -103,15 +103,8 @@ nav a{
   align-items: center;
   justify-content: space-between;
   a.btn{
-    background: $quaternary;
-		border: 0;
-	  border-radius: 0;
-    font-family: $font-style-secondary;
-    font-size: 1.5em;
-    font-weight: 300;
-    padding: 10% 5%;
-    text-transform: uppercase;
-    text-align: center;
+    font-size: 1.3em;
+    padding: 1em 4em;
     &:link{
       color: $tertiary;
       text-decoration: none;

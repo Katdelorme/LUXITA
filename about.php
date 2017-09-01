@@ -21,6 +21,9 @@ include ('./includes/header.html');
 
 		<section class="section greybg basepadding theTeam">
 			<div class="row">
+				<h2 class="text-center">The Team - Salonists &amp; Partners</h2>
+			</div>
+			<div class="row">
 				<div class="col-md-3 col-xs-12">
 					<img src="assets/team-JanicaSouthwick2.png" class="img-fluid" alt="Co-founder of LUXITA Salon Janica Southwick" />
 					<h5>Janica Southwick</h5>
@@ -41,13 +44,13 @@ include ('./includes/header.html');
 
 				<div class="col-md-3 col-xs-12">
 					<img src="assets/team-RiyoSuzuki2.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
-					<h5>Janica Southwick</h5>
-					<p>Co-Founder</p>
+					<h5>Riyo Suzuki</h5>
+					<p>Nail  Technician</p>
 				</div>
 				<div class="col-md-3 col-xs-12 ml-md-auto">
 					<img src="assets/team-placeholder1.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
 					<h5>Ryutaro Kashima</h5>
-					<p>Co-Founder</p>
+					<p>Nail  Technician</p>
 				</div>
 				<div class="col-md-3 col-xs-12 ml-md-auto">
 					<img src="assets/team-placeholder2.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
