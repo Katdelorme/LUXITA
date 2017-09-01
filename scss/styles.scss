@@ -86,7 +86,7 @@ nav a{
 }
 .hometopContent{
 	@extend .basepadding;
-  padding-top: 15%;
+  /*padding-top: 15%;*/
 }
 
 .threeFourth{
@@ -149,25 +149,23 @@ nav a{
   background-position: center center;
   background-repeat: no-repeat;
 	background-size: 100% auto;
-	float: left;
 	height: 100vh;
-	width: 30%;
+	/*width: 30%;*/
 }
 .seventy{
-	float: left;
 	margin-top: 5%;
 	min-height: 100px;
 	padding-left: 5%;
 	padding-right: 7%;
-	width: 58%;
+	/*width: 58%;*/
 }
 .textColumn{
-	-webkit-column-count: 2;
+	/*-webkit-column-count: 2;
   -moz-column-count: 2;
   column-count: 2;
 	-webkit-column-gap: 40px;
   -moz-column-gap: 40px;
-  column-gap: 40px;
+  column-gap: 40px;*/
 	margin-top: 5%;
 	p:first-of-type{
 		margin-top: 0;
@@ -187,29 +185,29 @@ nav a{
 	}
 }
 .columnThree{
-	display: flex;
+	/*display: flex;
 	flex: 1;
-	justify-content: space-between;
+	justify-content: space-between;*/
 	@extend .basepadding;
-	div{
+	/*div{
 		width: 30%;
-	}
+	}*/
 }
 .featuredStyle{
 	display: flex;
 	margin-top: 5%;
 }
 .featuredStyleL{
-  float: left;
+  /*float: left;
+  width: 43%;*/
 	padding-left: 7%;
-  width: 43%;
 	p{
 		margin-bottom: 5%;
 	}
 }
 .featuredStyleR{
-  float: left;
-  width: 50%;
+  /*float: left;
+  width: 50%;*/
 	background-image: url("../assets/venuesGemsBrownLarge.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -332,11 +330,13 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 }
 /* ///////////// form end ////////////// */
 .policy{
-	padding-top: 4.5rem;
+	padding-top: 8.5rem;
+	padding-bottom: 4rem;
 	h6 {
 	  font-family: $font-style-secondary;
 	  font-size: 1.3em;
 		font-weight: 700;
+		padding-top: 15px;
 	}
 	p{
 	  margin-top: 0;

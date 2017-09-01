@@ -34,10 +34,24 @@
 						navigation: true,
 
 						//Scrolling
-						css3: true
+						css3: true,
+						/*autoScrolling:false,
+						fitToSection: false*/
 					}
 				);
 			});
+	   $(document).ready(function(){
+	        if ($(window).width() < 650) {
+							$.fn.fullpage.setAutoScrolling(false);
+	            $.fn.fullpage.setFitToSection(false);
+	        }
+	    });
+	    $(window).resize(function () {
+	         if ($(window).width() < 650) {
+					 			$.fn.fullpage.setAutoScrolling(false);
+	              $.fn.fullpage.setFitToSection(false);
+	         }
+	    });
 		</script>
 </body>
 </html>
