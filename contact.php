@@ -36,10 +36,12 @@ include ('./includes/header.html');
 				</div>
 				<div class="col-md-4 col-xs-12 middle basepadding" style="background-color:#edece8;">
 					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae.</p>
+          <address>
 					<p>Marunouchi Trust Tower
 					<br>Main, 1-8-3 Marunouchi Chiyoda-ku,
 					<br>Tokyo, 100-8283, Japan</p>
-					<p>T:(81 3) 5555 5555 </p>
+          </address>
+					<p><a href="tel:81355555555">T:(813) 5555 5555</a></p>
 				</div>
 			</div>
 		</section>

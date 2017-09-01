@@ -153,7 +153,7 @@ nav a{
 	/*width: 30%;*/
 }
 .seventy{
-	margin-top: 5%;
+	margin-top: 6em;
 	min-height: 100px;
 	padding-left: 5%;
 	padding-right: 7%;
@@ -250,7 +250,31 @@ nav a{
 		margin-bottom: 20px;
 	}
 }
-/* ///////////// form end ////////////// */
+.abouttop{
+  background-attachment: fixed;
+  background-image: url("../assets/chispa-aboutCover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.greybg{
+	background: $secondary;
+}
+.theTeam{
+	h5{
+		color: $primary;
+		text-transform: uppercase;
+	}
+	p{
+		margin-top: 0;
+	}
+}
+.aboutMission{
+	.seventy{
+		margin-top: 8.5em;
+	}
+}
+/* ///////////// form ////////////// */
 form{
 		margin-top: 2%;
 	div:first-of-type{

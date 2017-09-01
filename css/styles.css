@@ -51,7 +51,12 @@ hr {
   margin-top: 3%; }
 
 .basepadding, .hometopContent, .threeFourth, .oneFourth, .columnThree {
-  padding: 0 7%; }
+  padding-left: 7%;
+  padding-right: 7%; }
+
+.baseheading {
+  padding-top: 2%;
+  padding-bottom: 2%; }
 
 .btn {
   background: #000000;
@@ -214,7 +219,7 @@ nav a {
   /*width: 30%;*/ }
 
 .seventy {
-  margin-top: 5%;
+  margin-top: 6em;
   min-height: 100px;
   padding-left: 5%;
   padding-right: 7%;
@@ -301,7 +306,26 @@ nav a {
   .contact p {
     margin-bottom: 20px; }
 
-/* ///////////// form end ////////////// */
+.abouttop {
+  background-attachment: fixed;
+  background-image: url("../assets/chispa-aboutCover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto; }
+
+.greybg {
+  background: #edece8; }
+
+.theTeam h5 {
+  color: #bda355;
+  text-transform: uppercase; }
+.theTeam p {
+  margin-top: 0; }
+
+.aboutMission .seventy {
+  margin-top: 8.5em; }
+
+/* ///////////// form ////////////// */
 form {
   margin-top: 2%; }
   form div:first-of-type {
@@ -434,7 +458,7 @@ input[type="submit"]:focus {
   .logo {
     width: 20%; }
 
-  .hometop {
+  .hometop, .abouttop {
     background-position: right center;
     background-size: cover; }
 
@@ -487,7 +511,7 @@ input[type="submit"]:focus {
   p {
     font-size: 1em; }
 
-  .hometop {
+  .hometop, .abouttop {
     background-position: right center;
     background-size: cover; }
 
@@ -515,7 +539,7 @@ input[type="submit"]:focus {
   p {
     font-size: 1.125em; }
 
-  .hometop {
+  .hometop, .abouttop {
     background-position: center center;
     background-size: 100% auto; }
 

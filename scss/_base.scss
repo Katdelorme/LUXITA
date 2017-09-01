@@ -61,7 +61,12 @@ hr{
   margin-top: 3%;
 }
 .basepadding{
-  padding: 0 7%;
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.baseheading{
+  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .btn{
   background: $quaternary;
