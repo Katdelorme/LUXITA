@@ -14,7 +14,7 @@ include ('./includes/header.html');
 		<section class="section abouttop basepadding">
 			<div class="">
 				<h1>About LUXITA</h1>
-				<h3>Located at the Chi Spa in the <br/>Shingri-La Hotel in Tokyo</h3>
+				<h3>Located at the Chi Spa in the <br/>Shangri-La Hotel in Tokyo</h3>
 				<a href="#" class="btn">Our Mission</a>
 			</div>
 		</section>
