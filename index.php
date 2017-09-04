@@ -8,27 +8,25 @@ include ('./includes/header.html');
 
 		<section class="section hometop">
 			<div class="hometopContent">
-				<h2>Concept Name Here</h2>
-				<h4>Subtitle Here</h4>
-				<p>A question to ask the audience?
-				<br/>A statment regarding the question or answer.</p>
+				<h2>A Five Star Salon<br/>At A Five Star Hotel</h2>
+				<h4>Bringing Fashion To <br/>Your Fingertips</h4>
+				<p>Nail designs soaring to new heights, <br>where only the sky is the limit.
+				<br/>Debuting November 2017 at one of Tokyo's top 5 star hotels.</p>
 			</div>
 		</section>
 
 		<section class="section">
 			<div class="threeFourth row">
-				<div class="contentTip">
-				<div class="forty">
-					<img src="assets/owners.jpg" alt="Owners: Janica Southwick and Ryutaro Kashima" />
+				<div class="forty col-md-4 col-xs-12">
+					<img src="assets/owners.jpg" alt="Owners: Janica Southwick and Ryutaro Kashima" class="img-fluid" />
 				</div>
-				<div class="sixty">
+				<div class="sixty col-md-8 col-xs-12">
 					<h2>Two Salonists Coming Together</h2>
-					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. </p>
+					<p>A story of two stars coming together. Luxury and Ita. JoliNails a superstar in the luxury and fashion nail industry, unites with VenusRico, a rockstar in the manga and anime ITA art nail world.  A new star is born: LUX &#9733; ITA. Nail designs soaring to new heights, where only the sky is the limit.</p>
 					<div class="logosTwo">
 						<img src="assets/logoJoliNails.png" alt="JoliNails logo" />
 						<img src="assets/logoVenusrico.png" alt="VenusRico Logo" />
 					</div>
-				</div>
 				</div>
 			</div>
 			<div class="oneFourth row">
@@ -47,7 +45,7 @@ include ('./includes/header.html');
 				</div>
 				<div class="seventy col-md-8 col-xs-12">
 					<h1>Discover Diamond Nails</h1>
-					<h3>What it is and how they’re placed</h3>
+					<h3>Now a girl's best friend is always on hand</h3>
 					<hr>
 					<div class="textColumn">
 						<p>Diamond nails are the most luxurious nail treatment in the world. High quality diamonds of all colors are applied directly to the nail bed, with gel and a patented application method. Diamonds are re-applicable so clients may use them for many treatments. Customers feel assured with a warranty for diamonds that come
@@ -63,7 +61,7 @@ include ('./includes/header.html');
 			<div class="columnThree row">
 				<div class="col-md-4 col-xs-12">
 					<h4>Fashion Nail</h4>
-					<p>Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+					<p>En vogue patterns and colors. A style that'll look chic at any occasion. Let us bring fashion to your fingertips.</p>
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<h4>Ita nail</h4>
@@ -71,7 +69,7 @@ include ('./includes/header.html');
 				</div>
 				<div class="col-md-4 col-xs-12">
 					<h4>Diamond Nail</h4>
-					<p>Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+					<p>The ultimate in luxury nails. The beauty of diamonds at the tip of your fingers.</p>
 				</div>
 			</div>
 			<div class="featuredStyle row">

@@ -23,7 +23,7 @@ include ('./includes/header.html');
 
 		<section class="section">
 			<div class="row">
-				<div class="col-md-8 col-xs-12 basepadding">
+				<div class="col-md-8 col-xs-12 basepadding contactform">
 					<h1>Send Us A Message</h1>
 					<h3>Have any questions? Fill the form below.</h3>
 					<hr>

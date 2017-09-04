@@ -1,5 +1,5 @@
 <?php
-$page_title='Privacy Policy - LUXITA';
+$page_title='Photo Rights - LUXITA';
 $page_desc='';
 $page_keywords="";
 $facebook_img="";

@@ -20,7 +20,7 @@ include ('./includes/header.html');
 		</section>
 
 		<section class="section greybg basepadding theTeam">
-			<div class="row">
+			<div class="row middle">
 				<h2 class="text-center">The Team - Salonists &amp; Partners</h2>
 			</div>
 			<div class="row">
@@ -71,7 +71,7 @@ include ('./includes/header.html');
 		 				<p>Nullam pretium quis ipsum non tristique. Pellentesque dapibus, nisl a iaculis dictum, mauris ex dapibus ex, at tincidunt augue purus ut dolor. Maecenas tristique turpis sed magna viverra ultricies. In commodo, justo ut tincidunt ornare, justo urna lobortis nisl, ut suscipit velit nunc venenatis urna.</p>
 					</div>
 				</div>
-				<div class="thirty col-md-4 col-xs-12">
+				<div class="aboutThirty col-md-4 col-xs-12">
 				</div>
 			</div>
 		</section>

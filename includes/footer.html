@@ -42,12 +42,14 @@
 	        if ($(window).width() < 650) {
 							$.fn.fullpage.setAutoScrolling(false);
 	            $.fn.fullpage.setFitToSection(false);
+							$( ".fullpagefooter" ).hide();
 	        }
 	    });
 	    $(window).resize(function () {
 	         if ($(window).width() < 650) {
 					 			$.fn.fullpage.setAutoScrolling(false);
 	              $.fn.fullpage.setFitToSection(false);
+								$( ".fullpagefooter" ).hide();
 	         }
 	    });
 		</script>
