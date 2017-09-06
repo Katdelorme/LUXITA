@@ -49,12 +49,12 @@ include ('./includes/header.html');
 				</div>
 				<div class="col-md-3 col-xs-12 ml-md-auto">
 					<img src="assets/team-placeholder1.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
-					<h5>Ryutaro Kashima</h5>
+					<h5>TBD</h5>
 					<p>Nail  Technician</p>
 				</div>
 				<div class="col-md-3 col-xs-12 ml-md-auto">
 					<img src="assets/team-placeholder2.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
-					<h5>Yuki Abe</h5>
+					<h5>TBD</h5>
 					<p>Nail  Technician</p>
 				</div>
 			</div>
