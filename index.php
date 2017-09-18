@@ -35,8 +35,8 @@ include ('./includes/header.html');
 				</div>
 			</div>
 			<div class="oneFourth row">
-					<div class="col-md-9 col-xs-12">
-				<h1>Book An Appointment</h1>
+				<div class="col-md-9 col-xs-12">
+          <h1>Book An Appointment</h1>
 				</div>
 				<div class="col-md-3 col-xs-12">
 					<a href="#" class="btn">Book Now</a>

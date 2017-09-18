@@ -170,6 +170,9 @@ nav a {
   nav a:focus {
     color: #bda355; }
 
+.navbar-toggler-icon, .navbar-toggler {
+  background: #bda355; }
+
 /* ///////////// header end ////////////// */
 .hometop {
   background-attachment: fixed;
@@ -199,14 +202,14 @@ nav a {
       color: #ffffff; }
 
 .threeFourth {
-  height: 75vh;
+  min-height: 75vh;
   display: flex;
   /*align-items: center;*/
   padding-top: 4em; }
 
 .oneFourth {
   background: #edece8;
-  height: 25vh;
+  min-height: 25vh;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -668,10 +671,19 @@ footer {
   h1 {
     font-size: 3.1em; }
 
+  h2 {
+    font-size: 2.5em; }
+
+  h4 {
+    font-size: 1.575em; }
+
   .oneFourth {
-    height: auto; }
+    padding-bottom: 4%;
+    padding-top: 4%; }
     .oneFourth h1 {
       font-size: 2.7em; }
+    .oneFourth a.btn {
+      font-size: 1em; }
 
   .logo {
     width: 20%; }
@@ -679,6 +691,25 @@ footer {
   .hometop, .abouttop {
     background-position: right center;
     background-size: cover; }
+
+  .hometopContent {
+    background-image: none;
+    background: rgba(255, 255, 255, 0.7);
+    width: 100%; }
+
+  .hometopContent .btn {
+    display: block;
+    width: 60%; }
+
+  .hometopContent div a:first-of-type {
+    display: none; }
+
+  .sixty .logosTwo {
+    flex-direction: column; }
+    .sixty .logosTwo img {
+      width: 100%; }
+      .sixty .logosTwo img:last-of-type {
+        margin-bottom: 6%; }
 
   .thirty {
     height: 30vh;
@@ -699,11 +730,17 @@ footer {
     -moz-column-gap: 0;
     column-gap: 0; }
 
+  .featuredStyleR {
+    min-height: 30vh; }
+
   input[type="text"], input[type="email"] {
     width: 100%; }
 
   .contact {
-    margin: 0 7%; } }
+    margin: 0 7%; }
+
+  .secondaryForm {
+    margin-bottom: 4%; } }
 @media (min-width: 576px) {
   .thirty {
     height: 30vh;

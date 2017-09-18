@@ -45,8 +45,7 @@ include ('./includes/header.html');
                 inside 1
               </div>
               <div class="col-md-6 col-xs-12">
-                <img src="assets/naildesignsIta2.jpg" alt="Ita Nails: Winnie The Pooh, My Neighbor Totoro" />
-                <img src="assets/naildesignsIta3.jpg" alt="Ita Nails: Attack on Titans, Sailor Moon, One Piece Chopper" />
+                inside 2
               </div>
             </div>
           </div>
@@ -66,6 +65,17 @@ include ('./includes/header.html');
 				</div>
 				<div class="col-md-8 col-xs-12 seventy">
 					<h1>Ita Nails</h1>
+          <div style="background:pink;" class="nailsheight">
+            <div class="row fullimg">
+              <div class="col-md-6 col-xs-12">
+                inside 1
+              </div>
+              <div class="col-md-6 col-xs-12">
+                <img src="assets/naildesignsIta2.jpg" alt="Ita Nails: Winnie The Pooh, My Neighbor Totoro" />
+                <img src="assets/naildesignsIta3.jpg" alt="Ita Nails: Attack on Titans, Sailor Moon, One Piece Chopper" />
+              </div>
+            </div>
+          </div>
 				</div>
 			</div>
     </section>
