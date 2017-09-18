@@ -1,6 +1,7 @@
 # App Landing Page
 This repository is for the website of a nail salon in Tokyo Japan.
 All the content, images and information used belong solely to LUXITA and JoliNails.
+Created while in Tokyo, Japan.
 
 If you would like to contact someone regarding web design project or would like to hire me for work please send an email to info@katdelorme.com
 
