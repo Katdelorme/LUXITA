@@ -7,11 +7,16 @@ include ('./includes/header.html');
 	<div class="container-fluid">
 
 		<section class="section hometop">
-			<div class="hometopContent">
-				<h2>A Five Star Salon<br/>At A Five Star Hotel</h2>
-				<h4>Bringing Fashion To <br/>Your Fingertips</h4>
-				<p>Nail designs soaring to new heights, <br>where only the sky is the limit.
-				<br/>Debuting November 2017 at one of Tokyo's top 5 star hotels.</p>
+			<div class="hometopContent middle">
+				<h2>Bringing Fashion To <br/>Your Fingertips</h2>
+				<h4>A Five Star Salon<br/>At A Five Star Hotel </h4>
+				<p>Debuting November 2017 in Tokyo.
+          <!--Nail designs soaring to new heights, <br>where only the sky is the limit.-->
+        </p>
+        <div>
+        <a href="#" class="btn">View Styles</a>
+        <a href="contact" class="btn">Book Now</a>
+      </div>
 			</div>
 		</section>
 

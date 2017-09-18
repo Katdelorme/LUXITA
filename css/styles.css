@@ -149,7 +149,8 @@ nav a {
   nav a:visited {
     color: #ffffff; }
   nav a:hover {
-    color: #bda355; }
+    color: #bda355;
+    text-decoration: underline; }
   nav a:active {
     color: #bda355; }
   nav a:focus {
@@ -164,7 +165,24 @@ nav a {
   background-size: 100% auto; }
 
 .hometopContent {
+  background-image: url("../assets/shape.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 100vh;
+  width: 60%;
   /*padding-top: 15%;*/ }
+  .hometopContent div {
+    display: inline-block; }
+    .hometopContent div a:first-of-type {
+      margin-right: 2%; }
+  .hometopContent .btn {
+    background-color: #bda355;
+    padding: 1em 0;
+    width: 30%; }
+    .hometopContent .btn:hover {
+      background-color: #000000;
+      color: #ffffff; }
 
 .threeFourth {
   height: 75vh;

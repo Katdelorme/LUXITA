@@ -66,6 +66,7 @@ nav a{
   }
   &:hover    {
   	color: $primary;
+		text-decoration: underline;
   }
   &:active   {
   	color: $primary;
@@ -86,7 +87,28 @@ nav a{
 }
 .hometopContent{
 	@extend .basepadding;
+	background-image: url("../assets/shape.png");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 100vh;
+	width: 60%;
   /*padding-top: 15%;*/
+	div{
+		display: inline-block;
+		a:first-of-type{
+			margin-right: 2%;
+		}
+	}
+	.btn{
+		background-color: $primary;
+		padding: 1em 0;
+		width: 30%;
+		&:hover{
+			background-color: $quaternary;
+			color: $tertiary;
+		}
+	}
 }
 
 .threeFourth{
