@@ -62,7 +62,7 @@ nav a{
   	color: $quaternary;
   }
   &:visited {
-  	color: $tertiary;
+  	color: $quaternary;
   }
   &:hover    {
   	color: $primary;
@@ -168,7 +168,7 @@ nav a{
 	/*width: 30%;*/
 }
 .seventy{
-	margin-top: 6em;
+	margin-top: 7em;
 	min-height: 100px;
 	padding-left: 5%;
 	padding-right: 7%;
@@ -376,6 +376,38 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 	}
 }
 /* ///////////// form end ////////////// */
+
+/* ///////////// nail design ////////////// */
+.oneFourthNails{
+	padding: 0;
+	/*background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../assets/nailsSushi.jpg") no-repeat;*/
+	div{
+		height:100%;
+		text-align: center;
+		a{
+			border: $primary solid 2px;
+			color: $primary;
+			height: 60%;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+		&:first-child{
+			/*background-image: url("../assets/fashion1.jpg");*/
+			background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.9)), url("../assets/fashion1.jpg") no-repeat;
+		  background-position: center center;
+		  background-repeat: no-repeat;
+			background-size: 100% auto;
+		}
+	}
+}
+.nailsheight{
+	display: inline-block;
+	max-height: 65vh;
+	overflow: hidden;
+}
+/* ///////////// nail design end ////////////// */
+
 .policy{
 	padding-top: 8.5rem;
 	padding-bottom: 4rem;

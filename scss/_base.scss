@@ -85,6 +85,9 @@ hr{
     color: $tertiary;
     text-decoration: none;
   }
+  &:hover{
+    background: $primary;
+  }
 }
 .middle{
 	display: flex;
@@ -104,4 +107,20 @@ hr{
 .row {
   margin-right: 0;
   margin-left: 0;
+}
+
+.heightFull{
+  height: 100vh;
+}
+
+.fullimg{
+  padding: 0;
+  div{
+    padding: 0;
+  }
+  img{
+    padding: 0;
+    width: 100%;
+    object-fit: cover;
+  }
 }

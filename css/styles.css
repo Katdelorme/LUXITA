@@ -74,6 +74,8 @@ hr {
   .btn:link {
     color: #ffffff;
     text-decoration: none; }
+  .btn:hover {
+    background: #bda355; }
 
 .middle {
   display: flex;
@@ -91,6 +93,18 @@ hr {
 .row {
   margin-right: 0;
   margin-left: 0; }
+
+.heightFull {
+  height: 100vh; }
+
+.fullimg {
+  padding: 0; }
+  .fullimg div {
+    padding: 0; }
+  .fullimg img {
+    padding: 0;
+    width: 100%;
+    object-fit: cover; }
 
 /* ///////////// header  ////////////// */
 .head {
@@ -147,7 +161,7 @@ nav a {
   nav a:link {
     color: #000000; }
   nav a:visited {
-    color: #ffffff; }
+    color: #000000; }
   nav a:hover {
     color: #bda355;
     text-decoration: underline; }
@@ -234,7 +248,7 @@ nav a {
   /*width: 30%;*/ }
 
 .seventy {
-  margin-top: 6em;
+  margin-top: 7em;
   min-height: 100px;
   padding-left: 5%;
   padding-right: 7%;
@@ -432,6 +446,32 @@ input[type="submit"]:focus {
     padding: 2% 9%; }
 
 /* ///////////// form end ////////////// */
+/* ///////////// nail design ////////////// */
+.oneFourthNails {
+  padding: 0;
+  /*background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../assets/nailsSushi.jpg") no-repeat;*/ }
+  .oneFourthNails div {
+    height: 100%;
+    text-align: center; }
+    .oneFourthNails div a {
+      border: #bda355 solid 2px;
+      color: #bda355;
+      height: 60%; }
+      .oneFourthNails div a:hover {
+        text-decoration: none; }
+    .oneFourthNails div:first-child {
+      /*background-image: url("../assets/fashion1.jpg");*/
+      background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../assets/fashion1.jpg") no-repeat;
+      background-position: center center;
+      background-repeat: no-repeat;
+      background-size: 100% auto; }
+
+.nailsheight {
+  display: inline-block;
+  max-height: 65vh;
+  overflow: hidden; }
+
+/* ///////////// nail design end ////////////// */
 .policy {
   padding-top: 8.5rem;
   padding-bottom: 4rem; }
