@@ -406,6 +406,118 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 	max-height: 65vh;
 	overflow: hidden;
 }
+.heightfiftyfive{
+	min-height: 55vh;
+}
+.heightfortyfive{
+	min-height: 45vh;
+}
+.minheightforty{
+	min-height: 40vh;
+}
+.nailpadding{
+	@extend .basepadding;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.backgroundimg{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.diamond1{
+		background-image: url("../assets/discoverdiamond1.jpg");
+		background-position: center bottom;
+}
+.diamond2{
+		background-image: url("../assets/discoverdiamond2.jpg");
+		background-position: center bottom;
+}
+.discoverita1{
+		background-image: url("../assets/discoveritaA.jpg");
+		background-position: center bottom;
+}
+.discoverita2{
+		background-image: url("../assets/discoveritaB-1.jpg");
+		background-position: center bottom;
+}
+.page-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #222;
+    overflow: hidden;
+}
+.main-container {height: 100%; overflow: hidden;}
+.inner-main-container {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.inner-main-container::-webkit-scrollbar {width: 5px;}
+.inner-main-container::-webkit-scrollbar-track {background: #555;}
+.inner-main-container::-webkit-scrollbar-thumb {background: #EC3;}
+
+.collage-container {
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    /*max-width: 800px;
+    margin: 6% auto 100px;*/
+    overflow: hidden;
+}
+
+.photo-tile {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    transition: 0.25s ease;
+}
+.photo-tile::before {
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: rgba(20,20,20,0.4);
+    transition: 0.3s ease;
+}
+.photo-tile:hover::before {opacity: 0;}
+
+/* Photo tile height classes */
+.single {height: 100px;}
+.double {height: 200px;}
+.triple {height: 300px;}
+.quadruple {height: 400px;}
+.quintuple {height: 500px;}
+
+/* Photo tile width classes */
+.whole {width: 100%;}
+.three-quarters {width: 75%;}
+.two-thirds {width: 66.6666666%}
+.half {width: 50%;}
+.third {width: 33.3333333%;}
+.quarter {width: 25%;}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 480px) {
+    .three-quarters {width: 100%;}
+    .two-thirds {width: 100%}
+    .half {width: 100%;}
+    .third {width: 100%;}
+    .quarter {width: 100%;}
+    .triple {height: 200px;}
+    .quadruple {height: 200px;}
+    .quintuple {height: 300px;}
+}
 /* ///////////// nail design end ////////////// */
 
 .policy{
@@ -435,10 +547,13 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 	}
 }
 /* ///////////// footer ////////////// */
+footer{
+	height: 100%;
+}
 .fullpagefooter, footer{
 	background: $secondary;
 	clear: both;
-	height: 20vh;
+	/*height: 20vh;*/
 	.footerSplit{
 		display: flex;
 		justify-content: space-between;

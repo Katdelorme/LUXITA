@@ -21,29 +21,70 @@ include ('./includes/header.html');
 			</div>
 		</section>
 
-		<section class="section">
+    <section class="section greybg">
 			<div class="row">
-				<div class="col-md-8 col-xs-12 basepadding contactform">
-					<h1>Send Us A Message</h1>
-					<h3>Have any questions? Fill the form below.</h3>
-					<hr>
-					<form action="#" class="secondaryForm">
-								<input type="text" value="" name="FNAME" placeholder="First Name">
-								<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address">
-								<textarea rows="5" cols="50" name="message" id="yourmessage" placeholder="Message"></textarea>
-								<input type="submit" value="Send" name="">
-					</form>
-				</div>
-				<div class="col-md-4 col-xs-12 middle basepadding" style="background-color:#edece8;">
-					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae.</p>
-          <address>
-					<p>Marunouchi Trust Tower
-					<br>Main, 1-8-3 Marunouchi Chiyoda-ku,
-					<br>Tokyo, 100-8283, Japan</p>
-          </address>
-					<p><a href="tel:81355555555">T:(813) 5555 5555</a></p>
-				</div>
+        <div class="page-container">
+        <div class="main-container">
+          <div class="inner-main-container">
+            <div class="collage-container">
+              <div style="background: url('assets/discoverita1.jpg');" class="photo-tile third double"></div>
+              <div style="background: url('assets/discoverita2.jpg');" class="photo-tile third double"></div>
+              <div style="background: url('assets/discoverita3.jpg');" class="photo-tile third double"></div>
+              <div style="background: url('assets/discoverita4.jpg');" class="photo-tile whole triple"></div>
+              <div style="background: url('assets/discoverita5.jpg');" class="photo-tile half double"></div>
+              <div style="background: url('assets/discoverita6.jpg');" class="photo-tile half double"></div>
+
+              <div style="background: url('assets/discoverita7.jpg');" class="photo-tile quarter double"></div>
+              <div style="background: url('assets/discoverita8.jpg');" class="photo-tile quarter double"></div>
+              <div style="background: url('assets/discoverita9.jpg');" class="photo-tile quarter double"></div>
+              <div style="background: url('assets/discoverita10.jpg');" class="photo-tile quarter double"></div>
+
+              <div style="background: url('assets/discoverita11.jpg');" class="photo-tile third triple"></div>
+              <div style="background: url('assets/discoverita12.jpg');" class="photo-tile two-thirds triple"></div>
+
+              <div style="background: url('assets/discoverita13.jpg');" class="photo-tile whole triple"></div>
+
+              <div style="background: url('assets/discoverita14.jpg');" class="photo-tile three-quarters triple"></div>
+              <div style="background: url('assets/discoverita15.jpg');" class="photo-tile quarter triple"></div>
+
+              <div style="background: url('assets/discoverita16.jpg');" class="photo-tile whole quadruple"></div>
+            </div>
+          </div>
+        </div>
+        </div>
 			</div>
+		</section>
+
+    <section class="section">
+			<div class="row">
+        <div class="col-xs-12 basepadding">
+					<h1>History of Ita Nails</h1>
+					<h3>How an artform came to be</h3>
+					<hr>
+					<p>A sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc</p>
+          <p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc
+          </p>
+			</div>
+		</section>
+
+    <section class="section greybg">
+        <div class="row heightfortyfive">
+          <div class="col-md-5 col-xs-12 minheightforty backgroundimg discoverita1">
+          </div>
+          <div class="col-md-7 col-xs-12 basepadding nailpadding middle">
+            <h1>Title</h1>
+            <p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. </p>
+          </div>
+        </div>
+        <div class="row heightfiftyfive">
+          <div class="col-md-5 col-xs-12 basepadding nailpadding middle">
+            <h1>Booking</h1>
+            <p>Donec interdum tristique justo, a placerat dui posuere.</p>
+            <a href="#" class="btn">Book Now</a>
+          </div>
+          <div class="col-md-7 col-xs-12 minheightforty backgroundimg discoverita2">
+          </div>
+        </div>
 		</section>
 
 	</div><!--container close-->
