@@ -543,27 +543,16 @@ footer{
 .credit{
 	a{
 		color: $quaternary;
+		&:hover{
+			color: $primary;
+		}
 	}
 	span{
 		color: $primary;
 	}
 }
 .fullpagefooter, footer{
-	/*background: $secondary;*/
 	clear: both;
-	/*height: 20vh;*/
-	.footerSplit{
-		display: flex;
-		justify-content: space-between;
-		div{
-			&:first-of-type{
-
-			}
-			&:last-of-type{
-				text-align: right;
-			}
-		}
-	}
 }
 /* ///////////// footer end ////////////// */
 

@@ -638,18 +638,13 @@ footer {
 
 .credit a {
   color: #000000; }
+  .credit a:hover {
+    color: #bda355; }
 .credit span {
   color: #bda355; }
 
 .fullpagefooter, footer {
-  /*background: $secondary;*/
-  clear: both;
-  /*height: 20vh;*/ }
-  .fullpagefooter .footerSplit, footer .footerSplit {
-    display: flex;
-    justify-content: space-between; }
-    .fullpagefooter .footerSplit div:last-of-type, footer .footerSplit div:last-of-type {
-      text-align: right; }
+  clear: both; }
 
 /* ///////////// footer end ////////////// */
 @media (min-width: 576px) and (max-width: 767px) {
@@ -723,6 +718,9 @@ footer {
 
   .featuredStyleR {
     min-height: 30vh; }
+
+  .newsletter {
+    background-position: center center; }
 
   input[type="text"], input[type="email"] {
     width: 100%; }
