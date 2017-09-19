@@ -55,6 +55,19 @@ include ('./includes/header.html');
 				</div>
 				<div class="col-md-8 col-xs-12 seventy">
 					<h1>Ita Nails</h1>
+          <div class="page-container">
+            <div class="main-container">
+              <div class="inner-main-container">
+                <div class="collage-container">
+                  <div style="background: url('assets/discoverita1.jpg');" class="photo-tile half double"></div>
+                  <div style="background: url('assets/discoverita2.jpg');" class="photo-tile half double"></div>
+
+                  <div style="background: url('assets/discoverita5.jpg');" class="photo-tile half double"></div>
+                  <div style="background: url('assets/discoverita6.jpg');" class="photo-tile half double"></div>
+                </div>
+              </div>
+            </div>
+          </div>
 				</div>
 			</div>
     </section>

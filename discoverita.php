@@ -30,7 +30,9 @@ include ('./includes/header.html');
               <div style="background: url('assets/discoverita1.jpg');" class="photo-tile third double"></div>
               <div style="background: url('assets/discoverita2.jpg');" class="photo-tile third double"></div>
               <div style="background: url('assets/discoverita3.jpg');" class="photo-tile third double"></div>
+
               <div style="background: url('assets/discoverita4.jpg');" class="photo-tile whole triple"></div>
+
               <div style="background: url('assets/discoverita5.jpg');" class="photo-tile half double"></div>
               <div style="background: url('assets/discoverita6.jpg');" class="photo-tile half double"></div>
 

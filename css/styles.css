@@ -598,6 +598,12 @@ input[type="submit"]:focus {
 
   .quintuple {
     height: 300px; } }
+.seventy .page-container {
+  display: contents;
+  bottom: auto;
+  margin: 0 7%;
+  top: auto; }
+
 /* ///////////// nail design end ////////////// */
 .policy {
   padding-top: 8.5rem;
