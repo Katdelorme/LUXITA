@@ -46,7 +46,7 @@ include ('./includes/header.html');
 			</div>
 		</section>
 
-		<section class="section fp-auto-height fullpagefooter basepadding middle">
+		<!--<section class="section fp-auto-height fullpagefooter basepadding middle">
 			<div class="text-center">
 				<i class="fa fa-twitter fa-lg"></i>
 				<i class="fa fa-instagram fa-lg"></i>
@@ -61,7 +61,7 @@ include ('./includes/header.html');
 					<p>© 2017 LUXITA Ltd. All Rights Reserved</p>
 				</div>
 			</div>
-		</section>
+		</section>-->
 
 	</div><!--container close-->
 	</div><!--fullpage close-->
