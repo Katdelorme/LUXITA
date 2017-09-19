@@ -284,12 +284,10 @@ nav a {
     background-position: center center;
     background-repeat: no-repeat;
   	background-size: 100% auto;*/
-  /*align-items: center;*/
+  background-image: url("../assets/nailsSushi.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../assets/nailsSushi.jpg") no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  	/*display: flex;
-    justify-content: center;*/
   text-align: center; }
   .newsletter h1 {
     color: #ffffff; }
@@ -354,6 +352,9 @@ input[type="text"], input[type="email"] {
   outline: 0;
   width: 35%; }
 
+input::placeholder {
+  color: #ffffff; }
+
 input:focus, textarea:focus {
   background: none repeat scroll 0 0;
   border-bottom: 1px solid #000000;
@@ -409,6 +410,8 @@ input[type="submit"]:focus {
     border-bottom: 1px solid #000000;
     color: #000000;
     width: 100%; }
+  .secondaryForm input::placeholder {
+    color: #000000; }
   .secondaryForm input:focus {
     border-bottom: 1px solid #bda355;
     color: #bda355; }
@@ -619,10 +622,27 @@ input[type="submit"]:focus {
 
 /* ///////////// footer ////////////// */
 footer {
-  height: 100%; }
+  font-size: 0.8em;
+  height: 100%;
+  padding-bottom: 10px;
+  padding-top: 10px; }
+
+.legal {
+  display: inline-block; }
+  .legal a {
+    color: #000000;
+    margin: 0 0 0 10px;
+    text-decoration: underline; }
+    .legal a:hover {
+      color: #bda355; }
+
+.credit a {
+  color: #000000; }
+.credit span {
+  color: #bda355; }
 
 .fullpagefooter, footer {
-  background: #edece8;
+  /*background: $secondary;*/
   clear: both;
   /*height: 20vh;*/ }
   .fullpagefooter .footerSplit, footer .footerSplit {
@@ -672,12 +692,15 @@ footer {
   .hometopContent div a:first-of-type {
     display: none; }
 
-  .sixty .logosTwo {
-    flex-direction: column; }
-    .sixty .logosTwo img {
-      width: 100%; }
-      .sixty .logosTwo img:last-of-type {
-        margin-bottom: 6%; }
+  .sixty {
+    margin-top: 40px;
+    margin-bottom: 20px; }
+    .sixty .logosTwo {
+      flex-direction: column; }
+      .sixty .logosTwo img {
+        width: 100%; }
+        .sixty .logosTwo img:last-of-type {
+          margin-bottom: 6%; }
 
   .thirty {
     height: 30vh;

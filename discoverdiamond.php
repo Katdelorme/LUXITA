@@ -23,7 +23,7 @@ include ('./includes/header.html');
 
 		<section class="section greybg">
 			<div class="row">
-      <div class="page-container">
+      <!--s<div class="page-container">
       <div class="main-container">
         <div class="inner-main-container">
           <div class="collage-container">
@@ -67,7 +67,7 @@ include ('./includes/header.html');
             </div>
         </div>
       </div>
-			</div>
+    </div>-->
       </div>
 		</section>
 

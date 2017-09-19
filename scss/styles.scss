@@ -211,12 +211,10 @@ nav a{
   background-position: center center;
   background-repeat: no-repeat;
 	background-size: 100% auto;*/
-	/*align-items: center;*/
+	background-image: url("../assets/nailsSushi.jpg");
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../assets/nailsSushi.jpg") no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
-	/*display: flex;
-  justify-content: center;*/
 	text-align: center;
 	h1{
 		color: $tertiary;
@@ -293,6 +291,9 @@ input[type="text"], input[type="email"] {
 	outline: 0;
 	width: 35%;
 }
+input::placeholder{
+	color: $tertiary;
+}
 input:focus, textarea:focus {
 	background:none repeat scroll 0 0;
 	border-bottom: 1px solid $quaternary;
@@ -337,6 +338,9 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 		border-bottom: 1px solid $quaternary;
 		color: $quaternary;
 		width: 100%;
+	}
+	input::placeholder{
+		color: $quaternary;
 	}
 	input:focus{
 		border-bottom: 1px solid $primary;
@@ -520,10 +524,32 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 }
 /* ///////////// footer ////////////// */
 footer{
+	font-size: 0.8em;
 	height: 100%;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+.legal{
+	display: inline-block;
+	a{
+		color: $quaternary;
+		margin: 0 0 0 10px;
+		text-decoration: underline;
+		&:hover{
+			color: $primary;
+		}
+	}
+}
+.credit{
+	a{
+		color: $quaternary;
+	}
+	span{
+		color: $primary;
+	}
 }
 .fullpagefooter, footer{
-	background: $secondary;
+	/*background: $secondary;*/
 	clear: both;
 	/*height: 20vh;*/
 	.footerSplit{

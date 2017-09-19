@@ -21,7 +21,7 @@ include ('./includes/header.html');
 
 		<section class="section greybg basepadding theTeam">
 			<div class="row middle">
-				<h2 class="text-center">The Team - Salonists &amp; Partners</h2>
+				<!--<h2 class="text-center">The Team - Salonists &amp; Partners</h2>-->
 			</div>
 			<div class="row">
 				<div class="col-md-3 col-xs-12">
