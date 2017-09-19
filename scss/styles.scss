@@ -75,8 +75,16 @@ nav a{
   	color: $primary;
   }
 }
-.navbar-toggler-icon, .navbar-toggler{
-	background: $primary;
+/*.navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}*/
+.navbar-collapse {
+	background-color: rgba(237,236,232,.95);
+	a{
+		&:hover{
+			background: $quaternary;
+		}
+	}
 }
 /* ///////////// header end ////////////// */
 

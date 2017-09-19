@@ -170,8 +170,13 @@ nav a {
   nav a:focus {
     color: #bda355; }
 
-.navbar-toggler-icon, .navbar-toggler {
-  background: #bda355; }
+/*.navbar-toggler {
+    border-color: rgba(0,0,0,.1);
+}*/
+.navbar-collapse {
+  background-color: rgba(237, 236, 232, 0.95); }
+  .navbar-collapse a:hover {
+    background: #000000; }
 
 /* ///////////// header end ////////////// */
 .hometop {
