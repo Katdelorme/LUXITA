@@ -316,6 +316,11 @@ input[type="text"], input[type="email"] {
 input::placeholder{
 	color: $tertiary;
 }
+input::-webkit-input-placeholder {color: $tertiary;}
+input::-moz-placeholder {color: $tertiary;}
+input:-ms-input-placeholder {color: $tertiary;}
+input:-moz-placeholder {color: $tertiary;}
+
 input:focus, textarea:focus {
 	background:none repeat scroll 0 0;
 	border-bottom: 1px solid $quaternary;

@@ -20,7 +20,7 @@ include ('./includes/header.html');
         </div>
 				<div class="col-xs-12 text-center contact">
 					<h1>Nail Designs</h1>
-					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
+					<p>LUXITA creates high fashion nail collections, from minimalistic elegance to elaborate chic. The sky is the limit. View our selctions of nail designs below. Consultation with a nail artist is also available to customize something one-of-a kind for you.</p>
 					<a href="#" class="btn">Book Now</a>
 				</div>
 			</div>
@@ -55,7 +55,7 @@ include ('./includes/header.html');
 				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Ita Nails</h2>
           <p>Bringing art masterpieces to life at your fingertips.</p>
-          <p>Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+          <p>Ita - Nail is a specialized Japanese hand-painted art which uses the nail bed as a canvas. Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of “living art.”</p>
 				</div>
 				<div class="col-md-8 col-xs-12 nailDesignCollage">
           <div class="page-container">

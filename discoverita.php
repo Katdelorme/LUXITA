@@ -63,9 +63,8 @@ include ('./includes/header.html');
 					<h1>History of Ita Nails</h1>
 					<h3>How an artform came to be</h3>
 					<hr>
-					<p>A sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc</p>
-          <p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc
-          </p>
+					<p>Ita - Nail is a specialized Japanese hand-painted art which uses the nail bed as a canvas.</p>
+          <p>Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of “living art.” This nail technique requires skill at a painting master level and extreme attention to detail.</p>
 			</div>
 		</section>
 

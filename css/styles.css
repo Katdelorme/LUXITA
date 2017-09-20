@@ -373,6 +373,18 @@ input[type="text"], input[type="email"] {
 input::placeholder {
   color: #ffffff; }
 
+input::-webkit-input-placeholder {
+  color: #ffffff; }
+
+input::-moz-placeholder {
+  color: #ffffff; }
+
+input:-ms-input-placeholder {
+  color: #ffffff; }
+
+input:-moz-placeholder {
+  color: #ffffff; }
+
 input:focus, textarea:focus {
   background: none repeat scroll 0 0;
   border-bottom: 1px solid #000000;
@@ -795,6 +807,9 @@ footer {
 
   .heightFull {
     height: auto;
+    /* height: 100%;
+      display: block;
+      background: red;*/
     /*margin: 5px 0;*/ }
 
   .nailDesignCollage {
