@@ -12,35 +12,38 @@ include ('./includes/header.html');
 	<div class="container-fluid">
 
 		<section class="section">
-			<div class="row threeFourth middle">
+			<div class="row">
+        <div class="col-xs-12">
+          <a class="logoInside" href="index">
+            <img src="assets/luxitaLogo.png" alt="LUXITA">
+          </a>
+        </div>
 				<div class="col-xs-12 text-center contact">
 					<h1>Nail Designs</h1>
 					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
 					<a href="#" class="btn">Book Now</a>
 				</div>
 			</div>
-      <div class="row oneFourth oneFourthNails">
-        <div class="col-md-3 col-xs-6 middle">
-          <a href="#fashion" class="middle">Fashion Nail</a>
-        </div>
-        <div class="col-md-3 col-xs-6 middle">
-          <a href="#ita" class="middle">Ita Nail</a>
-        </div>
-        <div class="col-md-3 col-xs-6 middle">
-          <a href="#diamond" class="middle">Diamond Nail</a>
-        </div>
-        <div class="col-md-3 col-xs-6 middle">
-          <a href="#minimalistic" class="middle">Minimalistic Nail</a>
-        </div>
-      </div>
 		</section>
 
 		<section class="section" id="fashion">
 			<div class="row">
-				<div class="col-md-8 col-xs-12 seventy">
-					<h1>Fashion Nails</h1>
+				<div class="col-md-8 col-xs-12 nailDesignCollage">
+          <div class="page-container">
+            <div class="main-container">
+              <div class="inner-main-container">
+                <div class="collage-container">
+                  <div style="background: url('assets/fashion3.jpg');" class="photo-tile half triple"></div>
+                  <div style="background: url('assets/fashion2.jpg');" class="photo-tile half triple"></div>
+
+                  <div style="background: url('assets/fashion1.jpg');" class="photo-tile whole triple"></div>
+                </div>
+              </div>
+            </div>
+          </div><!--pg container-->
 				</div>
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull" style="background-color:#edece8;">
+				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
+          <h2>Fashion Nails</h2>
           <p>En vogue patterns and colors lined up on your nails.</p>
 					<p>Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
 				</div>
@@ -49,35 +52,48 @@ include ('./includes/header.html');
 
     <section  class="section" id="ita">
       <div class="row">
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull" style="background-color:#edece8;">
+				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
+          <h2>Ita Nails</h2>
           <p>Bringing art masterpieces to life at your fingertips.</p>
           <p>Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
 				</div>
-				<div class="col-md-8 col-xs-12 seventy">
-					<h1>Ita Nails</h1>
+				<div class="col-md-8 col-xs-12 nailDesignCollage">
           <div class="page-container">
             <div class="main-container">
               <div class="inner-main-container">
                 <div class="collage-container">
-                  <div style="background: url('assets/discoverita1.jpg');" class="photo-tile half double"></div>
-                  <div style="background: url('assets/discoverita2.jpg');" class="photo-tile half double"></div>
+                  <div style="background: url('assets/discoverita3.jpg');" class="photo-tile half triple"></div>
+                  <div style="background: url('assets/discoverita2.jpg');" class="photo-tile half triple"></div>
 
-                  <div style="background: url('assets/discoverita5.jpg');" class="photo-tile half double"></div>
-                  <div style="background: url('assets/discoverita6.jpg');" class="photo-tile half double"></div>
+                  <div style="background: url('assets/discoverita5.jpg');" class="photo-tile half triple"></div>
+                  <div style="background: url('assets/discoverita4.jpg');" class="photo-tile half triple"></div>
                 </div>
               </div>
             </div>
-          </div>
+          </div><!--pg container-->
 				</div>
 			</div>
     </section>
 
     <section class="section" id="diamond">
 			<div class="row">
-				<div class="col-md-8 col-xs-12 seventy">
-					<h1>Diamond Nails</h1>
+				<div class="col-md-8 col-xs-12 nailDesignCollage">
+          <div class="page-container">
+            <div class="main-container">
+              <div class="inner-main-container">
+                <div class="collage-container">
+                  <div style="background: url('assets/diamond-aboutMisson.jpeg');" class="photo-tile half triple"></div>
+                  <div style="background: url('assets/discoverdiamond1.jpg');" class="photo-tile half triple"></div>
+
+                  <div style="background: url('assets/discoverdiamond2.jpg');" class="photo-tile half triple"></div>
+                  <div style="background: url('assets/diamond-homeCover.jpg');" class="photo-tile half triple"></div>
+                </div>
+              </div>
+            </div>
+          </div><!--pg container-->
 				</div>
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull" style="background-color:#edece8;">
+				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
+          <h2>Diamond Nails</h2>
           <p>High quality diamonds applied directly to the nail bed.</p>
 					<p>Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
 				</div>
@@ -86,12 +102,28 @@ include ('./includes/header.html');
 
     <section  class="section" id="minimalistic">
       <div class="row">
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull" style="background-color:#edece8;">
+				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
+          <h2>Minimalistic Nails</h2>
           <p>Simplistic styles that make a sophisticated impact.</p>
           <p>Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
 				</div>
-				<div class="col-md-8 col-xs-12 seventy">
-					<h1>Minimalistic Nails</h1>
+				<div class="col-md-8 col-xs-12 nailDesignCollage">
+          <div class="page-container">
+            <div class="main-container">
+              <div class="inner-main-container">
+                <div class="collage-container">
+                  <div style="background: url('assets/minimalistic1.jpg');" class="photo-tile half quintuple"></div>
+
+                  <div class="photo-tile half quintuple">
+                    <div style="background: url('assets/minimalistic2.jpg');" class="photo-tile whole triple"></div>
+                    <div style="background: url('assets/minimalistic3.jpg');" class="photo-tile whole double"></div>
+                  </div>
+
+                  <!--<div style="background: url('https://awesomewallpaper.files.wordpress.com/2012/08/triforce.png');" class="photo-tile whole triple"></div>-->
+                </div>
+              </div>
+            </div>
+          </div><!--pg container-->
 				</div>
 			</div>
     </section>

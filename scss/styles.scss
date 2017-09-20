@@ -37,17 +37,35 @@ nav a{
   	color: $primary;
   }
 }
-/*.navbar-toggler {
+.navbar{
+	/*background: #292b2c;*/
+	background: $tertiary;
+}
+.navbar-toggler {
     border-color: rgba(0,0,0,.1);
-}*/
+}
+.navbar-toggler::before {
+    content:"Menu";
+		display: block;
+		font-size:0.8em;
+}
 .show {
-	background-color: rgba(237,236,232,.95);
+	/*background-color: rgba(237,236,232,.95);*/
 	a{
 		&:hover{
 			background: $quaternary;
 		}
 	}
 }
+.logoInside{
+	display: inline-block;
+	position: absolute;
+	top: 40px;
+  img{
+    width: 50%;
+  }
+}
+
 /* ///////////// header end ////////////// */
 
 .hometop{
@@ -175,6 +193,12 @@ nav a{
 	margin-top: 2%;
 	@extend .basepadding;
 }
+.columnThree{
+	div{
+		padding-left: 0;
+		padding-right: 30px;
+	}
+}
 .featuredStyle{
 	/*display: flex;*/
 	margin-top: 2%;
@@ -213,7 +237,6 @@ nav a{
 	background-size: 100% auto;*/
 	background-image: url("../assets/nailsSushi.jpg");
 	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../assets/nailsSushi.jpg") no-repeat;
-	background-attachment: fixed;
 	background-size: cover;
 	text-align: center;
 	h1{
@@ -236,7 +259,6 @@ nav a{
 	}
 }
 .abouttop{
-  background-attachment: fixed;
   background-image: url("../assets/chispa-aboutCover.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -354,9 +376,8 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 /* ///////////// form end ////////////// */
 
 /* ///////////// nail design ////////////// */
-.oneFourthNails{
+/*.oneFourthNails{
 	padding: 0;
-	/*background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../assets/nailsSushi.jpg") no-repeat;*/
 	div{
 		height:100%;
 		text-align: center;
@@ -369,14 +390,13 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 			}
 		}
 		&:first-child{
-			/*background-image: url("../assets/fashion1.jpg");*/
 			background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.9)), url("../assets/fashion1.jpg") no-repeat;
 		  background-position: center center;
 		  background-repeat: no-repeat;
 			background-size: 100% auto;
 		}
 	}
-}
+}*/
 .nailsheight{
 	display: inline-block;
 	max-height: 65vh;
@@ -393,7 +413,7 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 }
 .nailpadding{
 	@extend .basepadding;
-	padding-top: 20px;
+	padding-top: 40px;
 	padding-bottom: 20px;
 }
 .backgroundimg{
@@ -499,6 +519,22 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 	bottom: auto;
 	margin: 0 7%;
 	top: auto;
+}
+.nailDesignCollage{
+	padding: 0;
+	height: 100vh;
+}
+.nailDesignCollage .photo-tile::before {
+    background: none;
+}
+.nailDesignCollage .page-container {
+	display: contents;
+	bottom: auto;
+	margin: 0;
+	top: auto;
+}
+.nailDesignCollage .inner-main-container {
+    overflow-y: hidden;
 }
 /* ///////////// nail design end ////////////// */
 

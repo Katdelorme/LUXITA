@@ -133,13 +133,29 @@ nav a {
   nav a:focus {
     color: #bda355; }
 
-/*.navbar-toggler {
-    border-color: rgba(0,0,0,.1);
-}*/
+.navbar {
+  /*background: #292b2c;*/
+  background: #ffffff; }
+
+.navbar-toggler {
+  border-color: rgba(0, 0, 0, 0.1); }
+
+.navbar-toggler::before {
+  content: "Menu";
+  display: block;
+  font-size: 0.8em; }
+
 .show {
-  background-color: rgba(237, 236, 232, 0.95); }
+  /*background-color: rgba(237,236,232,.95);*/ }
   .show a:hover {
     background: #000000; }
+
+.logoInside {
+  display: inline-block;
+  position: absolute;
+  top: 40px; }
+  .logoInside img {
+    width: 50%; }
 
 /* ///////////// header end ////////////// */
 .hometop {
@@ -251,6 +267,10 @@ nav a {
 .columnThree {
   margin-top: 2%; }
 
+.columnThree div {
+  padding-left: 0;
+  padding-right: 30px; }
+
 .featuredStyle {
   /*display: flex;*/
   margin-top: 2%; }
@@ -286,7 +306,6 @@ nav a {
   	background-size: 100% auto;*/
   background-image: url("../assets/nailsSushi.jpg");
   background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.3)), url("../assets/nailsSushi.jpg") no-repeat;
-  background-attachment: fixed;
   background-size: cover;
   text-align: center; }
   .newsletter h1 {
@@ -303,7 +322,6 @@ nav a {
   margin-top: 2em; }
 
 .abouttop {
-  background-attachment: fixed;
   background-image: url("../assets/chispa-aboutCover.jpg");
   background-position: center center;
   background-repeat: no-repeat;
@@ -421,25 +439,27 @@ input[type="submit"]:focus {
 
 /* ///////////// form end ////////////// */
 /* ///////////// nail design ////////////// */
-.oneFourthNails {
-  padding: 0;
-  /*background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../assets/nailsSushi.jpg") no-repeat;*/ }
-  .oneFourthNails div {
-    height: 100%;
-    text-align: center; }
-    .oneFourthNails div a {
-      border: #bda355 solid 2px;
-      color: #bda355;
-      height: 60%; }
-      .oneFourthNails div a:hover {
-        text-decoration: none; }
-    .oneFourthNails div:first-child {
-      /*background-image: url("../assets/fashion1.jpg");*/
-      background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.9)), url("../assets/fashion1.jpg") no-repeat;
-      background-position: center center;
-      background-repeat: no-repeat;
-      background-size: 100% auto; }
-
+/*.oneFourthNails{
+	padding: 0;
+	div{
+		height:100%;
+		text-align: center;
+		a{
+			border: $primary solid 2px;
+			color: $primary;
+			height: 60%;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+		&:first-child{
+			background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.9)), url("../assets/fashion1.jpg") no-repeat;
+		  background-position: center center;
+		  background-repeat: no-repeat;
+			background-size: 100% auto;
+		}
+	}
+}*/
 .nailsheight {
   display: inline-block;
   max-height: 65vh;
@@ -455,7 +475,7 @@ input[type="submit"]:focus {
   min-height: 40vh; }
 
 .nailpadding {
-  padding-top: 20px;
+  padding-top: 40px;
   padding-bottom: 20px; }
 
 .backgroundimg {
@@ -604,6 +624,22 @@ input[type="submit"]:focus {
   margin: 0 7%;
   top: auto; }
 
+.nailDesignCollage {
+  padding: 0;
+  height: 100vh; }
+
+.nailDesignCollage .photo-tile::before {
+  background: none; }
+
+.nailDesignCollage .page-container {
+  display: contents;
+  bottom: auto;
+  margin: 0;
+  top: auto; }
+
+.nailDesignCollage .inner-main-container {
+  overflow-y: hidden; }
+
 /* ///////////// nail design end ////////////// */
 .policy {
   padding-top: 8.5rem;
@@ -657,6 +693,9 @@ footer {
   .secondaryForm {
     width: 100%; } }
 @media (max-width: 575px) {
+  .container-fluid section:first-of-type {
+    padding-top: 30px; }
+
   h1 {
     font-size: 3.1em; }
 
@@ -665,6 +704,19 @@ footer {
 
   h4 {
     font-size: 1.575em; }
+
+  .hometop {
+    background-image: none;
+    background-color: #ffffff; }
+
+  .thirty, .featuredStyleR {
+    display: none; }
+
+  .featuredStyleL h1 {
+    font-size: 1.875em; }
+
+  .featuredStyle {
+    padding-bottom: 20px; }
 
   .oneFourth {
     padding-bottom: 4%;
@@ -676,6 +728,9 @@ footer {
 
   .logo {
     width: 20%; }
+
+  .logoInside {
+    position: static; }
 
   .hometop, .abouttop {
     background-position: right center;
@@ -712,7 +767,8 @@ footer {
 
   .seventy {
     padding-left: 7%;
-    padding-right: 7%; }
+    padding-right: 7%;
+    margin-top: 4em; }
 
   .textColumn {
     -webkit-column-count: 0;
@@ -735,7 +791,16 @@ footer {
     margin: 0 7%; }
 
   .secondaryForm {
-    margin-bottom: 4%; } }
+    margin-bottom: 4%; }
+
+  .heightFull {
+    height: auto;
+    /*margin: 5px 0;*/ }
+
+  .nailDesignCollage {
+    padding: 0;
+    height: auto;
+    margin: 10px 0; } }
 @media (min-width: 576px) {
   .thirty {
     height: 30vh;
@@ -767,7 +832,7 @@ footer {
   p {
     font-size: 1em; }
 
-  .hometop, .abouttop {
+  .abouttop {
     background-position: right center;
     background-size: cover; }
 

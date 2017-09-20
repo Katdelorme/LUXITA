@@ -9,6 +9,11 @@
 
 // Mine, Extra Small devices
 @media (max-width: 575px) {
+  .container-fluid section{
+    &:first-of-type{
+      padding-top: 30px;
+    }
+  }
   h1 {
     font-size: 3.1em;
   }
@@ -17,6 +22,19 @@
   }
   h4 {
     font-size: 1.575em;
+  }
+  .hometop{
+    background-image: none;
+    background-color: $tertiary;
+  }
+  .thirty, .featuredStyleR{
+    display: none;
+  }
+  .featuredStyleL h1{
+    font-size: 1.875em;
+  }
+  .featuredStyle{
+    padding-bottom: 20px;
   }
   .oneFourth{
     padding-bottom: 4%;
@@ -30,6 +48,9 @@
   }
   .logo{
   	width: 20%;
+  }
+  .logoInside{
+  	position: static;
   }
   .hometop, .abouttop{
     background-position: right center;
@@ -70,6 +91,7 @@
   .seventy{
   	padding-left: 7%;
   	padding-right: 7%;
+    margin-top: 4em;
   }
   .textColumn{
   	-webkit-column-count: 0;
@@ -93,6 +115,15 @@
   }
   .secondaryForm {
     margin-bottom: 4%;
+  }
+  .heightFull{
+    height: auto;
+    /*margin: 5px 0;*/
+  }
+  .nailDesignCollage{
+  	padding: 0;
+  	height: auto;
+    margin: 10px 0;
   }
 }
 // Small devices (landscape phones, 576px and up)
@@ -131,7 +162,7 @@
   p {
     font-size: 1em;
   }
-  .hometop, .abouttop{
+  .abouttop{
     background-position: right center;
     background-size: cover;
   }
