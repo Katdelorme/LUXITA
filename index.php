@@ -80,10 +80,9 @@ include ('./includes/header.html');
 				<div class="featuredStyleL col-md-5 col-xs-12">
 					<h1>Minimalistic</h1>
 					<p>Simplistic styles that make a sophisticated impact. Nails that cater to every occasion. Note something with personality Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
-					<a href="#" class="btn">Select Your Style</a>
+					<a href="naildesigns" class="btn">Select Your Style</a>
 				</div>
 				<div class="featuredStyleR col-md-7 col-xs-12">
-					<!--<img src="assets/venuesGemsBrownLarge.jpg" alt="Example nails. A set of brown nails with jems on top" />-->
 				</div>
 			</div>
 		</section>

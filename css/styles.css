@@ -721,6 +721,11 @@ footer {
     background-image: none;
     background-color: #ffffff; }
 
+  .abouttop {
+    background: linear-gradient(rgba(189, 163, 85, 0.7), rgba(255, 255, 255, 0.8)), url("../assets/chispa-aboutCover.jpg") no-repeat; }
+    .abouttop h1, .abouttop h3 {
+      color: #ffffff; }
+
   .thirty, .featuredStyleR {
     display: none; }
 
@@ -751,7 +756,7 @@ footer {
   .hometopContent {
     background-image: none;
     background: rgba(255, 255, 255, 0.7);
-    width: 100%; }
+    width: 95%; }
 
   .hometopContent .btn {
     display: block;

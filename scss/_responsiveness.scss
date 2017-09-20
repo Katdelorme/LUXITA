@@ -27,6 +27,12 @@
     background-image: none;
     background-color: $tertiary;
   }
+  .abouttop{
+    background: linear-gradient(rgba(189,163,85,0.7), rgba(255,255,255,0.8)), url("../assets/chispa-aboutCover.jpg") no-repeat;
+    h1, h3{
+      color: $tertiary;
+    }
+  }
   .thirty, .featuredStyleR{
     display: none;
   }
@@ -59,7 +65,7 @@
   .hometopContent{
   	background-image: none;
     background: rgba(255,255,255,0.7);
-  	width: 100%;
+  	width: 95%;
   }
   .hometopContent .btn {
       display: block;
