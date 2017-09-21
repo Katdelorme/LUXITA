@@ -1,7 +1,7 @@
 <?php
 $page_title='Discover Ita Nails - LUXITA';
 $page_desc='Ita Nail are a specialized Japanese hand-painted art which uses the nail bed as a canvas. Place manga, anime characters, movie star face or pet on your nails. Located at the Shangri-La Tokyo.';
-$page_keywords="LUXITA salon, 3D nails, dragon ball super nails, dragon ball super ita, naruto shippuden nails, one piece nail designs, sushi nail designs, animal nail designs, one piece chopper nail designs, Your Name nail designs, kimi no na wa nail designs, Disney nail designs, Maleficent nail designs, Maleficent nails in Tokyo, Sailor Moon nails";
+$page_keywords="LUXITA salon, 3D nails, dragon ball super nails, dragon ball super ita, naruto shippuden nails, one piece nail designs, sushi nail designs, animal nail designs, one piece chopper nail designs, Your Name nail designs, kimi no na wa nail designs, Disney nail designs, Maleficent nail designs, Maleficent nails in Tokyo, Sailor Moon nails, English speaking nail salon in Japan";
 $facebook_img="http://luxita.com/assets/fbDiscoverita.png";
 $twitter_img="http://luxita.com/assets/twitterDiscoverita.png";
 include ('./includes/header.html');

@@ -1,7 +1,7 @@
 <?php
 $page_title='Nail Designs - LUXITA';
 $page_desc='Located in the Shangri-La Tokyo, LUXITA is a luxury nail salon that combinations Luxury with Ita nails. View the selection of the nail designs.';
-$page_keywords="LUXITA salon nail designs, luxita nail designs, diamond nails in Tokyo, fashion nails, ita nails, diamond nails, minimalistic nails, Winnie The Pooh nails, My Neighbor Totoro inspired nails, poliish nail salon, acrylic nails, crystal nails, 3D nails";
+$page_keywords="LUXITA salon nail designs, luxita nail designs, diamond nails in Tokyo, fashion nails, ita nails, diamond nails, minimalistic nails, Winnie The Pooh nails, My Neighbor Totoro inspired nails, poliish nail salon, acrylic nails, crystal nails, 3D nails, English speaking nail salon in Japan";
 $facebook_img="http://luxita.com/assets/twitterNaildesigns.png";
 $twitter_img="http://luxita.com/assets/fbNaildesigns.png";
 include ('./includes/header.html');

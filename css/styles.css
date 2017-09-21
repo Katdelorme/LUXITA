@@ -167,9 +167,9 @@ nav a {
 
 .hometopContent {
   background-image: url("../assets/shape.png");
-  background-position: center center;
+  background-position: right center;
   background-repeat: no-repeat;
-  background-size: 100% auto;
+  background-size: cover;
   height: 100vh;
   width: 60%;
   /*padding-top: 15%;*/ }

@@ -1,7 +1,7 @@
 <?php
 $page_title='Discover Diamond Nails - LUXITA';
 $page_desc='Diamond nails are the most luxurious nail treatment in the world. High quality diamonds of all colors are applied directly to the nail bed, with gel and a patented application method. Located at the Shangri-La Tokyo.';
-$page_keywords="LUXITA salon, High quality diamonds, warranty for diamonds, warranty for diamond nails, Can I get diamonds on my nail, where can I get diamonds on my nail, fancy nail designs, diamond nail tips, diamond nails in Tokyo, Diamond nails in Japan, diamond nails spa, diamond nails and spa, blue diamond nails, white diamond nails, diamond nails prices, diamond nails and spa ";
+$page_keywords="LUXITA salon, High quality diamonds, warranty for diamonds, warranty for diamond nails, Can I get diamonds on my nail, where can I get diamonds on my nail, fancy nail designs, diamond nail tips, diamond nails in Tokyo, Diamond nails in Japan, diamond nails spa, diamond nails and spa, blue diamond nails, white diamond nails, diamond nails prices, diamond nails and spa, English speaking nail salon in Japan";
 $facebook_img="http://luxita.com/assets/fbDiscoverdiamond.png";
 $twitter_img="http://luxita.com/assets/twitterDiscoverdismond.png";
 include ('./includes/header.html');
