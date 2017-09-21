@@ -1,9 +1,9 @@
 <?php
 $page_title='Privacy Policy - LUXITA';
-$page_desc='';
-$page_keywords="";
-$facebook_img="";
-$twitter_img="";
+$page_desc='LUXITA is a luxury nail salon located at the Shangri-La Hotel in Tokyo. A combination of Luxury and Ita nails. View the Privacy Policy.';
+$page_keywords="LUXITA Salon in Tokyo, Tokyo Luxury nail salon, Nail salon in Tokyo, LUXITA Salon privacy and policy, LUXITA Salon privacy, LUXITA Salon policy,";
+$facebook_img="http://luxita.com/assets/fbGeneral.png";
+$twitter_img="http://luxita.com/assets/twitterGeneral.png";
 include ('./includes/header.html');
 /* PAGE CONTENT STARTS HERE! */
 ?>

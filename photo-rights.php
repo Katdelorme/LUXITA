@@ -1,9 +1,9 @@
 <?php
 $page_title='Photo Rights - LUXITA';
-$page_desc='';
-$page_keywords="";
-$facebook_img="";
-$twitter_img="";
+$page_desc='LUXITA is a luxury nail salon located at the Shangri-La Hotel in Tokyo. A combination of Luxury and Ita nails. View the Photo Rights.';
+$page_keywords="LUXITA Salon in Tokyo, Tokyo Luxury nail salon, Nail salon in Tokyo, LUXITA Salon photo rights, can I use LUXITA images, how to get permission to use LUXITA photos";
+$facebook_img="http://luxita.com/assets/fbGeneral.png";
+$twitter_img="http://luxita.com/assets/twitterGeneral.png";
 include ('./includes/header.html');
 /* PAGE CONTENT STARTS HERE! */
 ?>

@@ -1,9 +1,9 @@
 <?php
 $page_title='About - LUXITA';
-$page_desc='';
-$page_keywords="About LUXITA, About Luxita, about Japanese nails Luxita, Luxita staff, Luxita owner, Luxita founder, where is Luxita";
-$facebook_img="";
-$twitter_img="";
+$page_desc='Located at the Shangri-La Hotel in Tokyo, Luxita is a luxury salon with a mix of designs. Meet the staff and discover the salons mission.';
+$page_keywords="About LUXITA, about Japanese nails Luxita, Luxita staff, Luxita owner, Luxita founder, where is Luxita, Janica Southwick, Rtutato Kashima, Yuki Abe, Riyo Suzuki, Bringing fashion to your finger tips";
+$facebook_img="http://luxita.com/assets/fbGeneral.png";
+$twitter_img="http://luxita.com/assets/twitterGeneral.png";
 include ('./includes/header.html');
 /* PAGE CONTENT STARTS HERE! */
 ?>
