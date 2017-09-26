@@ -29,7 +29,7 @@ include ('./includes/header.html');
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xs-12 heightfiftyfive hidden-sm-down" style="background: url('assets/discoverdiamond5.jpg'); background-size:cover;">
+        <div class="col-md-6 col-xs-12 heightfiftyfive hidden-sm-down xs-none" style="background: url('assets/discoverdiamond5.jpg'); background-size:cover;">
         </div>
         <div class="col-md-6 col-xs-12 heightfortyfive" style="background: url('assets/discoverdiamond6.jpg'); background-size:cover;background-position:center bottom;">
         </div>

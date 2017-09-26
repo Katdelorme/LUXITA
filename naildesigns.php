@@ -28,21 +28,19 @@ include ('./includes/header.html');
 
 		<section class="section" id="fashion">
 			<div class="row">
-				<div class="col-md-8 col-xs-12 nailDesignCollage">
-          <div class="page-container">
-            <div class="main-container">
-              <div class="inner-main-container">
-                <div class="collage-container">
-                  <div style="background: url('assets/fashion3.jpg');" class="photo-tile half triple"></div>
-                  <div style="background: url('assets/fashion2.jpg');" class="photo-tile half triple"></div>
-
-                  <div style="background: url('assets/fashion1.jpg');" class="photo-tile whole triple"></div>
-                </div>
-              </div>
+				<div class="col-md-8 col-xs-12 nailDesignCollage flex-unordered">
+          <div class="row">
+            <div class="col-md-6 col-xs-12 heightfiftyfive" style="background: url('assets/fashion3.jpg'); background-size:cover;background-position:center center;">
             </div>
-          </div><!--pg container-->
+            <div class="col-md-6 col-xs-12 heightfiftyfive" style="background: url('assets/fashion2.jpg'); background-size:cover;background-position:center center;">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 heightfortyfive" style="background: url('assets/fashion1.jpg'); background-size:cover;background-position:center center;">
+            </div>
+          </div>
 				</div>
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
+				<div class="col-md-4 col-xs-12 xs-move-to-first middle basepadding heightFull xs-top">
           <h2>Fashion Nails</h2>
           <p>En vogue patterns and colors lined up on your nails.</p>
 					<p>Beyond the hand bags. Gone are the days of an old-school single colored manicure. Nails are the most intimate fashion accessory, literally becoming one with the wearer. Form a literal bond with your manicure because this fashion accessory cannot be changed and removed like earrings or a handbag.</p>
@@ -52,47 +50,45 @@ include ('./includes/header.html');
 
     <section  class="section" id="ita">
       <div class="row">
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
+				<div class="col-md-4 col-xs-12 middle basepadding heightFull xs-top">
           <h2>Ita Nails</h2>
           <p>Bringing art masterpieces to life at your fingertips.</p>
           <p>Ita - Nail is a specialized Japanese hand-painted art which uses the nail bed as a canvas. Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of “living art.”</p>
 				</div>
 				<div class="col-md-8 col-xs-12 nailDesignCollage">
-          <div class="page-container">
-            <div class="main-container">
-              <div class="inner-main-container">
-                <div class="collage-container">
-                  <div style="background: url('assets/discoverita3.jpg');" class="photo-tile half triple"></div>
-                  <div style="background: url('assets/discoverita2.jpg');" class="photo-tile half triple"></div>
-
-                  <div style="background: url('assets/discoverita5.jpg');" class="photo-tile half triple"></div>
-                  <div style="background: url('assets/discoverita4.jpg');" class="photo-tile half triple"></div>
-                </div>
-              </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-12 heightfiftyfive" style="background: url('assets/discoverita3.jpg'); background-size:cover;background-position:center center;">
             </div>
-          </div><!--pg container-->
+            <div class="col-md-6 col-xs-12 heightfiftyfive" style="background: url('assets/discoverita2.jpg'); background-size:cover;background-position:center center;">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-xs-12 heightfortyfive" style="background: url('assets/discoverita5.jpg'); background-size:cover;background-position:center center;">
+            </div>
+            <div class="col-6 col-xs-12 heightfortyfive" style="background: url('assets/discoverita4.jpg'); background-size:cover;background-position:center center;">
+            </div>
+          </div>
 				</div>
 			</div>
     </section>
 
     <section class="section" id="diamond">
 			<div class="row">
-				<div class="col-md-8 col-xs-12 nailDesignCollage">
-          <div class="page-container">
-            <div class="main-container">
-              <div class="inner-main-container">
-                <div class="collage-container">
-                  <div style="background: url('assets/diamond-aboutMisson.jpeg');" class="photo-tile half triple"></div>
-                  <div style="background: url('assets/discoverdiamond1.jpg');" class="photo-tile half triple"></div>
-
-                  <div style="background: url('assets/discoverdiamond2.jpg');" class="photo-tile half triple"></div>
-                  <div style="background: url('assets/diamond-homeCover.jpg');" class="photo-tile half triple"></div>
-                </div>
-              </div>
+				<div class="col-md-8 col-xs-12 flex-unordered nailDesignCollage">
+          <div class="row">
+            <div class="col-md-6 col-xs-12 heightfiftyfive" style="background: url('assets/diamond-aboutMisson.jpeg'); background-size:cover;background-position:center center;">
             </div>
-          </div><!--pg container-->
+            <div class="col-md-6 col-xs-12 heightfiftyfive" style="background: url('assets/discoverdiamond1.jpg'); background-size:cover;background-position:center center;">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-6 col-xs-12 heightfortyfive" style="background: url('assets/discoverdiamond2.jpg'); background-size:cover;background-position:center center;">
+            </div>
+            <div class="col-6 col-xs-12 heightfortyfive" style="background: url('assets/diamond-homeCover.jpg'); background-size:cover;background-position:center center;">
+            </div>
+          </div>
 				</div>
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
+				<div class="col-md-4 col-xs-12 xs-move-to-first middle basepadding heightFull xs-top">
           <h2>Diamond Nails</h2>
           <p>Diamond nails applied directly to the nail bed.</p>
 					<p>Making it one of the most luxurious nail forms in the world. A girl's best friend will now be on your fingers all day everyday making you feel like the princess you are. The diamonds used are re-applicable and reusable for treatment. Make your day brighter over and over again.</p>
@@ -102,28 +98,22 @@ include ('./includes/header.html');
 
     <section  class="section" id="minimalistic">
       <div class="row">
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
+				<div class="col-md-4 col-xs-12 middle basepadding heightFull xs-top">
           <h2>Minimalistic Nails</h2>
           <p>Simplistic styles that make a sophisticated impact.</p>
           <p>Nails that cater to every occasion. Beautifully designed to help step up your look. A part of fashion and a statement all on their own.</p>
 				</div>
 				<div class="col-md-8 col-xs-12 nailDesignCollage">
-          <div class="page-container">
-            <div class="main-container">
-              <div class="inner-main-container">
-                <div class="collage-container">
-                  <div style="background: url('assets/minimalistic1.jpg');" class="photo-tile half quintuple"></div>
-
-                  <div class="photo-tile half quintuple">
-                    <div style="background: url('assets/minimalistic2.jpg');" class="photo-tile whole triple"></div>
-                    <div style="background: url('assets/minimalistic3.jpg');" class="photo-tile whole double"></div>
-                  </div>
-
-                  <!--<div style="background: url('https://awesomewallpaper.files.wordpress.com/2012/08/triforce.png');" class="photo-tile whole triple"></div>-->
-                </div>
+          <div class="row">
+            <div class="col-md-6 col-xs-12 heightFull" style="background: url('assets/minimalistic1.jpg'); background-size:cover;background-position:center center;background-repeat: no-repeat;height:100vh;">
+            </div>
+            <div class="col-md-6 col-xs-12 heightFull nopadding">
+              <div class="heightfiftyfive" style="background: url('assets/minimalistic2.jpg'); background-size:cover;background-position:center center;">
+              </div>
+              <div class="heightfortyfive" style="background: url('assets/minimalistic3.jpg'); background-size:cover;background-position:center center;">
               </div>
             </div>
-          </div><!--pg container-->
+          </div>
 				</div>
 			</div>
     </section>

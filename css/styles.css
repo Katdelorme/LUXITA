@@ -107,6 +107,9 @@ hr {
     padding: 0;
     width: 100%; }
 
+.nopadding {
+  padding: 0; }
+
 /* ///////////// header  ////////////// */
 .head {
   clear: both;
@@ -640,20 +643,20 @@ input[type="submit"]:focus {
 
 .nailDesignCollage {
   padding: 0;
-  height: 100vh; }
+  /*height: 100vh;*/ }
 
-.nailDesignCollage .photo-tile::before {
-  background: none; }
-
+/*.nailDesignCollage .photo-tile::before {
+    background: none;
+}
 .nailDesignCollage .page-container {
-  display: contents;
-  bottom: auto;
-  margin: 0;
-  top: auto; }
-
+	display: contents;
+	bottom: auto;
+	margin: 0;
+	top: auto;
+}
 .nailDesignCollage .inner-main-container {
-  overflow-y: hidden; }
-
+    overflow-y: hidden;
+}*/
 /* ///////////// nail design end ////////////// */
 .policy {
   padding-top: 8.5rem;
@@ -821,7 +824,16 @@ footer {
     margin: 10px 0; }
 
   .xs-none {
-    display: none; } }
+    display: none; }
+
+  .xs-move-to-first {
+    -webkit-box-ordinal-group: 0;
+    -webkit-order: -1;
+    -ms-flex-order: -1;
+    order: -1; }
+
+  .xs-top {
+    margin-top: 100px; } }
 @media (min-width: 576px) {
   .thirty {
     height: 30vh;

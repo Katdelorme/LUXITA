@@ -528,9 +528,9 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 }
 .nailDesignCollage{
 	padding: 0;
-	height: 100vh;
+	/*height: 100vh;*/
 }
-.nailDesignCollage .photo-tile::before {
+/*.nailDesignCollage .photo-tile::before {
     background: none;
 }
 .nailDesignCollage .page-container {
@@ -541,7 +541,7 @@ input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 }
 .nailDesignCollage .inner-main-container {
     overflow-y: hidden;
-}
+}*/
 /* ///////////// nail design end ////////////// */
 
 .policy{
