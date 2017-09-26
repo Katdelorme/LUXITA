@@ -46,7 +46,13 @@
 				echo 'LUXITA - Bringing Fashion To Your Finger Tips';
 		}
 	?>" />
-	<meta name="twitter:description" content="Bringing fashion to your fingertips. LUXITA is a luxury nail salon located at the Shangri-La Hotel Tokyo. A blend of Luxury and Ita nails." />
+	<meta name="twitter:description" content="<?php
+		if (isset($page_desc)) {
+				echo $page_desc;
+		} else {
+				echo 'Bringing fashion to your fingertips. LUXITA is a luxury nail salon located at the Shangri-La Hotel Tokyo. A blend of Luxury and Ita nails.';
+		}
+		?>" />
 	<meta name="twitter:image" content="<?php
 		if (isset($twitter_img)) {
 				echo $twitter_img;
@@ -64,12 +70,18 @@
 				echo 'LUXITA - Bringing Fashion To Your Finger Tips';
 		}
 	?>" />
-	<meta property="og:description" content="Bringing fashion to your fingertips. LUXITA is a luxury nail salon located at the Shangri-La Hotel Tokyo. A blend of Luxury and Ita nails." />
+	<meta property="og:description" content="<?php
+		if (isset($page_desc)) {
+				echo $page_desc;
+		} else {
+				echo 'Bringing fashion to your fingertips. LUXITA is a luxury nail salon located at the Shangri-La Hotel Tokyo. A blend of Luxury and Ita nails.';
+		}
+		?>" />
 	<meta property="og:image" content="<?php
 		if (isset($facebook_img)) {
 				echo $facebook_img;
 		} else {
-				echo 'http://luxita.com/assets/fbHome.png';
+				echo 'http://luxita.com/assets/social/fbHome.png';
 		}
 		?>" />
 	<!--robots index-->
