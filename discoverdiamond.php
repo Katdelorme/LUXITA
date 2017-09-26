@@ -23,13 +23,13 @@ include ('./includes/header.html');
 
 		<section class="section greybg">
 			<div class="row">
-        <div class="col-md-6 col-xs-12 heightfortyfive" style="background: url('assets/discoverdiamond4.jpg'); background-size:cover;background-position:center bottom;background-repeat: no-repeat;">
+        <div class="col-md-6 col-xs-12 heightfiftyfive" style="background: url('assets/discoverdiamond4.jpg'); background-size:cover;background-position:center bottom;background-repeat: no-repeat;">
         </div>
         <div class="col-md-6 col-xs-12 heightfiftyfive" style="background: url('assets/discoverdiamond3.jpg'); background-size:cover; background-position:center bottom;background-repeat: no-repeat;">
         </div>
       </div>
       <div class="row">
-        <div class="col-md-6 col-xs-12 heightfiftyfive hidden-sm-down xs-none" style="background: url('assets/discoverdiamond5.jpg'); background-size:cover;background-repeat: no-repeat;">
+        <div class="col-md-6 col-xs-12 heightfortyfive hidden-sm-down xs-none" style="background: url('assets/discoverdiamond5.jpg'); background-size:cover;background-repeat: no-repeat;">
         </div>
         <div class="col-md-6 col-xs-12 heightfortyfive" style="background: url('assets/discoverdiamond6.jpg'); background-size:cover;background-position:center bottom;background-repeat: no-repeat;">
         </div>
