@@ -364,7 +364,9 @@ input[type="submit"]:active{cursor: pointer;background-color: $primary;}
 input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
 
 .secondaryForm{
+	color: $quaternary;
 	width: 80%;
+	*{color: $quaternary;}
 	input[type="text"], input[type="email"] {
 		border-bottom: 1px solid $quaternary;
 		color: $quaternary;

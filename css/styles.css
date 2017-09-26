@@ -444,7 +444,10 @@ input[type="submit"]:focus {
   background-color: #bda355; }
 
 .secondaryForm {
+  color: #000000;
   width: 80%; }
+  .secondaryForm * {
+    color: #000000; }
   .secondaryForm input[type="text"], .secondaryForm input[type="email"] {
     border-bottom: 1px solid #000000;
     color: #000000;
