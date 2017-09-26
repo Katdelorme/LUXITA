@@ -2,8 +2,8 @@
 $page_title='Contact - LUXITA';
 $page_desc='Visit the LUXITA salon or get in contact. Located at the Shangri-La Tokyo.';
 $page_keywords="Contact LUXITA, contact Luxita, how to schedule a nail appointment in Luxita, schedule nail appointment, Luxita phone number, Luxita address, Luxita email, where is Luxita, address of Luxita, English speaking nail salon in Japan, Nail salon near Tokyo Station";
-$facebook_img="http://luxita.com/assets/fbGeneral.png";
-$twitter_img="http://luxita.com/assets/twitterGeneral.png";
+$facebook_img="http://luxita.com/assets/social/fbGeneral.png";
+$twitter_img="http://luxita.com/assets/social/twitterGeneral.png";
 include ('./includes/header.html');
 /* PAGE CONTENT STARTS HERE! */
 ?>
