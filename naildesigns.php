@@ -50,7 +50,7 @@ include ('./includes/header.html');
 
     <section  class="section" id="ita">
       <div class="row">
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull xs-top">
+				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Ita Nails</h2>
           <p>Bringing art masterpieces to life at your fingertips.</p>
           <p>Ita - Nail is a specialized Japanese hand-painted art which uses the nail bed as a canvas. Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of “living art.”</p>
@@ -88,7 +88,7 @@ include ('./includes/header.html');
             </div>
           </div>
 				</div>
-				<div class="col-md-4 col-xs-12 xs-move-to-first middle basepadding heightFull xs-top">
+				<div class="col-md-4 col-xs-12 xs-move-to-first middle basepadding heightFull">
           <h2>Diamond Nails</h2>
           <p>Diamond nails applied directly to the nail bed.</p>
 					<p>Making it one of the most luxurious nail forms in the world. A girl's best friend will now be on your fingers all day everyday making you feel like the princess you are. The diamonds used are re-applicable and reusable for treatment. Make your day brighter over and over again.</p>
@@ -98,7 +98,7 @@ include ('./includes/header.html');
 
     <section  class="section" id="minimalistic">
       <div class="row">
-				<div class="col-md-4 col-xs-12 middle basepadding heightFull xs-top">
+				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Minimalistic Nails</h2>
           <p>Simplistic styles that make a sophisticated impact.</p>
           <p>Nails that cater to every occasion. Beautifully designed to help step up your look. A part of fashion and a statement all on their own.</p>

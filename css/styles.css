@@ -762,11 +762,12 @@ footer {
     padding-bottom: 20px; }
 
   .oneFourth {
-    padding-bottom: 4%;
-    padding-top: 4%; }
+    padding-bottom: 10%;
+    padding-top: 10%; }
     .oneFourth h1 {
       font-size: 2.7em; }
     .oneFourth a.btn {
+      margin-top: 8%;
       font-size: 1em; }
 
   .logo {
