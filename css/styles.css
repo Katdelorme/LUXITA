@@ -564,7 +564,7 @@ input[type="submit"]:focus {
   position: absolute;
   height: 100%;
   width: 100%;
-  background: rgba(20, 20, 20, 0.4);
+  /*background: rgba(20,20,20,0.4);*/
   transition: 0.3s ease; }
 
 .photo-tile:hover::before {
