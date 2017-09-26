@@ -14,9 +14,15 @@ include ('./includes/header.html');
           <!--Nail designs soaring to new heights, <br>where only the sky is the limit.-->
         </p>
         <div>
-        <a href="naildesigns" class="btn">View Styles</a>
-        <a href="contact" class="btn">Book Now</a>
-      </div>
+          <a href="naildesigns" class="btn">View Styles</a>
+          <a href="contact" class="btn">Book Now</a>
+        </div>
+        <div class="row" style="min-height:150px;margin-top:2%;">
+          <div class="col-md-4 col-xs-12" style="background: url('assets/logoShangrilaTokyo.png'); background-size:contain;background-repeat: no-repeat;">
+          </div>
+          <div class="col-md-4 col-xs-12 offset-md-4" style="background: url('assets/logoChiSpa.png'); background-size:contain;background-repeat: no-repeat;">
+          </div>
+        </div>
 			</div>
 		</section>
 

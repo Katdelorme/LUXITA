@@ -85,7 +85,7 @@ nav a{
 	width: 60%;
   /*padding-top: 15%;*/
 	div{
-		display: inline-block;
+		/*display: inline-block;*/
 		a:first-of-type{
 			margin-right: 2%;
 		}
@@ -259,7 +259,7 @@ nav a{
 	}
 }
 .abouttop{
-  background-image: url("../assets/chispa-aboutCover.jpg");
+  background-image: url("../assets/chispa1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
 	background-size: 100% auto;
@@ -282,8 +282,9 @@ nav a{
 	}
 }
 .aboutThirty{
-	background-image: url("../assets/chiSpaLounge.jpg");
-  background-position: right center;
+	/*background-image: url("../assets/chiSpaLounge.jpg");*/
+	background-image: url("../assets/chiSpa2.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
 	background-size: cover;
 	height: 100vh;
