@@ -17,7 +17,7 @@ include ('./includes/header.html');
           <a href="naildesigns" class="btn">View Styles</a>
           <a href="contact" class="btn">Book Now</a>
         </div>
-        <div class="row" style="min-height:150px;margin-top:2%;">
+        <div class="row hotelLogo">
           <div class="col-4" style="background: url('assets/logoShangrilaTokyo.png'); background-size:contain;background-repeat: no-repeat;">
           </div>
           <div class="col-4 offset-4" style="background: url('assets/logoChiSpa.png'); background-size:contain;background-repeat: no-repeat;">
