@@ -15,7 +15,7 @@ include ('./includes/header.html');
 			<div class="row">
 				<div class="col-xs-12 text-center contact">
 					<h1>Discover Ita Nails</h1>
-					<p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
+					<p>This is fake text please create the copy: Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
 					<a href="#" class="btn">Book Now</a>
 				</div>
 			</div>
@@ -63,8 +63,8 @@ include ('./includes/header.html');
 					<h1>History of Ita Nails</h1>
 					<h3>How an artform came to be</h3>
 					<hr>
-					<p>Ita - Nail is a specialized Japanese hand-painted art which uses the nail bed as a canvas.</p>
-          <p>Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of “living art.” This nail technique requires skill at a painting master level and extreme attention to detail.</p>
+					<p>Ita - Nail is a specialized Japanese hand-painted art which uses the nail bed as a canvas. Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of “living art.” This nail technique requires skill at a painting master level and extreme attention to detail.</p>
+          <p>This section can use more information</p>
 			</div>
 		</section>
 
@@ -74,13 +74,13 @@ include ('./includes/header.html');
           </div>
           <div class="col-md-7 col-xs-12 basepadding nailpadding middle">
             <h1>Title</h1>
-            <p>Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. </p>
+            <p>This is fake text please create the copy: Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. </p>
           </div>
         </div>
         <div class="row heightfiftyfive">
           <div class="col-md-5 col-xs-12 basepadding nailpadding middle">
             <h1>Booking</h1>
-            <p>Donec interdum tristique justo, a placerat dui posuere.</p>
+            <p>This is fake text please create the copy: Donec interdum tristique justo, a placerat dui posuere.</p>
             <a href="#" class="btn">Book Now</a>
           </div>
           <div class="col-md-7 col-xs-12 minheightforty backgroundimg discoverita2">

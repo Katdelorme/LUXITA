@@ -45,7 +45,7 @@ include ('./includes/header.html');
 				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Fashion Nails</h2>
           <p>En vogue patterns and colors lined up on your nails.</p>
-					<p>Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+					<p>This is fake text please create the copy: Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
 				</div>
 			</div>
 		</section>
@@ -95,7 +95,7 @@ include ('./includes/header.html');
 				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Diamond Nails</h2>
           <p>High quality diamonds applied directly to the nail bed.</p>
-					<p>Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+					<p>This is fake text please create the copy: Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
 				</div>
 			</div>
 		</section>
@@ -105,7 +105,7 @@ include ('./includes/header.html');
 				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Minimalistic Nails</h2>
           <p>Simplistic styles that make a sophisticated impact.</p>
-          <p>Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+          <p>This is fake text please create the copy: Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
 				</div>
 				<div class="col-md-8 col-xs-12 nailDesignCollage">
           <div class="page-container">
