@@ -77,12 +77,12 @@ include ('./includes/header.html');
           </div>
         </div>
         <div class="row heightfiftyfive">
-          <div class="col-md-5 col-xs-12 basepadding nailpadding middle">
+          <div class="col-md-5 col-xs-12 basepadding nailpadding middle flex-unordered">
             <h2>Booking</h2>
             <p>Get the experience which you have never get.</p>
             <a href="contact" class="btn">Book Now</a>
           </div>
-          <div class="col-md-7 col-xs-12 minheightforty backgroundimg discoverita2">
+          <div class="col-md-7 col-xs-12 minheightforty backgroundimg discoverita2 xs-move-to-first">
           </div>
         </div>
 		</section>

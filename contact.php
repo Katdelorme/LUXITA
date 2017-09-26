@@ -27,7 +27,7 @@ include ('./includes/header.html');
 					<h1>Send Us A Message</h1>
 					<h3>Have any questions? Fill the form below.</h3>
 					<hr>
-					<form action="#" class="secondaryForm">
+					<form action="mailto:luxitatokyo@gmail.com" class="secondaryForm">
 								<input type="text" value="" name="FNAME" placeholder="First Name">
 								<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address">
 								<textarea rows="5" cols="50" name="message" id="yourmessage" placeholder="Message"></textarea>
