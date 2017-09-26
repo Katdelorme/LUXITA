@@ -14,7 +14,7 @@ include ('./includes/header.html');
           <!--Nail designs soaring to new heights, <br>where only the sky is the limit.-->
         </p>
         <div>
-        <a href="#" class="btn">View Styles</a>
+        <a href="naildesigns" class="btn">View Styles</a>
         <a href="contact" class="btn">Book Now</a>
       </div>
 			</div>
@@ -39,7 +39,7 @@ include ('./includes/header.html');
           <h1>Book An Appointment</h1>
 				</div>
 				<div class="col-md-3 col-xs-12">
-					<a href="#" class="btn">Book Now</a>
+					<a href="contact" class="btn">Book Now</a>
 				</div>
 			</div>
 		</section>
@@ -79,7 +79,7 @@ include ('./includes/header.html');
 			<div class="featuredStyle row">
 				<div class="featuredStyleL col-md-5 col-xs-12">
 					<h1>Minimalistic</h1>
-					<p>Simplistic styles that make a sophisticated impact. Nails that cater to every occasion. Note something with personality Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+					<p>Simplistic styles that make a sophisticated impact. Nails that cater to every occasion. Discover a design to match your personality.</p>
 					<a href="naildesigns" class="btn">Select Your Style</a>
 				</div>
 				<div class="featuredStyleR col-md-7 col-xs-12">

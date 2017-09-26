@@ -86,6 +86,7 @@ hr{
     text-decoration: none;
   }
   &:hover{
+    color: $tertiary;
     background: $primary;
   }
 }

@@ -35,7 +35,7 @@ include ('./includes/header.html');
 					</form>
 				</div>
 				<div class="col-md-4 col-xs-12 middle basepadding" style="background-color:#edece8;">
-					<p>This is fake text please create the copy: Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae.</p>
+					<p>This is fake text please create the copy: ADD step-by-step directions on how to get to the salon. Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae.</p>
           <address>
 					<p>Marunouchi Trust Tower
 					<br>Main, 1-8-3 Marunouchi Chiyoda-ku,

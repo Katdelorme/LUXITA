@@ -15,7 +15,7 @@ include ('./includes/header.html');
 			<div class="">
 				<h1>About LUXITA</h1>
 				<h3>Located at the Chi Spa in the <br/>Shangri-La Hotel in Tokyo</h3>
-				<a href="#" class="btn">Our Mission</a>
+				<!--<a href="#" class="btn">Our Mission</a>-->
 			</div>
 		</section>
 

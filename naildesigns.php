@@ -20,8 +20,8 @@ include ('./includes/header.html');
         </div>
 				<div class="col-xs-12 text-center contact">
 					<h1>Nail Designs</h1>
-					<p>LUXITA creates high fashion nail collections, from minimalistic elegance to elaborate chic. The sky is the limit. View our selctions of nail designs below. Consultation with a nail artist is also available to customize something one-of-a kind for you.</p>
-					<a href="#" class="btn">Book Now</a>
+					<p>LUXITA creates high fashion nail collections, from minimalistic elegance to elaborate chic. The sky is the limit. View our selections of nail designs below. Nail consultation is available to customize something one-of-a kind for you.</p>
+					<a href="contact" class="btn">Book Now</a>
 				</div>
 			</div>
 		</section>
@@ -45,7 +45,7 @@ include ('./includes/header.html');
 				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Fashion Nails</h2>
           <p>En vogue patterns and colors lined up on your nails.</p>
-					<p>This is fake text please create the copy: Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+					<p>Beyond the hand bags. Gone are the days of an old-school single colored manicure. Nails are the most intimate fashion accessory, literally becoming one with the wearer. Form a literal bond with your manicure because this fashion accessory cannot be changed and removed like earrings or a handbag.</p>
 				</div>
 			</div>
 		</section>
@@ -94,8 +94,8 @@ include ('./includes/header.html');
 				</div>
 				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Diamond Nails</h2>
-          <p>High quality diamonds applied directly to the nail bed.</p>
-					<p>This is fake text please create the copy: Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+          <p>Diamond nails applied directly to the nail bed.</p>
+					<p>Making it one of the most luxurious nail forms in the world. A girl's best friend will now be on your fingers all day everyday making you feel like the princess you are. The diamonds used are re-applicable and reusable for treatment. Make your day brighter over and over again.</p>
 				</div>
 			</div>
 		</section>
@@ -105,7 +105,7 @@ include ('./includes/header.html');
 				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
           <h2>Minimalistic Nails</h2>
           <p>Simplistic styles that make a sophisticated impact.</p>
-          <p>This is fake text please create the copy: Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+          <p>Nails that cater to every occasion. Beautifully designed to help step up your look. A part of fashion and a statement all on their own.</p>
 				</div>
 				<div class="col-md-8 col-xs-12 nailDesignCollage">
           <div class="page-container">

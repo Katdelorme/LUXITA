@@ -1,7 +1,7 @@
 <?php
 $page_title='Discover Ita Nails - LUXITA';
 $page_desc='Ita Nail are a specialized Japanese hand-painted art which uses the nail bed as a canvas. Place manga, anime characters, movie star face or pet on your nails. Located at the Shangri-La Tokyo.';
-$page_keywords="LUXITA salon, 3D nails, dragon ball super nails, dragon ball super ita, naruto shippuden nails, one piece nail designs, sushi nail designs, animal nail designs, one piece chopper nail designs, Your Name nail designs, kimi no na wa nail designs, Disney nail designs, Maleficent nail designs, Maleficent nails in Tokyo, Sailor Moon nails, English speaking nail salon in Japan";
+$page_keywords="LUXITA salon, 3D nails, dragon ball super nails, dragon ball super ita, naruto shippuden nails, one piece nail designs, sushi nail designs, animal nail designs, one piece chopper nail designs, Your Name nail designs, kimi no na wa nail designs, Disney nail designs, Maleficent nail designs, Maleficent nails in Tokyo, Sailor Moon nails, English speaking nail salon in Japan, history of ita, history of ita nails";
 $facebook_img="http://luxita.com/assets/fbDiscoverita.png";
 $twitter_img="http://luxita.com/assets/twitterDiscoverita.png";
 include ('./includes/header.html');
@@ -15,8 +15,8 @@ include ('./includes/header.html');
 			<div class="row">
 				<div class="col-xs-12 text-center contact">
 					<h1>Discover Ita Nails</h1>
-					<p>This is fake text please create the copy: Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
-					<a href="#" class="btn">Book Now</a>
+					<p>Ita nail is a specialized Japanese hand painted art which uses the nail bed as a canvas. Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of "living art". This nail technique requires skill at a painting master level and extreme attention to detail.</p>
+					<a href="contact" class="btn">Book Now</a>
 				</div>
 			</div>
 		</section>
@@ -61,10 +61,9 @@ include ('./includes/header.html');
 			<div class="row">
         <div class="col-xs-12 basepadding">
 					<h1>History of Ita Nails</h1>
-					<h3>How an artform came to be</h3>
+					<h3>How an art form came to be</h3>
 					<hr>
-					<p>Ita - Nail is a specialized Japanese hand-painted art which uses the nail bed as a canvas. Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of “living art.” This nail technique requires skill at a painting master level and extreme attention to detail.</p>
-          <p>This section can use more information</p>
+					<p>Ita nail is all hand written so you can pick whatever design you want it to be on your nail bed. Anything can be written by master level of nailist. It will be depends on what design but will take about 30 - 60 min per art form. This Ita nail was born in Akihabara which is sacred place of anime, but this technique can be use for any art form not only for anime. </p>
 			</div>
 		</section>
 
@@ -73,15 +72,15 @@ include ('./includes/header.html');
           <div class="col-md-5 col-xs-12 minheightforty backgroundimg discoverita1">
           </div>
           <div class="col-md-7 col-xs-12 basepadding nailpadding middle">
-            <h1>Title</h1>
-            <p>This is fake text please create the copy: Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. </p>
+            <h2>World of dense and delicate art form</h2>
+            <p>At the nail history, there was no artwork like this. You will surprise with how detail it is. You can get this dense art treatment only in here. Get the experience of next level of nail art.</p>
           </div>
         </div>
         <div class="row heightfiftyfive">
           <div class="col-md-5 col-xs-12 basepadding nailpadding middle">
-            <h1>Booking</h1>
-            <p>This is fake text please create the copy: Donec interdum tristique justo, a placerat dui posuere.</p>
-            <a href="#" class="btn">Book Now</a>
+            <h2>Booking</h2>
+            <p>Get the experience which you have never get.</p>
+            <a href="contact" class="btn">Book Now</a>
           </div>
           <div class="col-md-7 col-xs-12 minheightforty backgroundimg discoverita2">
           </div>
