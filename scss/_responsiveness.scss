@@ -42,7 +42,7 @@
       display: block;
       width: 60%;
   }
-  .hometopContent div a:first-of-type {
+  .hometopContent div a:first-of-type, .hometop .hometopContent h4{
     display: none;
   }
   .thirty, .featuredStyleR{
@@ -129,6 +129,9 @@
   	padding: 0;
   	height: auto;
     margin: 10px 0;
+  }
+  .xs-none{
+    display: none;
   }
 }
 // Small devices (landscape phones, 576px and up)

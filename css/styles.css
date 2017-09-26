@@ -323,7 +323,7 @@ nav a {
   margin-top: 2em; }
 
 .abouttop {
-  background-image: url("../assets/chispa1.jpg");
+  background-image: url("../assets/chiSpa1.jpg");
   background-position: center center;
   background-repeat: no-repeat;
   background-size: 100% auto; }
@@ -737,7 +737,7 @@ footer {
     display: block;
     width: 60%; }
 
-  .hometopContent div a:first-of-type {
+  .hometopContent div a:first-of-type, .hometop .hometopContent h4 {
     display: none; }
 
   .thirty, .featuredStyleR {
@@ -818,7 +818,10 @@ footer {
   .nailDesignCollage {
     padding: 0;
     height: auto;
-    margin: 10px 0; } }
+    margin: 10px 0; }
+
+  .xs-none {
+    display: none; } }
 @media (min-width: 576px) {
   .thirty {
     height: 30vh;

@@ -16,9 +16,9 @@ include ('./includes/header.html');
 				<h1>About LUXITA</h1>
 				<h4>Located at the Chi Spa in the <br/>Shangri-La Hotel in Tokyo</h4>
 				<div class="row" style="min-height:150px;margin-top:2%;">
-          <div class="col-md-4 col-xs-12" style="background: url('assets/logoShangrilaTokyo.png'); background-size:contain;background-repeat: no-repeat;">
+          <div class="col-4" style="background: url('assets/logoShangrilaTokyo.png'); background-size:contain;background-repeat: no-repeat;">
           </div>
-          <div class="col-md-4 col-xs-12 offset-md-4" style="background: url('assets/logoChiSpa.png'); background-size:contain;background-repeat: no-repeat;">
+          <div class="col-4 offset-4" style="background: url('assets/logoChiSpa.png'); background-size:contain;background-repeat: no-repeat;">
           </div>
         </div>
 			</div>
