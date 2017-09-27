@@ -15,7 +15,7 @@ include ('./includes/header.html');
 			<div class="row">
 				<div class="col-xs-12 text-center contact">
 					<h1>Get In Contact</h1>
-					<p>Wait no longer. Come experience Tokyo’s newest, most fashionable nail salon. Indulge in luxury, fashion and relaxation.</p>
+					<p>Wait no longer. Come experience Tokyo’s newest, most fashionable nail salon. Indulge in luxury, fashion and relaxation. LUXITA is located in the Shangri-La hotel in Tokyo on the 29th floor inside of Chi Spa.</p>
 					<a href="#" class="btn">Book Now</a>
 				</div>
 			</div>
@@ -34,17 +34,19 @@ include ('./includes/header.html');
 					</form>
 				</div>
 				<div class="col-md-4 col-xs-12 middle basepadding" style="background-color:#edece8;">
-					<p>This is fake text please create the copy: ADD step-by-step directions on how to get to the salon. Sed sed semper elit.</p>
           <address>
 					<p>Marunouchi Trust Tower
-					<br>Main, 1-8-3 Marunouchi Chiyoda-ku,
-					<br>Tokyo, 100-8283, Japan
-          <br>Level 29</p>
+					<br/>Main, 1-8-3 Marunouchi Chiyoda-ku,
+					<br/>Tokyo, 100-8283, Japan
+          <br/>Level 29</p>
           </address>
           <p>
-            Hours: 10:00am - 7:00pm | chi.slt@shangra-la.com
-          </p>
-					<p><a href="tel:81367397880">T:(813) 6739 7880</a></p>
+          Via the JR Line to Tokyo Station a 1 min walk from the Nihonbashi Exit and 2 min walk from the Yaesu North Exit.
+          <br/>For further directions visit the <a href="http://www.shangri-la.com/tokyo/shangrila/about/map-directions/" target="_blank">Shangri-La Map Directory</a></p>
+          <p>
+            Hours: 10:00am - 7:00pm
+            <br/><a href="mailto:hi.slt@shangra-la.com?subject=Question%20About%20LUXITA%20Nail%20Salon">hi.slt@shangra-la.com</a>
+            <br/><a href="tel:81367397880">T: (813) 6739 7880</a></p>
 				</div>
 			</div>
 		</section>
