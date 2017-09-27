@@ -56,8 +56,7 @@ include ('./includes/header.html');
 				</div>
 				<div class="seventy col-md-8 col-xs-12">
 					<h1>Discover Diamond Nails</h1>
-					<h3>Now a girl's best friend is always on hand</h3>
-					<hr>
+					<h3 class="line">Now a girl's best friend is always on hand</h3>
 					<div class="textColumn">
 						<p>Take your passion for luxury to the next level with diamonds on your fingertips 24 hours a day. Make a stunning impact in every situation by shining like the star you are with every hand motion and touch you make.</p>
 		 				<p>LUXITA diamonds are hand picked for the ultimate sparkle by the world's top gemologists. Use the diamond over and over again for repeat treatments. And put your mind at ease knowing that there is a warranty for lost or loose stones.</p>

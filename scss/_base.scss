@@ -60,6 +60,26 @@ hr{
   border-top: 1px solid #d5d5d5;
   margin-top: 3%;
 }
+hr.short{
+  @extend hr;
+  width: 75%;
+  text-align: left;
+  margin: 0px;
+}
+.line::after{
+  content: " ";
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%;
+  display: block;
+  max-width: 100%;
+}
+.lineshort::after{
+  content: " ";
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%;
+  display: block;
+  max-width: 60%;
+}
 .basepadding{
   padding-left: 7%;
   padding-right: 7%;

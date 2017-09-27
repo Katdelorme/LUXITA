@@ -61,8 +61,7 @@ include ('./includes/header.html');
 			<div class="row">
         <div class="col-xs-12 basepadding">
 					<h1>History of Ita Nails</h1>
-					<h3>How an art form came to be</h3>
-					<hr>
+					<h3 class="lineshort">How an art form came to be</h3>
 					<p>Ita nail is all hand written so you can pick whatever design you want it to be on your nail bed. Anything can be written by master level of nailist. It will be depends on what design but will take about 30 - 60 min per art form. This Ita nail was born in Akihabara which is sacred place of anime, but this technique can be use for any art form not only for anime. </p>
 			</div>
 		</section>

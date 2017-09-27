@@ -69,8 +69,7 @@ include ('./includes/header.html');
 			<div class="row">
 				<div class="seventy col-md-8 col-xs-12">
 					<h1>Our Mission</h1>
-					<h3>Bringing Fashion To Your Fingertips</h3>
-					<hr>
+					<h3 class="line">Bringing Fashion To Your Fingertips</h3>
 					<div class="textColumn">
 						<p>LUXITA is Here to bring you... This is fake text please provide copy: Nullam pretium quis ipsum non tristique. Pellentesque dapibus, nisl a iaculis dictum, mauris ex dapibus ex, at tincidunt augue purus ut dolor. Maecenas tristique turpis sed magna viverra ultricies. In commodo, justo ut tincidunt ornare, justo urna lobortis nisl, ut suscipit velit nunc venenatis.</p>
 		 				<p>This is fake text please create MORE copy: Nullam pretium quis ipsum non tristique. Pellentesque dapibus, nisl a iaculis dictum, mauris ex dapibus ex, at tincidunt augue purus ut dolor. Maecenas tristique turpis sed magna viverra ultricies. In commodo, justo ut tincidunt ornare, justo urna lobortis nisl, ut suscipit velit nunc venenatis urna.</p>

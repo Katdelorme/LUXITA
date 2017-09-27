@@ -23,6 +23,9 @@
   h4 {
     font-size: 1.575em;
   }
+  .lineshort::after{
+    max-width: 100%;
+  }
   .hometop, .abouttop{
     /*background-image: none;*/
     background-color: $tertiary;

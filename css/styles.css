@@ -46,9 +46,28 @@ p {
   line-height: 150%;
   margin-top: 15px; }
 
-hr {
+hr, hr.short {
   border-top: 1px solid #d5d5d5;
   margin-top: 3%; }
+
+hr.short {
+  width: 75%;
+  text-align: left;
+  margin: 0px; }
+
+.line::after {
+  content: " ";
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%;
+  display: block;
+  max-width: 100%; }
+
+.lineshort::after {
+  content: " ";
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%;
+  display: block;
+  max-width: 60%; }
 
 .basepadding, .hometopContent, .threeFourth, .oneFourth, .columnThree, .nailpadding {
   padding-left: 7%;
@@ -728,6 +747,9 @@ footer {
 
   h4 {
     font-size: 1.575em; }
+
+  .lineshort::after {
+    max-width: 100%; }
 
   .hometop, .abouttop {
     /*background-image: none;*/

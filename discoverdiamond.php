@@ -40,8 +40,8 @@ include ('./includes/header.html');
 			<div class="row">
         <div class="col-xs-12 basepadding">
 					<h1>One Stone At A Time</h1>
-					<h3>What it is and how they’re placed</h3>
-					<hr>
+					<h3 class="lineshort">What it is and how they’re placed</h3>
+					<!--<hr class="short">-->
 					<p>Diamond nails are the most luxurious nail treatment in the world. High quality diamonds of all colors are applied directly to the nail bed, with gel and a patented application method. Diamonds are re-applicable so clients may use them for many treatments. Customers feel assured with a warranty for diamonds that come loose or are lost.</p>
           <p>This is fake text please create the copy: Nullam pretium quis ipsum non tristique. Pellentesque dapibus, nisl a iaculis dictum, mauris ex dapibus ex, at tincidunt augue purus ut dolor. Maecenas tristique turpis sed magna viverra ultricies. In commodo, justo ut tincidunt ornare, justo urna lobortis nisl, ut suscipit velit nunc venenatis urna. Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec Nullam pretium quis ipsum non tristique. Pellentesque dapibus, nisl a iaculis dictum, mauris ex dapibus ex, at tincidunt augue purus ut dolor. Maecenas tristique turpis sed magna viverra ultricies. In commodo, justo ut tincidunt ornare, justo urna lobortis nisl, ut suscipit velit nunc urna. Sed sed semper elit.
           </p>
