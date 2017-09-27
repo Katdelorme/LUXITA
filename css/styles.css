@@ -129,6 +129,18 @@ hr.short {
 .nopadding {
   padding: 0; }
 
+.nobold {
+  font-weight: 400; }
+
+.bold {
+  font-weight: 700; }
+
+.table {
+  margin-top: 20px; }
+
+.table thead tr th, .table tbody tr td, .table td, .table th {
+  border: none; }
+
 /* ///////////// header  ////////////// */
 .head {
   clear: both;
