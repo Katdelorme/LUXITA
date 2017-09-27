@@ -11,9 +11,9 @@ include ('./includes/header.html');
   <div id="fullpage">
 	<div class="container-fluid">
 
-		<section class="section">
+		<section class="section discoveritatop">
 			<div class="row">
-				<div class="col-xs-12 text-center contact">
+				<div class="col-md-6 offset-md-6 col-xs-12 bgfade">
 					<h1>Discover Ita Nails</h1>
 					<p>Ita nail is a specialized Japanese hand painted art which uses the nail bed as a canvas. Designs popularly include manga and anime characters, movie star face or pet. Because this intricate art is painted directly to the nails, it redefines the meaning of "living art". This nail technique requires skill at a painting master level and extreme attention to detail.</p>
 					<a href="contact" class="btn">Book Now</a>

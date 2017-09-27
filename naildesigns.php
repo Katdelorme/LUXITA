@@ -11,14 +11,14 @@ include ('./includes/header.html');
   <div id="fullpage">
 	<div class="container-fluid">
 
-		<section class="section">
+		<section class="section naildesigntop">
 			<div class="row">
-        <div class="col-xs-12">
+        <!--<div class="col-xs-12">
           <a class="logoInside" href="index">
             <img src="assets/luxitaLogo.png" alt="LUXITA">
           </a>
-        </div>
-				<div class="col-xs-12 text-center contact">
+        </div>-->
+				<div class="col-md-6 offset-md-6 col-xs-12 bgfade">
 					<h1>Nail Designs</h1>
 					<p>LUXITA creates high fashion nail collections, from minimalistic elegance to elaborate chic. The sky is the limit. View our selections of nail designs below. Nail consultation is available to customize something one-of-a kind for you.</p>
 					<a href="contact" class="btn">Book Now</a>

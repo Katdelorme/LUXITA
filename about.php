@@ -80,7 +80,7 @@ include ('./includes/header.html');
 			</div>
 		</section>
 
-		<section class="section greybg basepadding">
+		<!--<section class="section greybg basepadding">
 			<div class="row">
 				<h1>Products</h1>
 			</div>
@@ -88,7 +88,7 @@ include ('./includes/header.html');
 
 		<section class="section basepadding">
 					<h1>In The Press</h1>
-		</section>
+		</section>-->
 	</div><!--container close-->
 	</div><!--fullpage close-->
 

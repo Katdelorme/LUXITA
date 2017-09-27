@@ -11,9 +11,9 @@ include ('./includes/header.html');
   <div id="fullpage">
 	<div class="container-fluid">
 
-		<section class="section">
+		<section class="section discoverdiamondtop">
 			<div class="row">
-				<div class="col-xs-12 text-center contact">
+				<div class="col-md-6 offset-md-6 col-xs-12 bgfade">
 					<h1>Discover Diamond Nails</h1>
 					<p>This is fake text please create the copy: Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio.</p>
 					<a href="contact" class="btn">Book Now</a>
