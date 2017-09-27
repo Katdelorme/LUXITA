@@ -71,8 +71,8 @@ include ('./includes/header.html');
 					<h1>Our Mission</h1>
 					<h3 class="line">Bringing Fashion To Your Fingertips</h3>
 					<div class="textColumn">
-						<p>LUXITA is Here to bring you... This is fake text please provide copy: Nullam pretium quis ipsum non tristique. Pellentesque dapibus, nisl a iaculis dictum, mauris ex dapibus ex, at tincidunt augue purus ut dolor. Maecenas tristique turpis sed magna viverra ultricies. In commodo, justo ut tincidunt ornare, justo urna lobortis nisl, ut suscipit velit nunc venenatis.</p>
-		 				<p>This is fake text please create MORE copy: Nullam pretium quis ipsum non tristique. Pellentesque dapibus, nisl a iaculis dictum, mauris ex dapibus ex, at tincidunt augue purus ut dolor. Maecenas tristique turpis sed magna viverra ultricies. In commodo, justo ut tincidunt ornare, justo urna lobortis nisl, ut suscipit velit nunc venenatis urna.</p>
+						<p>We want to make your experience as memorable and beautiful as you are. Our mission is to consistently bring you the newest styles and ideas, by keeping up with the current fashion trends and constantly educating ourselves about the best practices to bring you new and fresh fashion from your fingers to toes.</p>
+		 				<p>We strive to step above the boundaries of typical nail beauty with our extraordinary designs, exceptional service and dedication to our customers satisfaction.</p>
 					</div>
 				</div>
 				<div class="aboutThirty col-md-4 col-xs-12">

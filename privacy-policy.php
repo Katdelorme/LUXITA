@@ -14,22 +14,33 @@ include ('./includes/header.html');
 			<div class="row">
 				<div class="col-xs-12">
 					<h1 class="text-center">Privacy Policy</h1>
-					<p>This is fake text please create the copy: Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. Donec ut enim fermentum, consequat mi id, mattis arcu. Vivamus ac nisi interdum, porttitor.</p>
+					<p>LUXITA respects the privacy of every individual who visits our website. We do not sell or rent your personal information to third parties for marketing purposes. Please read this Privacy Policy carefully to learn more about the ways in which we use and protect your personal information. By visiting our website, you are accepting the practices described in this Privacy Policy.</p>
 
-					<h6>Collection and Use of Information</h6>
-					<p>This is fake text please create the copy: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed consectetur ligula in placerat malesuada. Nulla egestas dui porttitor ipsum sodales tincidunt. Aliquam rutrum elit ullamcorper nulla viverra condimentum. Quisque aliquet tortor ut risus placerat, vel ullamcorper lorem pretium. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec ullamcorper dui quis felis sagittis tincidunt. Donec vitae felis quis ex luctus dictum vitae eget dolor.</p>
+					<h6>If you visit our website:</h6>
+					<p>In general, you can visit our website without telling us who you are or revealing any personally identifiable information about yourself. Our web servers collect the domain names, not the e-mail addresses, of visitors.</p>
 
-					<h6>Cookies</h6>
-					<p>This is fake text please create the copy: Nunc aliquet rhoncus nunc commodo commodo. Cras sit amet dictum neque, vitae blandit sapien. Nulla ac tortor vitae mi viverra posuere. Duis elit mauris, auctor id elit at, congue venenatis dolor. Donec auctor velit venenatis pharetra aliquam. Nunc feugiat ullamcorper diam, a pellentesque lacus pretium vel. Quisque consectetur magna lorem, eget aliquet dolor dapibus et. Nullam eget rhoncus libero, id fermentum lectus. Phasellus luctus elit eget pretium facilisis. Praesent dictum dolor at mi convallis lacinia at sed purus. Fusce placerat diam vel dolor congue aliquet. Fusce aliquet ligula sed enim maximus, id ultrices ex aliquet. Morbi purus justo, suscipit ac lorem id, ullamcorper convallis enim. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+					<p>In some cases, we may collect information about you that is not personally identifiable. This information is collected using a “cookie” that enables us to learn which advertisements bring users to our website. Cookies are small files placed on your hard drive that allow us to collect that information. April Spa Nails uses this information to help us manage online advertising. None of the information collected by a cookie is personally identifiable, i.e., does not contain your name, address or e-mail address.</p>
 
-					<h6>Third-party Disclosure</h6>
-					<p>This is fake text please create the copy: Donec feugiat iaculis nisl quis viverra. Cras quis egestas magna. Donec tincidunt mi eu sagittis tincidunt. Nam pretium lectus velit, in cursus neque lobortis ac. Phasellus porttitor lorem nisi. Suspendisse eleifend sit amet purus sit amet sollicitudin. Nullam dolor sapien, auctor tempus consequat nec, interdum ac tellus. Sed mattis nunc vitae interdum rhoncus. Nulla facilisi. Nulla vel fringilla nunc. Quisque eget mauris mi. Mauris feugiat, urna id ullamcorper sagittis, nisi erat aliquam nulla, sed blandit nunc quam vitae enim. Nunc elementum, mi eget hendrerit pulvinar, lorem nisl lacinia lacus, nec pellentesque mauris tortor vel urna. Praesent augue quam, pulvinar at nisl vel, sodales porta lectus. Nam nulla nibh, bibendum eu blandit ut, ultrices sit amet risus. Nam id enim id dui suscipit pharetra.</p>
+					<p>LUXITA also utilizes a third party to track and analyze usage and volume statistical information from our website customers in order to constantly improve the quality of our website. No data collected by a third party on behalf of April Spa Nails may be owned or used by such third party. April Spa Nails reserves the right to publish nonpersonally identifiable, summary information regarding its website customers for promotional purposes and as a representative audience for advertisers.</p>
 
-					<h6>Security</h6>
-					<p>This is fake text please create the copy: Duis sagittis arcu in sapien tincidunt blandit. Quisque sit amet hendrerit velit. Morbi aliquam rhoncus viverra. Donec congue dictum odio ut ultrices. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin mauris mi, eleifend nec risus quis, gravida posuere augue.</p>
+					<h6>If you choose to identify yourself:</h6>
+					<p>If you voluntarily provide us with personally identifying information, such as your name, street address, email address, phone number, and birth date, we will collect that information along with any other information you voluntarily provide.<p>
 
-					<h6>Fair Information Practices</h6>
-					<p>This is fake text please create the copy: Curabitur tincidunt, turpis nec imperdiet hendrerit, sapien odio venenatis ipsum, ut feugiat libero nulla ut massa. Pellentesque tortor erat, elementum eget convallis ac, lobortis eget arcu. Nulla ornare eu purus id aliquet. Donec orci mauris, ultrices a lorem ut, venenatis vulputate ipsum. Mauris nec urna a justo sagittis convallis sed non neque.</p>
+					<p>It is our policy not to distribute, sell, rent or in any way make available, your name, e-mail address or any other personally identifiable information to any third party.</p>
+
+					<p>When you participate in site features such as newsletters, etc., we may use the personally identifiable information you provide through those features in the following ways, unless stated otherwise:</p>
+
+					<ul>
+					<li>we may store and process that information to better understand your needs and how we can improve our products and services, and</li>
+					<li>we may communicate with you via e-mail or postal mail.</li>
+					</ul>
+
+					<h6>Policy Changes</h6>
+					<p>LUXITA may, at any time, amend the provisions in this Privacy Policy. Changes to this policy will be reflected by the “Effective Date” as displayed in the upper left hand corner of this policy</p>
+
+					<p>LUXITA is not responsible for typographical errors that may occur on this website, all prices and services are subject to change without prior notice.</p>
+
+					<p>The materials on this Website are for general information purposes only and should not be construed as nail advice, aesthetic advice, waxing opinion or any other advice on any specific facts or circumstances. Readers should not act or refrain from acting upon this information without seeking professional advice. Transmission of information on or by use of this Website is not intended to create, and receipt does not constitute, a client relationship between the sender and receiver. Photographs and other graphics used on this website may be for dramatization purposes only, and may include models or stock photos. Likenesses do not necessarily imply current client, partnership or employee status.</p>
 
 					<h6>CAN SPAM Act</h6>
 					<p>The CAN-SPAM Act is a law that sets the rules for commercial email, establishes requirements for commercial messages, gives recipients the right to have emails stopped from being sent to them, and spells out tough penalties for violations.</p>
@@ -51,9 +62,6 @@ include ('./includes/header.html');
 							</ul>
 					<br/>
 					<p>If at any time you would like to unsubscribe from receiving future emails, press the unsubscribe link at the footer of the LUXITA email communication.</p>
-
-					<h6>Contacting Us</h6>
-					<p>This is fake text please create the copy: Bed rhoncus nibh sit amet eros pellentesque ullamcorper. Vivamus rutrum lobortis facilisis. Ut ut neque sit amet magna vestibulum euismod. Integer eleifend, lectus et cursus dapibus, eros urna gravida ligula, ut pellentesque justo nulla id nisl. Integer posuere auctor tempor. Donec lobortis neque odio, ut consequat est interdum at. Suspendisse potenti.</p>
 				</div>
 			</div>
 		</div>

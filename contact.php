@@ -11,11 +11,11 @@ include ('./includes/header.html');
   <div id="fullpage">
 	<div class="container-fluid">
 
-		<section class="section">
+		<section class="section contacttop">
 			<div class="row">
 				<div class="col-xs-12 text-center contact">
 					<h1>Get In Contact</h1>
-					<p>This is fake text please create the copy: Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc.</p>
+					<p>Wait no longer. Come experience Tokyo’s newest, most fashionable nail salon. Indulge in luxury, fashion and relaxation.</p>
 					<a href="#" class="btn">Book Now</a>
 				</div>
 			</div>
@@ -34,13 +34,17 @@ include ('./includes/header.html');
 					</form>
 				</div>
 				<div class="col-md-4 col-xs-12 middle basepadding" style="background-color:#edece8;">
-					<p>This is fake text please create the copy: ADD step-by-step directions on how to get to the salon. Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae.</p>
+					<p>This is fake text please create the copy: ADD step-by-step directions on how to get to the salon. Sed sed semper elit.</p>
           <address>
 					<p>Marunouchi Trust Tower
 					<br>Main, 1-8-3 Marunouchi Chiyoda-ku,
-					<br>Tokyo, 100-8283, Japan</p>
+					<br>Tokyo, 100-8283, Japan
+          <br>Level 29</p>
           </address>
-					<p><a href="tel:81355555555">T:(813) 5555 5555</a></p>
+          <p>
+            Hours: 10:00am - 7:00pm | chi.slt@shangra-la.com
+          </p>
+					<p><a href="tel:81367397880">T:(813) 6739 7880</a></p>
 				</div>
 			</div>
 		</section>
