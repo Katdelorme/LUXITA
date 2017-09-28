@@ -54,13 +54,13 @@ include ('./includes/header.html');
           </div>
           <div class="col-md-7 col-xs-12 basepadding nailpadding middle">
             <h2>Living Luxury</h2>
-            <p>This is fake text please create the copy: Sed sed semper elit. Donec interdum tristique justo, a placerat dui posuere imperdiet. Donec turpis leo, rutrum vitae posuere vel, varius vitae velit. Integer eu posuere mauris, sed tincidunt odio. Integer eros erat, rutrum id nunc id, tempor accumsan nunc. </p>
+            <p>Luxury is now in the palm of your hand. Bring luxury to life with the world’s most highly sought after nail designs, taking boldly both the nail industry, as well as the fashion industry to new heights.</p>
           </div>
         </div>
         <div class="row heightfiftyfive">
           <div class="col-md-5 col-xs-12 basepadding nailpadding middle flex-unordered">
             <h2>Booking</h2>
-            <p>This is fake text please create the copy: Donec interdum tristique justo, a placerat dui posuere.</p>
+            <p>Book now to experience high fashion at your fingertips. You deserve it!</p>
             <a href="#" class="btn">Book Now</a>
           </div>
           <div class="col-md-7 col-xs-12 minheightforty backgroundimg diamond1 xs-move-to-first">
