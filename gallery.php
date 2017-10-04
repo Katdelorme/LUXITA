@@ -14,42 +14,56 @@ include ('./includes/header.html');
       <div class="page-container">
         <div class="main-container">
           <div class="inner-main-container">
-            <div class="collage-container">
-							<div style="background: url('assets/gallery1.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/gallery2.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/gallery3.jpg');" class="photo-tile third quadruple"></div>
+            <div class="collage-container" style="background-color: #ffffff;">
+							<div style="background: url('assets/gallery1.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/gallery2.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/gallery3.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+							<div style="background: url('assets/gallery4.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
 
-							<div style="background: url('assets/gallery4.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/gallery5.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/gallery6.jpg');" class="photo-tile third quadruple"></div>
+							<!--<div class="photo-tile triple quarter">
+									<img src="assets/gallery1.jpg" alt="nail designs" width="100%" />
+							</div>
+							<div class="photo-tile triple quarter">
+									<img src="assets/gallery2.jpg" alt="nail designs" width="100%" />
+							</div>
+							<div class="photo-tile triple quarter">
+									<img src="assets/gallery3.jpg" alt="nail designs" width="100%" />
+							</div>
+							<div class="photo-tile triple quarter">
+									<img src="assets/gallery4.jpg" alt="nail designs" width="100%" />
+							</div>-->
 
-							<div style="background: url('assets/gallery7.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/gallery8.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/gallery9.jpg');" class="photo-tile third quadruple"></div>
 
-							<div style="background: url('assets/gallery10.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/gallery11.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/gallery12.jpg');" class="photo-tile third quadruple"></div>
+              <div style="background: url('assets/gallery5.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/gallery6.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+							<div style="background: url('assets/gallery7.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/gallery8.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
 
-              <div style="background: url('assets/discoverita1.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita2.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita3.jpg');" class="photo-tile third quadruple"></div>
 
-							<div style="background: url('assets/discoverita4.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita5.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita6.jpg');" class="photo-tile third quadruple"></div>
+              <div style="background: url('assets/gallery9.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+							<div style="background: url('assets/gallery10.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/gallery11.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/gallery12.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
 
-							<div style="background: url('assets/discoverita7.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita8.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita9.jpg');" class="photo-tile third quadruple"></div>
+              <div style="background: url('assets/discoverita1.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/discoverita2.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/discoverita3.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+							<div style="background: url('assets/discoverita4.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
 
-							<div style="background: url('assets/discoverita10.jpg'); background-position: bottom center;" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita11.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita12.jpg');" class="photo-tile third quadruple"></div>
 
-							<div style="background: url('assets/discoverita13.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita14.jpg');" class="photo-tile third quadruple"></div>
-              <div style="background: url('assets/discoverita15.jpg');" class="photo-tile third quadruple"></div>
+              <div style="background: url('assets/discoverita5.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/discoverita6.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+							<div style="background: url('assets/discoverita7.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/discoverita8.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+
+              <div style="background: url('assets/discoverita9.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+							<div style="background: url('assets/discoverita10.jpg'); background-position: bottom center;background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/discoverita11.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/discoverita12.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+
+							<div style="background: url('assets/discoverita13.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/discoverita14.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+              <div style="background: url('assets/discoverita15.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
             </div>
           </div>
         </div>
