@@ -10,65 +10,70 @@ include ('./includes/header.html');
 
 	<div class="container-fluid policy">
 
-		<div class="row">
-      <div class="page-container">
-        <div class="main-container">
-          <div class="inner-main-container">
-            <div class="collage-container" style="background-color: #ffffff;">
-							<div style="background: url('assets/gallery1.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/gallery2.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/gallery3.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-							<div style="background: url('assets/gallery4.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
+			<div class="row text-center text-lg-left">
 
-							<!--<div class="photo-tile triple quarter">
-									<img src="assets/gallery1.jpg" alt="nail designs" width="100%" />
-							</div>
-							<div class="photo-tile triple quarter">
-									<img src="assets/gallery2.jpg" alt="nail designs" width="100%" />
-							</div>
-							<div class="photo-tile triple quarter">
-									<img src="assets/gallery3.jpg" alt="nail designs" width="100%" />
-							</div>
-							<div class="photo-tile triple quarter">
-									<img src="assets/gallery4.jpg" alt="nail designs" width="100%" />
-							</div>-->
-
-
-              <div style="background: url('assets/gallery5.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/gallery6.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-							<div style="background: url('assets/gallery7.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/gallery8.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-
-
-              <div style="background: url('assets/gallery9.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-							<div style="background: url('assets/gallery10.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/gallery11.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/gallery12.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-
-              <div style="background: url('assets/discoverita1.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/discoverita2.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/discoverita3.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-							<div style="background: url('assets/discoverita4.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-
-
-              <div style="background: url('assets/discoverita5.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/discoverita6.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-							<div style="background: url('assets/discoverita7.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/discoverita8.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-
-              <div style="background: url('assets/discoverita9.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-							<div style="background: url('assets/discoverita10.jpg'); background-position: bottom center;background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/discoverita11.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/discoverita12.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-
-							<div style="background: url('assets/discoverita13.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/discoverita14.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-              <div style="background: url('assets/discoverita15.jpg');background-size: contain !important; background-repeat: no-repeat;" class="photo-tile triple quarter"></div>
-            </div>
-          </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery1.jpg" alt="">
+          </a>
         </div>
-      </div>
-		</div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery2.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery3.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery4.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery5.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery6.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery7.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery8.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery9.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery10.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery11.jpg" alt="">
+          </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-xs-6">
+          <a href="#" class="d-block mb-4 h-100">
+            <img class="img-fluid img-thumbnail" src="assets/gallery12.jpg" alt="">
+          </a>
+        </div>
+
+			</div>
 
 	</div><!--container close-->
 
