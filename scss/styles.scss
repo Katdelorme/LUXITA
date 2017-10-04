@@ -27,6 +27,7 @@ nav a{
   	color: $quaternary;
   }
   &:hover    {
+		background: $tertiary;
   	color: $primary;
 		text-decoration: underline;
   }
@@ -35,6 +36,17 @@ nav a{
   }
   &:focus {
   	color: $primary;
+  }
+}
+.dropdown a, .show a{
+	&:link{
+		background: $tertiary !important;
+		color: $quaternary;
+  }
+	&:hover    {
+		background: $tertiary !important;
+  	color: $primary;
+		/*text-decoration: underline;*/
   }
 }
 .navbar{

@@ -161,12 +161,21 @@ nav a {
   nav a:visited {
     color: #000000; }
   nav a:hover {
+    background: #ffffff;
     color: #bda355;
     text-decoration: underline; }
   nav a:active {
     color: #bda355; }
   nav a:focus {
     color: #bda355; }
+
+.dropdown a:link, .show a:link {
+  background: #ffffff !important;
+  color: #000000; }
+.dropdown a:hover, .show a:hover {
+  background: #ffffff !important;
+  color: #bda355;
+  /*text-decoration: underline;*/ }
 
 .navbar {
   /*background: #292b2c;*/
