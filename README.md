@@ -1,4 +1,4 @@
-# App Landing Page
+# LUXITA SALON
 This repository is for the website of a nail salon in Tokyo Japan.
 All the content, images and information used belong solely to LUXITA and JoliNails.
 Created while in Tokyo, Japan.
