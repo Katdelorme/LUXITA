@@ -41,7 +41,7 @@ include ('./includes/header.html');
 				</div>
 				<div class="col-md-3 col-xs-12 ml-md-auto">
 					<img src="assets/team-YukiAbe2.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
-					<h5>Yuki Abe</h5>
+					<h5>Yukie Muraoka</h5>
 					<p>Nail  Technician</p>
 				</div>
 

@@ -113,7 +113,7 @@ include ('./includes/header.html');
             </tr>
           </tbody>
         </table>
-        <span style="font-size: 12px;">* Please allow for an additional 15-30 minutes to be added for nail consultation.<br/>For details on more addons and style please email <a href="mailto:booking@luxita.com?subject=Question%20About%20LUXITA%20Nail%20Salon%20Treatments%20-%20Visited%20JP%20Website">booking@luxita.com</a><br/>The prices below are for one color treatments. Design is extra. Prices do not include service charge.</span>
+        <span style="font-size: 12px;">ネイルメニューに追加してカウンセリングの時間を15〜30分多めに頂戴いたします。<br/>追加のデザインやご相談はこちらのメールアドレスまで。<a href="mailto:booking@luxita.com?subject=Question%20About%20LUXITA%20Nail%20Salon%20Treatments%20-%20Visited%20JP%20Website">booking@luxita.com</a><br/>上記の値段はワンカラーの施術の際の値段となります。デザインなどは追加料金となり、別途サービス料がかかります。</span>
 			</div>
 		</section>
 
@@ -172,20 +172,20 @@ include ('./includes/header.html');
             </tr>
           </tbody>
         </table>
-        <span style="font-size: 12px;">* Please allow for an additional 15-30 minutes to be added for nail consultation.<br/>For details on more addons and style please email <a href="mailto:booking@luxita.com?subject=Question%20About%20LUXITA%20Nail%20Salon%20Treatments%20-%20Visited%20JP%20Website">booking@luxita.com</a><br/>The prices below are for one color treatments. Design is extra. Prices do not include service charge.</span>
+        <span style="font-size: 12px;">* ネイルメニューに追加してカウンセリングの時間を15〜30分多めに頂戴いたします。<br/>追加のデザインやご相談はこちらのメールアドレスまで。<a href="mailto:booking@luxita.com?subject=Question%20About%20LUXITA%20Nail%20Salon%20Treatments%20-%20Visited%20JP%20Website">booking@luxita.com</a><br/>上記の値段はワンカラーの施術の際の値段となります。デザインなどは追加料金となり、別途サービス料がかかります。</span>
       </div>
     </section>
 
 		<section class="section greybg basepadding">
 			<div class="row">
-				<h2 style="margin-top: 40px;">LUXURY and ITA Nail Collection</h2>
+				<h2 style="margin-top: 40px;">ラグジュアリー / 痛ネイルコレクション</h2>
         <table class="table table-responsive">
           <thead>
             <tr>
-              <th><span style="text-decoration: underline;">Fashion Nail Menu</span></th>
-              <th>Price</th>
-              <th><span style="text-decoration: underline;">Ita Art Menu</span></th>
-              <th>Price</th>
+              <th><span style="text-decoration: underline;">ファッションネイル</span></th>
+              <th>価格</th>
+              <th><span style="text-decoration: underline;">痛ネイル</span></th>
+              <th>価格</th>
             </tr>
           </thead>
           <tbody>
@@ -207,7 +207,7 @@ include ('./includes/header.html');
             </tr>
           </tbody>
         </table>
-        <span style="font-size: 12px;">* Create your own order-made fashion nail design. Price given upon consultation.<br/>Customize a one and only ita-nail design. Price given upon consultation.</span>
+        <span style="font-size: 12px;">* 貴女に合ったデザインを自由にカスタマイズ。<br/>上記価格にはカウンセリングも含まれます。</span>
 			</div>
 		</section>
 	</div><!--container close-->

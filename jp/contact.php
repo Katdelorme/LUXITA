@@ -1,5 +1,5 @@
 <?php
-$page_title='Contact - LUXITA';
+$page_title='コンタクト | Contact - LUXITA';
 $page_desc='Visit the LUXITA salon or get in contact. Located at the Shangri-La Tokyo.';
 $page_keywords="Contact LUXITA, contact Luxita, how to schedule a nail appointment in Luxita, schedule nail appointment, Luxita phone number, Luxita address, Luxita email, where is Luxita, address of Luxita, English speaking nail salon in Japan, Nail salon near Tokyo Station";
 $facebook_img="http://luxita.com/assets/social/fbGeneral.png";
@@ -14,9 +14,9 @@ include ('./includes/header.html');
 		<section class="section contacttop">
 			<div class="row">
 				<div class="col-xs-12 text-center contact">
-					<h1>Get In Contact</h1>
-					<p>Wait no longer. Come experience Tokyo’s newest, most fashionable nail salon. Indulge in luxury, fashion and relaxation. LUXITA is located in the Shangri-La hotel in Tokyo on the 29th floor inside of Chi Spa.</p>
-					<a href="#" class="btn">Book Now</a>
+					<h1>コンタクト</h1>
+					<p>東京で最新・最高品質のネイルサロンで今までにない体験を。ラグジュアリー、ファッションそしてリラクゼーションを欲しいままに。LUXITAはシャングリ・ラ東京の29階Chi Spa内でお待ちしております。</p>
+					<a href="#" class="btn">予約</a>
 				</div>
 			</div>
 		</section>
@@ -24,13 +24,13 @@ include ('./includes/header.html');
 		<section class="section">
 			<div class="row">
 				<div class="col-md-8 col-xs-12 basepadding contactform">
-					<h1>Send Us A Message</h1>
-					<h3>Have any questions? Fill the form below.</h3>
+					<h1>メッセージ</h1>
+					<h3>ご質問・ご相談は以下のフォームまで</h3>
 					<form action="mailto:info@luxita.com" class="secondaryForm">
-								<input type="text" value="" name="FNAME" placeholder="First Name">
-								<input type="email" value="" name="EMAIL" class="required email" placeholder="Email Address">
-								<textarea rows="5" cols="50" name="message" id="yourmessage" placeholder="Message"></textarea>
-								<input type="submit" value="Send" name="">
+								<input type="text" value="" name="FNAME" placeholder="お名前">
+								<input type="email" value="" name="EMAIL" class="required email" placeholder="メールアドレス">
+								<textarea rows="5" cols="50" name="message" id="yourmessage" placeholder="メッセージ"></textarea>
+								<input type="submit" value="送信" name="">
 					</form>
 				</div>
 				<div class="col-md-4 col-xs-12 middle basepadding" style="background-color:#edece8;">

@@ -1,5 +1,5 @@
 <?php
-$page_title='About - LUXITA';
+$page_title='ついて | About - LUXITA';
 $page_desc='Located at the Shangri-La Hotel in Tokyo, Luxita is a luxury salon with a mix of designs. Meet the staff & discover the salons mission.';
 $page_keywords="About LUXITA, about Japanese nails Luxita, Luxita staff, Luxita owner, Luxita founder, where is Luxita, Janica Southwick, Rtutato Kashima, Yuki Abe, Riyo Suzuki, Bringing fashion to your finger tips, English speaking nail salon in Japan";
 $facebook_img="http://luxita.com/assets/social/fbGeneral.png";
@@ -13,8 +13,8 @@ include ('./includes/header.html');
 
 		<section class="section abouttop">
 			<div class="hometopContent middle">
-				<h1>About LUXITA</h1>
-				<h4>Located at the Chi Spa in the <br/>Shangri-La Hotel in Tokyo</h4>
+				<h1>LUXITA について</h1>
+				<h4>シャングリ・ラ東京内の Chi Spa</h4>
 				<div class="row hotelLogo">
           <div class="col-4" style="background: url('assets/logoShangrilaTokyo.png'); background-size:contain;background-repeat: no-repeat;">
           </div>
@@ -31,26 +31,26 @@ include ('./includes/header.html');
 			<div class="row">
 				<div class="col-md-3 col-xs-12">
 					<img src="assets/team-JanicaSouthwick2.png" class="img-fluid" alt="Co-founder of LUXITA Salon Janica Southwick" />
-					<h5>Janica Southwick</h5>
-					<p>Co-Founder</p>
+					<h5>ジャニカ・サウスウィック</h5>
+					<p>共同経営者</p>
 				</div>
 				<div class="col-md-3 col-xs-12 ml-md-auto">
 					<img src="assets/team-RyutaroKashima2.png" class="img-fluid" alt="Co-founder of LUXITA Salon Ryutaro Kashima" />
-					<h5>Ryutaro Kashima</h5>
-					<p>Co-Founder</p>
+					<h5>鹿島龍太朗</h5>
+					<p>共同経営者</p>
 				</div>
 				<div class="col-md-3 col-xs-12 ml-md-auto">
 					<img src="assets/team-YukiAbe2.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
-					<h5>Yuki Abe</h5>
-					<p>Nail  Technician</p>
+					<h5>村岡幸恵</h5>
+					<p>ネイルアーティスト</p>
 				</div>
 
 			<div class="w-100"></div>
 
 				<div class="col-md-3 col-xs-12">
 					<img src="assets/team-RiyoSuzuki2.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
-					<h5>Riyo Suzuki</h5>
-					<p>Nail  Technician</p>
+					<h5>鈴木理世</h5>
+					<p>ネイルアーティスト</p>
 				</div>
 				<div class="col-md-3 col-xs-12 ml-md-auto">
 					<img src="assets/team-placeholder1.png" class="img-fluid" alt="Nail Technician at LUXITA Salon" />
@@ -68,11 +68,11 @@ include ('./includes/header.html');
 		<section  class="section aboutMission">
 			<div class="row">
 				<div class="seventy col-md-8 col-xs-12">
-					<h1>Our Mission</h1>
-					<h3 class="line">Bringing Fashion To Your Fingertips</h3>
+					<h1>ミッション</h1>
+					<h3 class="line">貴女の指先にファッションの彩りを</h3>
 					<div class="textColumn">
-						<p>We want to make your experience as memorable and beautiful as you are. Our mission is to consistently bring you the newest styles and ideas, by keeping up with the current fashion trends and constantly educating ourselves about the best practices to bring you new and fresh fashion from your fingers to toes.</p>
-		 				<p>We strive to step above the boundaries of typical nail beauty with our extraordinary designs, exceptional service and dedication to our customers satisfaction.</p>
+						<p>我々は貴女の美しさを最大限に引き出し記憶に残る経験を提供。日々トレンドに触れることで常に最新の流行を抑え、貴女の指先の足先に新鮮で流行りのネイルを届けます。</p>
+		 				<p>お客様に最高の満足度を得て頂けるよう洗練されたネイルの技術と丁寧なサービスでご奉仕いたします。</p>
 					</div>
 				</div>
 				<div class="aboutThirty col-md-4 col-xs-12">

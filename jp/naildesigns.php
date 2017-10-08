@@ -1,5 +1,5 @@
 <?php
-$page_title='Nail Designs - LUXITA';
+$page_title='ネイルデザイン | Nail Designs - LUXITA';
 $page_desc='Located in the Shangri-La Tokyo, LUXITA is a luxury nail salon that combinations Luxury with Ita nails. View the nail design selection.';
 $page_keywords="LUXITA salon nail designs, luxita nail designs, diamond nails in Tokyo, fashion nails, ita nails, diamond nails, minimalistic nails, Winnie The Pooh nails, My Neighbor Totoro inspired nails, poliish nail salon, acrylic nails, crystal nails, 3D nails, English speaking nail salon in Japan";
 $facebook_img="http://luxita.com/assets/social/twitterNaildesigns.png";
@@ -14,9 +14,9 @@ include ('./includes/header.html');
 		<section class="section naildesigntop">
 			<div class="row">
 				<div class="col-md-6 offset-md-6 col-xs-12 bgfade">
-					<h1>Nail Designs</h1>
-					<p>LUXITA creates high fashion nail collections, from minimalistic elegance to elaborate chic. The sky is the limit. View our selections of nail designs below. Nail consultation is available to customize something one-of-a kind for you.</p>
-					<a href="contact" class="btn">Book Now</a>
+					<h1>ネイルデザイン</h1>
+					<p>LUXITAはシンプルなものから繊細なデザインまで、洗練されたファッションネイルを生み出す。そのデザイン域は無限大。我々のデザインコレクションをご覧いただき、気にいるデザインを見つけてみて下さい。また貴女だけのオリジナルのデザインも創作することもできます。</p>
+					<a href="contact" class="btn">予約</a>
 				</div>
 			</div>
 		</section>
@@ -94,7 +94,7 @@ include ('./includes/header.html');
     <section  class="section" id="minimalistic">
       <div class="row">
 				<div class="col-md-4 col-xs-12 middle basepadding heightFull">
-          <h2>日常のネイル</h2>
+          <h2>シンプルネイル</h2>
           <p>Simplistic styles that make a sophisticated impact.</p>
           <p>シンプルながら洗練されたデザインで貴女の指先を飾ります。どんな場面においても映えるデザインながら洗練された指先は貴女を次のレベルへと誘い、ファッションの一部となるでしょう。</p>
 				</div>
