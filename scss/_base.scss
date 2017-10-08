@@ -7,9 +7,13 @@ $quaternary: #000000; //black
 $font-style-primary: 'Playfair Display', serif;
 $font-style-secondary: 'Lato', Helvetica, Arial, sans-serif;
 
+/**:hover{
+  transition: all 280ms ease-in-out;
+}*/
+
 section{
   display: block;
-  height: 85vh;
+  height: 100vh;
 }
 
 h1 {
@@ -19,7 +23,7 @@ h1 {
   text-transform: capitalize;
 }
 h2 {
-  color: $quaternary;
+  color: $primary;
   font-family: $font-style-primary;
   font-size: 2.8em;
   text-transform: capitalize;
@@ -150,7 +154,9 @@ hr.short{
 .bold{
   font-weight: 700;
 }
-.col-md-6, .col-sm-12{
-  padding-right: 0;
-  padding-left: 0;
+.table{
+  margin-top: 20px;
+}
+.table thead tr th, .table tbody tr td, .table td, .table th{
+    border: none;
 }
