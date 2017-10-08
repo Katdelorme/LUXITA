@@ -1,3 +1,4 @@
+/*@import 'reset';*/
 @import 'base';
 
 
@@ -61,6 +62,7 @@ nav a{
 		font-size:0.8em;
 }
 .show {
+	/*background-color: rgba(237,236,232,.95);*/
 	a{
 		&:hover{
 			background: $quaternary;
@@ -78,151 +80,542 @@ nav a{
 
 /* ///////////// header end ////////////// */
 
-/* ///////////// pick ////////////// */
-.view{
-  cursor: default;
-  overflow: hidden;
-	height: 85vh;
-  position: relative;
-  text-align: center;
-		h2{
-			position: absolute;
-			z-index: 5;
-			left: 5%;
-			margin-top: 5%;
+.hometop{
+  background-attachment: fixed;
+  background-image: url("../assets/diamond-homeCover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.hometopContent{
+	@extend .basepadding;
+	background-image: url("../assets/shape.png");
+  background-position: right center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+	width: 60%;
+  /*padding-top: 15%;*/
+	div{
+		/*display: inline-block;*/
+		a:first-of-type{
+			margin-right: 2%;
 		}
-    img{
-      display: block;
-      position: relative;
-      transform: scaleY(1);
-      transition: all .7s ease-in-out;
-			width: 100%;
-    }
-    .mask{ //puts the text in the img
-      background-color: rgba(255, 231, 179, 0.3);
-      background-color: #f4f4f4;
-      height: 100vh;
-      left: 0;
-      opacity: 0;
-      overflow: hidden;
-      position: absolute;
-      transition: all 0.5s linear;
-      top: 0;
-      width: 100%;
-      h4{
-        background: transparent;
-        border-bottom: 1px solid rgba(0, 0, 0, 0.3);
-        color: #333;
-        font-size: 1.5em;
-        margin: 20px 40px 0px 40px;
-        opacity: 0;
-        padding: 10px;
-        position: relative;
-        text-transform: uppercase;
-        transform: scale(0);
-        transition: all 0.5s linear;
-				margin-top: 25%;
-      }
-      p{
-        color: #333;
-        font-family: Merriweather, serif;
-				font-family: $font-style-primary;
-        font-style: italic;
-        font-size: 1em;
-        opacity: 0;
-        padding: 15px 20px;
-        position: relative;
-        text-align: center;
-        transform: scale(0);
-        transition: all 0.5s linear;
-      }
-      a {
-        background: #000;
-        color: #fff;
-        display: inline-block;
-        font-family: Raleway, serif;
-				font-family: $font-style-secondary;
-				font-weight: 100;
-        opacity: 0;
-        padding: 7px 14px;
-        transform: scale(0);
-        transition: all 0.5s linear;
-        text-decoration: none;
-        text-transform: uppercase;
-      }
-      a:hover {
-      }
-  } //mask
-} //view
-
-.view:hover{
-	h2{
-		display: none;
 	}
-  img {
-    opacity: 0;
-    -webkit-transform: scale(10);
-    transform: scale(10);
-  }
-  .mask {
-  opacity: 1;
-    h4, p, a {
-      opacity: 1;
-      transform: scale(1);
+	.btn{
+		background-color: $primary;
+		padding: 1em 0;
+		width: 30%;
+		&:hover{
+			background-color: $quaternary;
+			color: $tertiary;
+		}
+	}
+}
+.hotelLogo{
+	margin-top:2%;
+	min-height:150px;
+}
+.threeFourth{
+  min-height: 75vh;
+  @extend .basepadding;
+  display: flex;
+  /*align-items: center;*/
+	padding-top: 4em;
+}
+.oneFourth{
+  background: $secondary;
+  min-height: 25vh;
+  @extend .basepadding;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  a.btn{
+    font-size: 1.3em;
+    padding: 1em 4em;
+    &:link{
+      color: $tertiary;
+      text-decoration: none;
     }
   }
 }
+.forty{
+  /*float: left;
+  width: 35%;
+  margin-right: 5%;*/
+  /*img{
+    width: 100%;
+  }*/
+}
+.sixty{
+  /*float: left;
+  min-height: 50px;
+  width: 60%;
+	p{
+		margin-top: 4%;
+	}*/
+	.logosTwo{
+		justify-content: space-between;
+		align-self: flex-end;
+		img{
+			width: 40%;
+			align-self: flex-end;
+		}
+	}
+}
 
-.scanfcode
-{
-  background-color:$primary;
-  padding: 0.5em 2em;
-  border:0px;
-  color:#fff;
-  font-family: $font-style-secondary;
-  font-size:20px;
-	font-weight: 300;
-	margin-top: 4%;
-  position:relative;
-	display: inline-block;
-	&:hover{
+.thirty{
+	background-image: url("../assets/nailsDiscover.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+	height: 100vh;
+	/*width: 30%;*/
+}
+.seventy{
+	margin-top: 7em;
+	min-height: 100px;
+	padding-left: 5%;
+	padding-right: 7%;
+	/*width: 58%;*/
+}
+.textColumn{
+	/*-webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+	-webkit-column-gap: 40px;
+  -moz-column-gap: 40px;
+  column-gap: 40px;*/
+	margin-top: 5%;
+	p:first-of-type{
+		margin-top: 0;
+	}
+	p:first-child:first-letter {
+  	color: $primary;
+		/*font-family: $font-style-secondary;
+		-webkit-initial-letter: 3;
+          initial-letter: 3;*/
+		float: left;
+		font-size: 400%;
+		line-height: 0.5em;
+		padding-top: 0;
+		padding-bottom: 0.1em;
+		padding-right: 0.1em;
+		text-align: justify;
+	}
+}
+.columnThree{
+	margin-top: 2%;
+	@extend .basepadding;
+}
+.columnThree{
+	div{
+		padding-left: 0;
+		padding-right: 30px;
+	}
+}
+.featuredStyle{
+	/*display: flex;*/
+	margin-top: 2%;
+}
+.featuredStyleL{
+  /*float: left;
+  width: 43%;*/
+	padding-left: 7%;
+	p{
+		margin-bottom: 5%;
+	}
+}
+.featuredStyleR{
+  /*float: left;
+  width: 50%;*/
+	background-image: url("../assets/venuesGemsBrownLarge.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+	img{
+		width: 100%;
+	}
+}
+
+.verticalSpace{
+	display: flex;
+	flex-flow: row wrap;
+	align-content: space-around;
+	/*flex-direction: column;*/
+}
+.newsletter{
+	/*
+  background-image: url("../assets/nailsSushi.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;*/
+	background-image: url("../assets/nailsSushi.jpg");
+	background: linear-gradient(rgba(0,0,0,0.2), rgba(0,0,0,0.3)), url("../assets/nailsSushi.jpg") no-repeat;
+	background-size: cover;
+	text-align: center;
+	h1{
 		color: $tertiary;
-		text-decoration: none;
 	}
 }
-.scanfcode:before,
-.scanfcode:after {
-  border-color: $quaternary;
-  -webkit-transition: all 0.25s;
-  transition: all 0.25s;
-  border-style: solid;
-  border-width: 0;
-  content:"";
-  height: 24px;
-  position: absolute;
-  width: 24px;
+
+.contact{
+	margin: 0 25%;
+	h1{
+		margin-bottom: 25px;
+	}
+	p{
+		margin-bottom: 20px;
+	}
 }
-.scanfcode:before {
-  border-left-width: 2px;
-  border-top-width: 2px;
-  left: -5px;
-  top: -5px;
+.contactform{
+	h1{
+		margin-top: 2em;
+	}
+}
+.abouttop{
+  background-image: url("../assets/chiSpa1.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: 100% auto;
+}
+.greybg{
+	background: $secondary;
+}
+.theTeam{
+	h5{
+		color: $primary;
+		text-transform: uppercase;
+	}
+	p{
+		margin-top: 0;
+	}
+}
+.aboutMission{
+	.seventy{
+		margin-top: 8.5em;
+	}
+}
+.aboutThirty{
+	/*background-image: url("../assets/chiSpaLounge.jpg");*/
+	background-image: url("../assets/chiSpa2.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+	height: 100vh;
+}
+.bgfade{
+	background: rgba(255,255,255,0.9);
+	padding: 30px 20px 30px 7%;
+}
+.naildesigntop{
+	background: linear-gradient(rgba(255,255,255,0.2), rgba(255,255,255,0.3)), url("../assets/about3.jpg") no-repeat;
+	/*background-image: url("../assets/about3.jpg");*/
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.discoverdiamondtop{
+	background-image: url("../assets/discoverdiamond9.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.discoveritatop{
+	background-image: url("../assets/discoverita17.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+.contacttop{
+	/*background-image: url("../assets/sample2.jpg");*/
+  background-position: center center;
+  background-repeat: no-repeat;
+	background-size: cover;
+}
+/* ///////////// form ////////////// */
+form{
+		margin-top: 2%;
+	div:first-of-type{
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		flex-direction: column;
+	}
+}
+input[type="text"], input[type="email"] {
+  background: transparent;
+	border: 0;
+  border-bottom: 1px solid $tertiary;
+	box-sizing: border-box;
+	color: $tertiary;
+	display: block;
+	font-family: $font-style-secondary;
+	font-size: 1em;
+	height: 30px;
+	line-height: normal;
+	margin: 25px 0 0 0;
+	outline: 0;
+	width: 35%;
+}
+input::placeholder{
+	color: $tertiary;
+}
+input::-webkit-input-placeholder {color: $tertiary;}
+input::-moz-placeholder {color: $tertiary;}
+input:-ms-input-placeholder {color: $tertiary;}
+input:-moz-placeholder {color: $tertiary;}
+
+input:focus, textarea:focus {
+	background:none repeat scroll 0 0;
+	border-bottom: 1px solid $quaternary;
+	color: $quaternary;
+}
+input[type="submit"], input[type="button"], input[type="reset"] {
+	/*padding: 2% 5%;
+	margin: 0 0 1% 0;*/
+	border: none;
+	background-color: $quaternary;
+	color: $tertiary;
+	font-family: $font-style-secondary;
+	font-size: 1em;
+	font-weight: 300;
+	height: 40px;
+	margin-top: 55%;
+	text-transform: uppercase;
+}
+textarea {
+	border: 1px solid $quaternary;
+	box-sizing: border-box;
+	font-family: $font-style-secondary;
+	font-size: 1em;
+	line-height: normal;
+	margin: 25px 0 0 0;
+	padding: 1%;
+	text-indent: 1%;
+	width:100%;
+}
+textarea:focus {
+	border: 1px solid $primary;
+	color: $primary;
+}
+input[type="submit"]:hover, input[type="button"]:hover, input[type="reset"]:hover{cursor: pointer;background-color: $primary;}
+input[type="submit"]:visited{cursor: pointer;background-color: $primary;}
+input[type="submit"]:active{cursor: pointer;background-color: $primary;}
+input[type="submit"]:focus{cursor: pointer;background-color: $primary;}
+
+.secondaryForm{
+	color: $quaternary;
+	width: 80%;
+	*{color: $quaternary;}
+	input[type="text"], input[type="email"] {
+		border-bottom: 1px solid $quaternary;
+		color: $quaternary;
+		width: 100%;
+	}
+	input::placeholder{
+		color: $quaternary;
+	}
+	input:focus{
+		border-bottom: 1px solid $primary;
+		color: $primary;
+	}
+	input[type="submit"], input[type="button"], input[type="reset"] {
+		margin-top: 5%;
+		padding: 2% 9%;
+	}
+}
+/* ///////////// form end ////////////// */
+
+/* ///////////// nail design ////////////// */
+/*.oneFourthNails{
+	padding: 0;
+	div{
+		height:100%;
+		text-align: center;
+		a{
+			border: $primary solid 2px;
+			color: $primary;
+			height: 60%;
+			&:hover{
+				text-decoration: none;
+			}
+		}
+		&:first-child{
+			background: linear-gradient(rgba(255,255,255,0.8), rgba(255,255,255,0.9)), url("../assets/fashion1.jpg") no-repeat;
+		  background-position: center center;
+		  background-repeat: no-repeat;
+			background-size: 100% auto;
+		}
+	}
+}*/
+.nailsheight{
+	display: inline-block;
+	max-height: 65vh;
+	overflow: hidden;
+}
+.heightfiftyfive{
+	min-height: 55vh;
+}
+.heightfortyfive{
+	min-height: 45vh;
+}
+.minheightforty{
+	min-height: 40vh;
+}
+.nailpadding{
+	@extend .basepadding;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+.backgroundimg{
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.diamond1{
+		background-image: url("../assets/discoverdiamond1.jpg");
+		background-position: center bottom;
+}
+.diamond2{
+		background-image: url("../assets/discoverdiamond2.jpg");
+		background-position: center bottom;
+}
+.discoverita1{
+		background-image: url("../assets/discoveritaA.jpg");
+		background-position: center bottom;
+}
+.discoverita2{
+		background-image: url("../assets/discoveritaB-1.jpg");
+		background-position: center bottom;
+}
+.page-container {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: #222;
+    overflow: hidden;
+}
+.main-container {height: 100%; overflow: hidden;}
+.inner-main-container {
+    display: block;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.inner-main-container::-webkit-scrollbar {width: 5px;}
+.inner-main-container::-webkit-scrollbar-track {background: #555;}
+.inner-main-container::-webkit-scrollbar-thumb {background: #EC3;}
+
+.collage-container {
+    display: block;
+    position: relative;
+    height: auto;
+    width: 100%;
+    /*max-width: 800px;
+    margin: 6% auto 100px;*/
+    overflow: hidden;
 }
 
-.scanfcode:after {
-  border-bottom-width: 2px;
-  border-right-width: 2px;
-  bottom: -5px;
-  right: -5px;
+.photo-tile {
+    float: left;
+    box-sizing: border-box;
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    transition: 0.25s ease;
 }
-.scanfcode:hover:before,
-.scanfcode:hover:after
-{
-  height:100%;
-  width:100%;
+.photo-tile::before {
+    content:"";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    /*background: rgba(20,20,20,0.4);*/
+    transition: 0.3s ease;
 }
-/* ///////////// pick end ////////////// */
+.photo-tile:hover::before {opacity: 0;}
 
+/* Photo tile height classes */
+.single {height: 100px;}
+.double {height: 200px;}
+.triple {height: 300px;}
+.quadruple {height: 400px;}
+.quintuple {height: 500px;}
+
+/* Photo tile width classes */
+.whole {width: 100%;}
+.three-quarters {width: 75%;}
+.two-thirds {width: 66.6666666%}
+.half {width: 50%;}
+.third {width: 33.3333333%;}
+.quarter {width: 25%;}
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 480px) {
+    .three-quarters {width: 100%;}
+    .two-thirds {width: 100%}
+    .half {width: 100%;}
+    .third {width: 100%;}
+    .quarter {width: 100%;}
+    .triple {height: 200px;}
+    .quadruple {height: 200px;}
+    .quintuple {height: 300px;}
+}
+.seventy .page-container {
+	display: contents;
+	bottom: auto;
+	margin: 0 7%;
+	top: auto;
+}
+.nailDesignCollage{
+	padding: 0;
+	/*height: 100vh;*/
+}
+/*.nailDesignCollage .photo-tile::before {
+    background: none;
+}
+.nailDesignCollage .page-container {
+	display: contents;
+	bottom: auto;
+	margin: 0;
+	top: auto;
+}
+.nailDesignCollage .inner-main-container {
+    overflow-y: hidden;
+}*/
+/* ///////////// nail design end ////////////// */
+
+.policy{
+	padding-top: 8.5rem;
+	padding-bottom: 4rem;
+	h6 {
+	  font-family: $font-style-secondary;
+	  font-size: 1.3em;
+		font-weight: 700;
+		padding-top: 15px;
+	}
+	p{
+	  margin-top: 0;
+		margin-bottom: 15px;
+		&:first-of-type{
+			 margin-top: 35px;
+		 }
+	}
+	ul{
+		font-family: $font-style-secondary;
+	  font-size: 1.125em;
+		margin-left: 30px;
+		li{
+			list-style-type:disc;
+			margin-top: 10px;
+		}
+	}
+}
 /* ///////////// footer ////////////// */
 footer{
 	font-size: 0.8em;
