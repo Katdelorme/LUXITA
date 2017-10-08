@@ -16,7 +16,7 @@ include ('./includes/header.html');
 				<div class="col-md-6 offset-md-6 col-xs-12 bgfade">
 					<h1>Discover Ita Nails</h1>
 					<p>痛ネイルは爪上をキャンバスとして細かく緻密なアートを施す高等技術である。デザインは漫画やアニメ、有名人の顔からペットまで多岐にわたり、全て手描きで描きあげるため、そのアートの細かさにあなたは驚くことでしょう。</p>
-					<a href="contact" class="btn">Book Now</a>
+					<a href="contact" class="btn">予約</a>
 				</div>
 			</div>
 		</section>
@@ -79,7 +79,7 @@ include ('./includes/header.html');
           <div class="col-md-5 col-xs-12 basepadding nailpadding middle flex-unordered">
             <h2>ご予約</h2>
             <p>今まで体験したことのないアートの世界観を貴女の元に</p>
-            <a href="contact" class="btn">Book Now</a>
+            <a href="contact" class="btn">予約</a>
           </div>
           <div class="col-md-7 col-xs-12 minheightforty backgroundimg discoverita2 xs-move-to-first">
           </div>

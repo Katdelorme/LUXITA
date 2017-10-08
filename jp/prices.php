@@ -124,9 +124,9 @@ include ('./includes/header.html');
           <thead>
             <tr>
               <th>オプション</th>
-              <th>Price</th>
+              <th>価格</th>
               <th>オプション</th>
-              <th>Price</th>
+              <th>価格</th>
             </tr>
           </thead>
           <tbody>
