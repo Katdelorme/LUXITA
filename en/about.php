@@ -25,9 +25,6 @@ include ('./includes/header.html');
 		</section>
 
 		<section class="section greybg basepadding theTeam">
-			<div class="row middle">
-				<!--<h2 class="text-center">The Team - Salonists &amp; Partners</h2>-->
-			</div>
 			<div class="row">
 				<div class="col-md-3 col-xs-12">
 					<img src="assets/team-JanicaSouthwick2.png" class="img-fluid" alt="Co-founder of LUXITA Salon Janica Southwick" />
@@ -79,16 +76,6 @@ include ('./includes/header.html');
 				</div>
 			</div>
 		</section>
-
-		<!--<section class="section greybg basepadding">
-			<div class="row">
-				<h1>Products</h1>
-			</div>
-		</section>
-
-		<section class="section basepadding">
-					<h1>In The Press</h1>
-		</section>-->
 	</div><!--container close-->
 	</div><!--fullpage close-->
 

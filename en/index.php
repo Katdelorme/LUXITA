@@ -10,9 +10,7 @@ include ('./includes/header.html');
 			<div class="hometopContent middle">
 				<h2>Bringing Fashion To <br/>Your Fingertips</h2>
 				<h4>A Five Star Salon<br/>At A Five Star Hotel </h4>
-				<p>Debuting November 2017 in Tokyo.
-          <!--Nail designs soaring to new heights, <br>where only the sky is the limit.-->
-        </p>
+				<p>Debuting November 2017 in Tokyo.</p>
         <div>
           <a href="naildesigns" class="btn">View Styles</a>
           <a href="contact" class="btn">Book Now</a>

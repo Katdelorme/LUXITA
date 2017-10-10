@@ -51,23 +51,6 @@ include ('./includes/header.html');
 			</div>
 		</section>
 
-		<!--<section class="section fp-auto-height fullpagefooter basepadding middle">
-			<div class="text-center">
-				<i class="fa fa-twitter fa-lg"></i>
-				<i class="fa fa-instagram fa-lg"></i>
-			</div>
-			<div class="footerSplit">
-				<div>
-					<p>LUXITA - Bringing Fashion To Your Finger Tips</p>
-					<p>Hand Coded and designed with <span>♥</span> by Katherine Delorme</p>
-				</div>
-				<div>
-					<p>Privacy Policy     Press     Photo Rights</p>
-					<p>© 2017 LUXITA Ltd. All Rights Reserved</p>
-				</div>
-			</div>
-		</section>-->
-
 	</div><!--container close-->
 	</div><!--fullpage close-->
 

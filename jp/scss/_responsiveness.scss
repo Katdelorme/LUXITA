@@ -27,7 +27,6 @@
     max-width: 100%;
   }
   .hometop, .abouttop{
-    /*background-image: none;*/
     background-color: $tertiary;
     background-position: right center;
     background-size: cover;
@@ -39,14 +38,13 @@
   	background-image: none;
     background: rgba(255,255,255,0.7);
     height: 100%;
-    /*padding-top: 10%;*/
   	width: 100%;
   }
   .hometopContent .btn {
       display: block;
       width: 60%;
   }
-  /*.hometopContent div a:first-of-type*/ .hometopContent div a.btn, .hometop .hometopContent h4{
+  .hometopContent div a.btn, .hometop .hometopContent h4{
     display: none;
   }
   .thirty, .featuredStyleR{
