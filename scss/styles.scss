@@ -45,11 +45,9 @@ nav a{
 	&:hover    {
 		background: $tertiary !important;
   	color: $primary;
-		/*text-decoration: underline;*/
   }
 }
 .navbar{
-	/*background: #292b2c;*/
 	background: $tertiary;
 }
 .navbar-toggler {
