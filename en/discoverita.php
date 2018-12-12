@@ -71,7 +71,7 @@ include ('./includes/header.html');
           <div class="col-md-5 col-xs-12 minheightforty backgroundimg discoverita1">
           </div>
           <div class="col-md-7 col-xs-12 basepadding nailpadding middle">
-            <h2>World of dense and delicate art form</h2>
+            <h2>World of luxurious and delicate art form</h2>
             <p>At the nail history, there was no artwork like this. You will surprise with how detail it is. You can get this dense art treatment only in here. Get the experience of next level of nail art.</p>
           </div>
         </div>
