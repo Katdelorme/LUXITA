@@ -1,0 +1,158 @@
+// base.scss
+$primary: #bda355; //Gold
+$secondary: #edece8; //grey
+$tertiary: #ffffff; //white
+$quaternary: #000000; //black
+//$quinary: ;
+$font-style-primary: 'Playfair Display', serif;
+$font-style-secondary: 'Lato', Helvetica, Arial, sans-serif;
+
+section{
+  display: block;
+  height: 100vh;
+}
+
+h1 {
+  color: $primary;
+  font-family: $font-style-primary;
+  font-size: 4em;
+  text-transform: capitalize;
+}
+h2 {
+  color: $primary;
+  font-family: $font-style-primary;
+  font-size: 2.6em;
+  text-transform: capitalize;
+}
+h3 {
+  color: $primary;
+  font-family: $font-style-primary;
+  font-size: 2.05em;
+  margin-top: 2%;
+  text-transform: capitalize;
+}
+h4 {
+  color: $primary;
+  font-family: $font-style-primary;
+  font-size: 1.675em;
+}
+h5 {
+  color: $tertiary;
+  font-family: $font-style-primary;
+  font-size: 1.3em;
+  margin-top: 2%;
+}
+h6 {
+  font-family: $font-style-primary;
+  font-size: 1.1em;
+}
+p{
+  font-family: $font-style-secondary;
+  font-size: 0.925em;
+  line-height: 150%;
+  margin-top: 15px;
+}
+hr{
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%;
+}
+hr.short{
+  @extend hr;
+  width: 75%;
+  text-align: left;
+  margin: 0px;
+}
+.line::after{
+  content: " ";
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%;
+  display: block;
+  max-width: 100%;
+}
+.lineshort::after{
+  content: " ";
+  border-top: 1px solid #d5d5d5;
+  margin-top: 3%;
+  display: block;
+  max-width: 60%;
+}
+.basepadding{
+  padding-left: 7%;
+  padding-right: 7%;
+}
+.baseheading{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.btn{
+  background: $quaternary;
+  border: 0;
+  border-radius: 0;
+  color: $tertiary;
+  display: inline-block;
+  font-family: $font-style-secondary;
+  font-size: 1em;
+  font-weight: 300;
+  /*padding: 3% 5%;*/
+  padding: 1em 3em;
+  text-transform: uppercase;
+  text-align: center;
+  &:link{
+    color: $tertiary;
+    text-decoration: none;
+  }
+  &:hover{
+    color: $tertiary;
+    background: $primary;
+  }
+}
+.middle{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+//** Bootstrap override **//
+.container-fluid {
+  padding-right: 0;
+  padding-left: 0;
+}
+#navbarNav{
+  justify-content: flex-end;
+  align-self: flex-start;
+}
+.row {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.heightFull{
+  height: 100vh;
+}
+
+.fullimg{
+  padding: 0;
+  div{
+    padding: 0;
+  }
+  img{
+    object-fit: cover;
+    padding: 0;
+    width: 100%;
+  }
+}
+.nopadding{
+  padding: 0;
+}
+.nobold{
+  font-weight: 400;
+}
+.bold{
+  font-weight: 700;
+}
+.table thead tr th, .table tbody tr td, .table td, .table th{
+    border: none;
+}
+.table tr{
+  line-height: 1.15;
+}
