@@ -3,6 +3,8 @@ This repository is for the website of a nail salon in Tokyo Japan.
 All the content, images and information used belong solely to their proprietor.
 Created while in Tokyo, Japan.
 
+View case study and website at http://katherinedelorme.com/luxita
+
 If you would like to contact someone regarding web design project or would like to hire me for work please send an email to info@katdelorme.com
 
 
