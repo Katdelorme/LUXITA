@@ -17,6 +17,7 @@ International tourists with no to limited Japanese language skills aiming to vis
 * HTML/HTML5
 * Bootstrap
 * Full Page JS
+* CSS
 * PHP
 
 ## Author
