@@ -4,13 +4,13 @@ All the content, images and information used, belong solely to their proprietor.
 
 This project was designed and developed while in Tokyo, Japan.
 
-Learn about the user experience and interface research and implementation used in this project via the [case study](http://uiux.katherinedelorme.com/luxita?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme "case study").
+Learn about the user experience and interface research for this project via the _[case study](http://uiux.katherinedelorme.com/luxita?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme "case study")_.
 
 
-###Overview
+### Overview
 This project was for the company's fourth nail salon in Tokyo and first inside a prestigious hotel in Tokyo. For this reason, I was brought in to create a luxury brand website in time for the salon's grand opening.
 
-###Problem Statement
+### Problem Statement
 International tourists with no to limited Japanese language skills aiming to visit the nail salon need a quick, convenient solution for booking appointments, and locating the salon. Luxury brand enthusiasts seeking an experience need to easy to see nail options. Both Western and Eastern users should be able to navigate the website easily.
 
 ## Built with
