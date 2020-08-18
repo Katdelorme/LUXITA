@@ -1,10 +1,14 @@
+![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)
+
 # Nail SALON
 This repository is for the website of a nail salon in Tokyo, Japan.
 All the content, images and information used, belong solely to their proprietor.
 
 This project was designed and developed while in Tokyo, Japan.
 
-Learn about the user experience and interface research for this project via the _[case study](http://uiux.katherinedelorme.com/luxita?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme "case study")_.
+Learn about the user experience and interface research for this project via the **_[case study](http://uiux.katherinedelorme.com/luxita?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme "case study")_**.
+
+![Home page of Japanese version of the website](http://uiux.katherinedelorme.com/assets/luxita-brand-5.png "Home page of Japanese version of the website")
 
 
 ### Overview
@@ -19,6 +23,9 @@ International tourists with no to limited Japanese language skills aiming to vis
 * Full Page JS
 * CSS
 * PHP
+
+## Demo
+![Navigating between the English and Japanese website](http://katherinedelorme.com/assets/luxita-homescreen.gif)](http://uiux.katherinedelorme.com/luxita?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme)
 
 ## Author
 * Katherine Delorme - *[katherinedelorme.com](http://katherinedelorme.com?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme "Portfolio Website")*
