@@ -25,7 +25,7 @@ International tourists with no to limited Japanese language skills aiming to vis
 * PHP
 
 ## Demo
-![Navigating between the English and Japanese website](http://katherinedelorme.com/assets/luxita-homescreen.gif)](http://uiux.katherinedelorme.com/luxita?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme)
+[![Navigating between the English and Japanese website](http://katherinedelorme.com/assets/luxita-homescreen.gif)](http://uiux.katherinedelorme.com/luxita?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme)]
 
 ## Author
 * Katherine Delorme - *[katherinedelorme.com](http://katherinedelorme.com?utm_source=github&utm_medium=repo&utm_campaign=nail_salon_readme "Portfolio Website")*
